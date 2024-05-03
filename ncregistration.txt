@@ -1,0 +1,80 @@
+ <div class="col-12 col-lg-6 my-2 my-lg-4">
+          <div class="head-faq d-flex justify-content-center  align-items-center ">
+            <div class="left-fq">
+             <p class="mb-0 ">Is an office required to start a Nidhi Company?
+
+             </p>
+            </div>
+            <div class="right-fq">
+             <i class="fa-solid fa-plus text-dark ps-3 btn-fqqq" id="fq-btn2"></i>
+            </div>
+          </div>
+          <div class="hide-faq ">
+            <p class="mb-0 ">An address in India where the registered office of the Company will be situated is required. The premises can be commercial/industrial/residential where communication from the MCA will be received.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 my-2 my-lg-4">
+          <div class="head-faq d-flex justify-content-center  align-items-center ">
+            <div class="left-fq">
+             <p class="mb-0 ">Do I have to be present in person to incorporate a Nidhi Company?</p>
+            </div>
+            <div class="right-fq">
+             <i class="fa-solid fa-plus text-dark ps-3 btn-fqqq" id="fq-btn2"></i>
+            </div>
+          </div>
+          <div class="hide-faq ">
+            <p class="mb-0 ">No, you don’t have to be present at our office or appear at any office for the registration of a Nidhi Company.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 my-2 my-lg-4">
+          <div class="head-faq d-flex justify-content-center  align-items-center ">
+            <div class="left-fq">
+             <p class="mb-0 "> What is a Digital Signature Certificate?</p>
+            </div>
+            <div class="right-fq">
+             <i class="fa-solid fa-plus text-dark ps-3 btn-fqqq" id="fq-btn2"></i>
+            </div>
+          </div>
+          <div class="hide-faq ">
+            <p class="mb-0 ">A Digital Signature establishes the identity of the sender or signee electronically while filing documents through the Internet. The Ministry of Corporate Affairs (MCA) mandates that the Directors sign some of the application documents using their Digital Signature.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 my-2 my-lg-4">
+          <div class="head-faq d-flex justify-content-center  align-items-center ">
+            <div class="left-fq">
+             <p class="mb-0 ">. What are the documents required for Nidhi Company registration?</p>
+            </div>
+            <div class="right-fq">
+             <i class="fa-solid fa-plus text-dark ps-3 btn-fqqq" id="fq-btn2"></i>
+            </div>
+          </div>
+          <div class="hide-faq ">
+            <p class="mb-0 ">Identity proof and address proof are mandatory for all the proposed Directors of the Nidhi Company. PAN Card is mandatory for Indian Nationals. In addition, the landlord of the registered office premises must provide a No Objection Certificate for having the registered office in his/her premises and must submit his/her identity proof and address proof.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 my-2 my-lg-4">
+          <div class="head-faq d-flex justify-content-center  align-items-center ">
+            <div class="left-fq">
+             <p class="mb-0 ">What is DIN?</p>
+            </div>
+            <div class="right-fq">
+             <i class="fa-solid fa-plus text-dark ps-3 btn-fqqq" id="fq-btn2"></i>
+            </div>
+          </div>
+          <div class="hide-faq ">
+            <p class="mb-0 ">Director Identification Number is a unique identification number assigned to all existing and proposed Directors of a Company. It is mandatory for all present or proposed Directors to have a Director Identification Number. Director Identification Number never expires and a person can have only one Director Identification Number.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 my-2 my-lg-4">
+          <div class="head-faq d-flex justify-content-center  align-items-center ">
+            <div class="left-fq">
+             <p class="mb-0 ">Who regulates the Nidhi Companies?</p>
+            </div>
+            <div class="right-fq">
+             <i class="fa-solid fa-plus text-dark ps-3 btn-fqqq" id="fq-btn2"></i>
+            </div>
+          </div>
+          <div class="hide-faq ">
+            <p class="mb-0 ">The Ministry of Corporate Affairs regulates Nidhi Company and is also accountable for Nidhi Company Registration.</p>
+          </div>
+        </div>
