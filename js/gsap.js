@@ -137,3 +137,18 @@ gsap.from(".gss",{
     }
 })
 // mobile app end
+
+// nbfc  start
+gsap.from(".nb-animate",{
+    
+    duration:2,
+    opacity:0,
+    scale:1.5,
+   
+    scrollTrigger:{
+        trigger:".nb-animate",
+        scroller:"body",
+        scrub:2
+    }
+})
+// nbfc  end

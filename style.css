@@ -1289,7 +1289,48 @@ button {
 }
 
 /* nidhi company software end */
+/* nbfc software start */
+.set-nbfc-bg{
+    background-image: url("./assets/nbfc_hero.png");
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+.text-nbfc{
+    position: absolute;
+    top: 45%;
+   
+}
 
+.nbsw-box{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.nb-img-box{
+    padding: 10px;
+    /* background-color: #00093c; */
+    background-color: #f1f1ee;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: 0.9s;
+    display: flex;
+    justify-content: center;
+}
+.nb-img-box:hover{
+    box-shadow: none;
+}
+.click-nbfc{
+    width: 100%;
+}
+
+.click-nbfc button{
+    width: 100%;
+}
+
+
+/* nbfc software end */
 
 /* media query  */
 
@@ -1610,5 +1651,12 @@ button {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border: 2px solid white;
+    }
+    .set-nbfc-bg {
+        background-image: url(./assets/nbfc_hero.png);
+        background-size: cover;
+        height: 350px;
+        position: relative;
+        background-position: center;
     }
 }
