@@ -1328,9 +1328,21 @@ button {
 .click-nbfc button{
     width: 100%;
 }
-
-
 /* nbfc software end */
+/* chitfund start */
+.set-chit-fund-bg{
+    background-image:linear-gradient(to right, #0000004a, #000000a1),url("./assets/chit_fund_hero.png");
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.chit-hero-txt{
+    position: absolute;
+    top: 45%;
+    left: 14%;
+}
+/* chitfund end */
 
 /* media query  */
 
