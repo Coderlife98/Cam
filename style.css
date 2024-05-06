@@ -978,10 +978,12 @@ button {
     box-shadow: rgb(233 4 4 / 90%) 0px 5px 10px;
     border-radius: 15px;
 }
-.set-bg-sllll{
+
+.set-bg-sllll {
     background-color: #3d3d3d;
 
 }
+
 .slide-box-design {
     height: 370px;
 
@@ -1002,7 +1004,7 @@ button {
 
 }
 
-.set-last-txt{
+.set-last-txt {
     background-color: #d2fccb;
 }
 
@@ -1290,25 +1292,26 @@ button {
 
 /* nidhi company software end */
 /* nbfc software start */
-.set-nbfc-bg{
+.set-nbfc-bg {
     background-image: url("./assets/nbfc_hero.png");
     background-size: cover;
     height: 350px;
     position: relative;
 }
-.text-nbfc{
+
+.text-nbfc {
     position: absolute;
     top: 45%;
-   
+
 }
 
-.nbsw-box{
+.nbsw-box {
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
 }
 
-.nb-img-box{
+.nb-img-box {
     padding: 10px;
     /* background-color: #00093c; */
     background-color: #f1f1ee;
@@ -1318,31 +1321,72 @@ button {
     display: flex;
     justify-content: center;
 }
-.nb-img-box:hover{
+
+.nb-img-box:hover {
     box-shadow: none;
 }
-.click-nbfc{
+
+.click-nbfc {
     width: 100%;
 }
 
-.click-nbfc button{
+.click-nbfc button {
     width: 100%;
 }
+
 /* nbfc software end */
 /* chitfund start */
-.set-chit-fund-bg{
-    background-image:linear-gradient(to right, #0000004a, #000000a1),url("./assets/chit_fund_hero.png");
+.set-chit-fund-bg {
+    background-image: linear-gradient(to right, #0000004a, #000000a1), url("./assets/chit_fund_hero.png");
     height: 350px;
     background-size: cover;
     position: relative;
 }
 
-.chit-hero-txt{
+.chit-hero-txt {
     position: absolute;
     top: 45%;
     left: 14%;
 }
+
+.chit-effect {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.9s;
+    border-radius: 10px;
+}
+
+.chit-effect:hover {
+    filter: sepia(1);
+    box-shadow: none;
+}
+
 /* chitfund end */
+/* college management start */
+.set-college-hero {
+    background-image: url("./assets/college_hero.png");
+    min-height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.sec-i-col {
+    border-radius: 10px;
+}
+
+.girl-coll {
+    border-radius: 191px 0px 195px 281px;
+}
+
+/* college management end */
+/* instituate management start */
+.set-instituate-bg {
+    background-image: url("./assets/instituste_hero.png");
+    height: 350px;
+    background-size: cover;
+
+}
+
+/* instituate management end */
 
 /* media query  */
 
@@ -1409,6 +1453,11 @@ button {
         width: 250px;
     }
 
+    .set-ii-colleg {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media (min-width:1400px) {
@@ -1456,6 +1505,15 @@ button {
         height: 300px;
     }
 
+}
+
+@media (min-width:1800px) {
+    .set-college-hero {
+        background-image: url(./assets/college_hero.png);
+        height: 500px;
+        background-size: cover;
+        position: relative;
+    }
 }
 
 @media (min-width:0px) and (max-width:576px) {
@@ -1664,11 +1722,29 @@ button {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border: 2px solid white;
     }
+
     .set-nbfc-bg {
         background-image: url(./assets/nbfc_hero.png);
         background-size: cover;
         height: 350px;
         position: relative;
         background-position: center;
+    }
+
+    .chit1-sec {
+        width: 100%;
+    }
+
+    .set-chit-fund-bg {
+        background-position: center;
+    }
+
+    .set-college-hero {
+        background-position: center;
+    }
+
+    .set-ii-colleg {
+        display: flex;
+        justify-content: center;
     }
 }
