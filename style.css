@@ -1380,13 +1380,41 @@ button {
 /* college management end */
 /* instituate management start */
 .set-instituate-bg {
-    background-image: url("./assets/instituste_hero.png");
+    background-image: linear-gradient(to left, #0000008f, #000000b3), url("./assets/instituste_hero.png");
     height: 350px;
     background-size: cover;
+    position: relative;
+}
 
+.set-instituate-bg h1{
+    position: absolute;
+    top: 48%;
+    left: 8%;
 }
 
 /* instituate management end */
+/* school management software start */
+.set-school-bg{
+    background-image: linear-gradient(to left, #0000008f, #00000096), url(./assets/school_hero.png);
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-schl-txt{
+    position: absolute;
+    top: 44%;
+    left: 11%;
+}
+.sch-box-1{
+    background-color: #00093c;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+.high-box{
+    padding: 10px 10px 10px 30px;
+}
+/* school management software end */
 
 /* media query  */
 
@@ -1406,6 +1434,9 @@ button {
 
     .web-box-1 {
         height: 250px;
+    }
+    .sch-box-1{
+        height: 80px;
     }
 }
 
@@ -1430,12 +1461,18 @@ button {
         width: 225px;
         height: 75px;
     }
+    .sch-box-1{
+        height: 90px;
+    }
 
 }
 
 @media (min-width:576px) and (max-width:768px) {
     .main-box {
         height: 230px;
+    }
+    .sch-box-1{
+        height: 90px;
     }
 
 }
@@ -1456,6 +1493,9 @@ button {
     .set-ii-colleg {
         display: flex;
         justify-content: center;
+    }
+    .sch-box-1{
+        height: 90px;
     }
 
 }
@@ -1503,6 +1543,10 @@ button {
 
     .design-soft {
         height: 300px;
+    }
+
+    .sch-box-1{
+        height: 90px;
     }
 
 }
@@ -1746,5 +1790,10 @@ button {
     .set-ii-colleg {
         display: flex;
         justify-content: center;
+    }
+    .ins-set-ss{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
