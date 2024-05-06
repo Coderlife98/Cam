@@ -1386,7 +1386,7 @@ button {
     position: relative;
 }
 
-.set-instituate-bg h1{
+.set-instituate-bg h1 {
     position: absolute;
     top: 48%;
     left: 8%;
@@ -1394,52 +1394,67 @@ button {
 
 /* instituate management end */
 /* school management software start */
-.set-school-bg{
+.set-school-bg {
     background-image: linear-gradient(to left, #0000008f, #00000096), url(./assets/school_hero.png);
     height: 350px;
     background-size: cover;
     position: relative;
 }
 
-.hero-schl-txt{
+.hero-schl-txt {
     position: absolute;
     top: 44%;
     left: 11%;
 }
-.sch-box-1{
+
+.sch-box-1 {
     background-color: #00093c;
     padding: 15px;
     border-radius: 0px 0px 10px 10px;
 }
-.high-box{
+
+.high-box {
     padding: 10px 10px 10px 30px;
 }
+
 /* school management software end */
 /* pos software start */
-.pos_bg-hero{
+.pos_bg-hero {
     position: relative;
-    background-image:linear-gradient(to right, #00000073, #000000c2), url("./assets/pos_hero_test.png");
+    background-image: linear-gradient(to right, #00000073, #000000c2), url("./assets/pos_hero_test.png");
     height: 350px;
     background-size: cover;
 }
 
-.btn-pos-hero{
+.btn-pos-hero {
     background-color: skyblue;
     outline: 0;
     border: 0;
     border-radius: 25px;
 }
-.pos-hero-txt{
+
+.pos-hero-txt {
     position: absolute;
     top: 44%;
     left: 11%;
 }
+
 .butt{
     width: 100%;
 }
-.butt button{
+
+.butt button {
     width: 100%;
 }
+.poin-eff{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:0px 0px 15px 15px;
+}
+
+.payment{
+    filter: drop-shadow(10px 10px 10px black);
+}
+
 /* pos software end */
 
 /* media query  */
@@ -1461,7 +1476,8 @@ button {
     .web-box-1 {
         height: 250px;
     }
-    .sch-box-1{
+
+    .sch-box-1 {
         height: 80px;
     }
 }
@@ -1487,7 +1503,8 @@ button {
         width: 225px;
         height: 75px;
     }
-    .sch-box-1{
+
+    .sch-box-1 {
         height: 90px;
     }
 
@@ -1497,7 +1514,8 @@ button {
     .main-box {
         height: 230px;
     }
-    .sch-box-1{
+
+    .sch-box-1 {
         height: 90px;
     }
 
@@ -1520,7 +1538,8 @@ button {
         display: flex;
         justify-content: center;
     }
-    .sch-box-1{
+
+    .sch-box-1 {
         height: 90px;
     }
 
@@ -1571,7 +1590,7 @@ button {
         height: 300px;
     }
 
-    .sch-box-1{
+    .sch-box-1 {
         height: 90px;
     }
 
@@ -1817,9 +1836,17 @@ button {
         display: flex;
         justify-content: center;
     }
-    .ins-set-ss{
+
+    .ins-set-ss {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .girl-coll{
+        width: 350px;
+    }
+    .sm-allll{
+        display: flex;
+        justify-content: center;
     }
 }
