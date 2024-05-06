@@ -1439,23 +1439,66 @@ button {
     left: 11%;
 }
 
-.butt{
+.butt {
     width: 100%;
 }
 
 .butt button {
     width: 100%;
 }
-.poin-eff{
+
+.poin-eff {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius:0px 0px 15px 15px;
+    border-radius: 0px 0px 15px 15px;
 }
 
-.payment{
+.payment {
     filter: drop-shadow(10px 10px 10px black);
 }
 
 /* pos software end */
+/* hosiptal management software start */
+.hospital-hero-bg {
+    background-image: linear-gradient(to left, #00000073, #000000ba), url("./assets/hospital_hero.png");
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.hos-txt-hero {
+    position: absolute;
+    top: 44%;
+    left: 11%;
+    
+}
+
+.set-hos-br{
+    padding: 15px;
+    border: 2px dotted blue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.set-gr-hos{
+    background: linear-gradient(to right,#00242E,#01131D);
+}
+
+.global-1{
+    padding: 10px;
+    background: linear-gradient(to left,#00242D,#01131D);
+    border-radius: 10px;
+}
+.img-global{
+    width: 70px;
+    height: 70px;
+    /* background: #2FD6F3; */
+    background: #ffffff;
+    border-radius: 50%;
+}
+.set-build-bg{
+background: #000C14;
+}
+
+/* hosiptal management software end */
 
 /* media query  */
 
@@ -1842,10 +1885,12 @@ button {
         justify-content: center;
         align-items: center;
     }
-    .girl-coll{
+
+    .girl-coll {
         width: 350px;
     }
-    .sm-allll{
+
+    .sm-allll {
         display: flex;
         justify-content: center;
     }

@@ -183,4 +183,17 @@ gsap.from(".poin-eff",{
         scroller:"body",
         scrub:3
     }
+});
+
+gsap.from(".hos-txt-hero",{
+   opacity:0,
+    duration:2,
+    scale:1.5,
+    stagger:0.5,
+
+    scrollTrigger:{
+        trigger:".hos-txt-hero",
+        scroller:"body",
+        scrub:3
+    }
 })
