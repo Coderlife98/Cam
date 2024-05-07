@@ -797,6 +797,11 @@ button {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.set-soft-bg-hero{
+    background-image: url("./assets/software_hero.png");
+    height: 350px;
+    background-size: cover;
+}
 
 .software-head {
     display: inline;
