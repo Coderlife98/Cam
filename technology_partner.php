@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-8 d-flex justify-content-center ">
-                <img src="./assets/tech-left.png" alt="@skull">
+                <img src="./assets/tech-left.png" class="tec-partner" alt="@skull">
             </div>
         </div>
     </div>

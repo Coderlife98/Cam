@@ -43,7 +43,7 @@
     <!-- card row 1 start -->
     <div class="container my-2 my-lg-5 ">
 <div class="row">
-    <div class="col-12 col-lg-3">
+    <div class="col-12 col-lg-3 my-2 d-flex justify-content-center ">
         <div class="card" style="width: 17rem; background: lavender;">
             <img src="./assets/cloud.png" class="card-img-top" alt="@skull">
             <div class="card-body" >
@@ -53,7 +53,7 @@
             </div>
           </div>
     </div>
-    <div class="col-12 col-lg-3">
+    <div class="col-12 col-lg-3 my-2 d-flex justify-content-center">
         <div class="card" style="width: 17rem; background: lavender;">
             <img src="./assets/block.png" class="card-img-top" alt="@skull">
             <div class="card-body" >
@@ -63,7 +63,7 @@
             </div>
           </div>
     </div>
-    <div class="col-12 col-lg-3">
+    <div class="col-12 col-lg-3 my-2 d-flex justify-content-center">
         <div class="card" style="width: 17rem; background: lavender;">
             <img src="./assets/aug.png" class="card-img-top" alt="@skull">
             <div class="card-body" >
@@ -74,7 +74,7 @@
           </div>
 
     </div>
-    <div class="col-12 col-lg-3">
+    <div class="col-12 col-lg-3 my-2 d-flex justify-content-center">
         <div class="card" style="width: 17rem; background: lavender;">
             <img src="./assets/iot.png" class="card-img-top" alt="@skull">
             <div class="card-body" >

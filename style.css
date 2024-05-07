@@ -627,8 +627,8 @@ button {
     background-image: linear-gradient(to right, #00093c, #2d0b00);
     color: #ffffff;
     padding: 50px 0 30px;
-    border-top-left-radius: 125px;
-    border-top-right-radius: 125px;
+    /* border-top-left-radius: 125px; */
+    /* border-top-right-radius: 125px; */
 
 }
 
@@ -655,6 +655,7 @@ button {
     background-size: cover;
     height: 350px;
     width: 100%;
+    top: -77px;
     position: relative;
 }
 
@@ -675,6 +676,7 @@ button {
     background-size: cover;
     height: 350px;
     width: 100%;
+    top: -77px;
     position: relative;
 }
 
@@ -744,6 +746,7 @@ button {
     height: 300px;
     background-size: cover;
     position: relative;
+    top: -77px;
 }
 
 .banner-txt {
@@ -785,6 +788,7 @@ button {
     background-image: url("./assets/tech_hero.png");
     height: 350px;
     width: 100%;
+    top: -77px;
     background-size: cover;
     position: relative;
 }
@@ -815,6 +819,7 @@ button {
     height: 350px;
     background-size: cover;
     position: relative;
+    top: -77px;
 }
 
 .investor-hero-text {
@@ -834,6 +839,7 @@ button {
     height: 350px;
     width: 100%;
     background-size: cover;
+    top: -77px;
     position: relative;
 }
 
@@ -877,6 +883,7 @@ button {
     background-size: cover;
     height: 350px;
     position: relative;
+    top: -77px;
 }
 
 .team-txt-hero {
@@ -929,6 +936,7 @@ button {
     height: 350px;
     background-size: cover;
     position: relative;
+    top: -77px;
 
 }
 
@@ -984,6 +992,7 @@ button {
     background-image: url("./assets/privacy_hero.png");
     background-size: cover;
     height: 350px;
+    top: -77px;
 }
 
 
@@ -1034,6 +1043,7 @@ button {
     background-image: url("./assets/blog_hero.png");
     background-size: cover;
     height: 350px;
+    top: -77px;
     position: relative;
 }
 
@@ -1102,6 +1112,7 @@ button {
 .set-soft-bg-hero{
     background-image: url("./assets/software_hero.png");
     height: 350px;
+    top: -77px;
     background-size: cover;
 }
 
@@ -1282,6 +1293,7 @@ button {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.089)), url("./assets/website_hero.png");
     height: 350px;
     background-size: cover;
+    top: -77px;
     position: relative;
 }
 
@@ -1324,6 +1336,7 @@ button {
     background-image: url('./assets/micro_finance_hero.png');
     background-size: cover;
     height: 350px;
+    top: -77px;
     position: relative;
 }
 
@@ -1441,6 +1454,7 @@ button {
     height: 350px;
     background-size: cover;
     position: relative;
+    top: -77px;
 }
 
 .digital-hero {
@@ -1482,7 +1496,7 @@ button {
     background-image: url("./assets/mobilapp_heo.png");
     height: 350px;
     background-size: cover;
-
+    top: -77px;
     position: relative;
 }
 
@@ -1518,6 +1532,7 @@ button {
     height: 350px;
     background-size: cover;
     position: relative;
+    top: -77px;
 }
 
 .portal-hero-text {
@@ -1548,6 +1563,7 @@ button {
     position: relative;
     background-image: linear-gradient(to right, rgb(0 0 0 / 56%), rgb(0 0 0 / 43%)), url("./assets/core_bank_hero1.png");
     height: 350px;
+    top: -77px;
     background-size: cover;
 }
 
@@ -1590,6 +1606,7 @@ button {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.336)), url("./assets/nidhi_registration_hero.png");
     background-size: cover;
     height: 350px;
+    top: -77px;
     position: relative;
 }
 
@@ -1659,6 +1676,7 @@ button {
     background-image: url("./assets/nidhi_soft-hero.png");
     background-size: cover;
     height: 350px;
+    top: -77px;
     position: relative;
 }
 
@@ -1678,6 +1696,7 @@ button {
     background-image: url("./assets/nbfc_hero.png");
     background-size: cover;
     height: 350px;
+    top: -77px;
     position: relative;
 }
 
@@ -1722,6 +1741,7 @@ button {
     background-image: linear-gradient(to right, #0000004a, #000000a1), url("./assets/chit_fund_hero.png");
     height: 350px;
     background-size: cover;
+    top: -77px;
     position: relative;
 }
 
@@ -1749,6 +1769,7 @@ button {
     min-height: 350px;
     background-size: cover;
     position: relative;
+    top: -77px;
 }
 
 .sec-i-col {
@@ -1764,6 +1785,7 @@ button {
 .set-instituate-bg {
     background-image: linear-gradient(to left, #0000008f, #000000b3), url("./assets/instituste_hero.png");
     height: 350px;
+    top: -77px;
     background-size: cover;
     position: relative;
 }
@@ -1780,6 +1802,7 @@ button {
     background-image: linear-gradient(to left, #0000008f, #00000096), url(./assets/school_hero.png);
     height: 350px;
     background-size: cover;
+    top: -77px;
     position: relative;
 }
 
@@ -1805,6 +1828,7 @@ button {
     position: relative;
     background-image: linear-gradient(to right, #00000073, #000000c2), url("./assets/pos_hero_test.png");
     height: 350px;
+    top: -77px;
     background-size: cover;
 }
 
@@ -1935,6 +1959,29 @@ background: #000C14;
 .im2,.im3{
     border-radius: 50px 0px 50px 0px;
 }
+
+/* binary plan section start */
+.set-binary-plan-bg{
+    background-image: url("./assets/binary_hero.png");
+    background-size: cover;
+    height: 350px;
+    top: -77px;
+    position: relative;
+}
+.binary-txtx-hero{
+    position: absolute;
+    top: 44%;
+    left: 8%;
+}
+.set-1-binary{
+    background-color: #EEF1F5;
+}
+.bin-br-lef{
+    border-left: 3px solid red;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+/* binary plan section end */
 
 /* media query  */
 
@@ -2075,12 +2122,15 @@ background: #000C14;
 
 }
 
-@media (min-width:1800px) {
+@media (min-width:2000px) {
     .set-college-hero {
         background-image: url(./assets/college_hero.png);
         height: 500px;
         background-size: cover;
         position: relative;
+    }
+    .set-bg-specize {
+       height: 500px;
     }
 }
 
@@ -2332,5 +2382,14 @@ background: #000C14;
     .sm-allll {
         display: flex;
         justify-content: center;
+    }
+    .set-bg-specize {
+        background-position: center;
+    }
+    .tec-partner{
+        width: 100%;
+    }
+    .set-team-hero {
+        background-position: center;
     }
 }
