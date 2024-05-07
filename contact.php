@@ -7,6 +7,7 @@
    <?php include("./includes/link.php");?>
   </head>
   <body>
+  <?php include ("./includes/header.php"); ?>
     <!-- hero section start -->
     <div class="container-fluid set-contact-hero">
       <div class="container">

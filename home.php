@@ -11,6 +11,147 @@
     
     <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div>
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="./assets/slider1.png">
+                <div class="content">
+                    <div class="author">Services</div>
+                    <div class="title">Software and WebApplication</div>
+                    <div class="topic">Development</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                       Camwel Provides Best Customer Focused Custom Made Software <br> and Web Application Development Services Build on <br> Latest Technologies
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <!-- <button>SUBSCRIBE</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/slider2.png">
+                <div class="content">
+                    <div class="author">Services</div>
+                    <div class="title">Solution For Finance</div>
+                    <div class="topic">Sector</div>
+                    <div class="des">
+                       Camwel offers Development,Integration,Automationand Data Management Solution For Finanicial Organization To support Decision Making Process and Ensure Operational Efficiency
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <!-- <button>SUBSCRIBE</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/slider3.png">
+                <div class="content">
+                    <div class="author">services</div>
+                    <div class="title">Solution For Education</div>
+                    <div class="topic">Sector</div>
+                    <div class="des">
+                       Time To Let Go of the old System.Time to embrace the smart way of learning!
+                       There is Another Way
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <!-- <button>SUBSCRIBE</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/slider4.png">
+                <div class="content">
+                    <div class="author">services</div>
+                    <div class="title">Don't Just Think We Make</div>
+                    <div class="topic">it Impressive</div>
+                    <div class="des">
+                       A design,development and consulting Company
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <!-- <button>SUBSCRIBE</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="./assets/slider1.png">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/slider2.png">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/slider3.png">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/slider4.png">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><i class="ri-skip-right-line"></i></button>
+            <button id="next"><i class="ri-skip-left-line"></i></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="container set-home-bg d-lg-flex my-2 my-lg-5">
       <div
         class="col-12 col-lg-4 d-flex justify-content-center align-items-center"
@@ -445,6 +586,57 @@
     <!-- Footer section start -->
    <?php include("./includes/footer.php");?>
     <!-- Footer section end -->
+    <script>
+      
+let nextDom = document.getElementById('next');
+let prevDom = document.getElementById('prev');
+
+let carouselDom = document.querySelector('.carousel');
+let SliderDom = carouselDom.querySelector('.carousel .list');
+let thumbnailBorderDom = document.querySelector('.carousel .thumbnail');
+let thumbnailItemsDom = thumbnailBorderDom.querySelectorAll('.item');
+let timeDom = document.querySelector('.carousel .time');
+
+thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
+let timeRunning = 3000;
+let timeAutoNext = 7000;
+
+nextDom.onclick = function(){
+    showSlider('next');    
+}
+
+prevDom.onclick = function(){
+    showSlider('prev');    
+}
+let runTimeOut;
+let runNextAuto = setTimeout(() => {
+    next.click();
+}, timeAutoNext)
+function showSlider(type){
+    let  SliderItemsDom = SliderDom.querySelectorAll('.carousel .list .item');
+    let thumbnailItemsDom = document.querySelectorAll('.carousel .thumbnail .item');
+    
+    if(type === 'next'){
+        SliderDom.appendChild(SliderItemsDom[0]);
+        thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
+        carouselDom.classList.add('next');
+    }else{
+        SliderDom.prepend(SliderItemsDom[SliderItemsDom.length - 1]);
+        thumbnailBorderDom.prepend(thumbnailItemsDom[thumbnailItemsDom.length - 1]);
+        carouselDom.classList.add('prev');
+    }
+    clearTimeout(runTimeOut);
+    runTimeOut = setTimeout(() => {
+        carouselDom.classList.remove('next');
+        carouselDom.classList.remove('prev');
+    }, timeRunning);
+
+    clearTimeout(runNextAuto);
+    runNextAuto = setTimeout(() => {
+        next.click();
+    }, timeAutoNext)
+}
+    </script>
    <?php include("./includes/script.php");?>
   </body>
 </html>
