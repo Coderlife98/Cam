@@ -51,8 +51,10 @@
                             and there is flexibility and transparency in their services.</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5">
-
+                <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
+                    <div>
+                        <img src="./assets/nbfc-right.png" alt="@dued">
+                    </div>
 
                 </div>
             </div>
@@ -560,7 +562,7 @@
                             Prepayment amount and interest rates are charged on loans</p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>

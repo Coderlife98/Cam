@@ -130,8 +130,12 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-4 my-2 my-lg-5"></div>
-          <div class="col-12 col-lg-8 my-2 my-lg-5">
+          <div class="col-12 col-lg-4 my-2 my-lg-5 d-flex justify-content-center align-items-center">
+            <div>
+              <img src="./assets/school-soft.png" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 my-2 my-lg-5 d-flex justify-content-center ">
             <div class="hed-ben">
               <h3 class="text-family">
                 Benefits of School Management Software
@@ -211,9 +215,9 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-5 my-2 my-lg-5">
+          <div class="col-12 col-lg-5 my-2 my-lg-5 d-flex justify-content-center ">
             <div>
-              <img src="" alt="@dued" />
+              <img src="./assets/think.png" class="think-sc-img" alt="@dued" />
             </div>
           </div>
         </div>
