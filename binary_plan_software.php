@@ -24,15 +24,15 @@
 </div>
 <!-- hero section end -->
 <!-- Binary Plan Software start -->
-<div class="container-fluid  ">
+<div class="container-fluid mb-2 mb-lg-5  ">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-5">
+      <div class="col-12 col-lg-5 my-2 d-flex justify-content-center ">
         <div>
-          <img src="" alt="">
+          <img src="./assets/binary1.png" alt="">
         </div>
       </div>
-      <div class="col-12 col-lg-7 ">
+      <div class="col-12 col-lg-7 my-2 d-flex justify-content-center flex-column align-items-start">
         <div class="binary-hed">
           <h3 class="fw-bolder text-family">Binary Plan Software</h3>
           <p class="text-justify bin-br-lef">A binary plan is an organizational structure used in multi-level marketing (MLM) organizations. In this structure, new members are introduced into a system with a tree-like structure where each “node” or new member of the organization has a left and right sub-tree. It’s a Two Legged (Left leg, Right Leg) structure used in Multi Level Marketing where the each new distributors or members are placed in either left or right subtree. Where one subtree is known as a Power Leg or Profit Leg while the second subtree is a Profit Leg or a weak leg.</p>

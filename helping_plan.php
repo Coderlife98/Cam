@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helping Plan</title>
-   <?php include("./includes/link.php");?>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping plan software</title>
+  <?php include ("./includes/link.php"); ?>
 </head>
+
 <body>
-  <?php include("./includes/header.php");?>
-  <?php include("./includes/footer.php");?>
-    <?php include("./includes/script.php");?>
+  <?php include ("./includes/header.php"); ?>
+  <!-- hero section start -->
+  <div class="container-fluid set-matrix-plan-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="binary-txtx-hero text-white ">
+            <h1 class="fw-bolder">Helping plan software</h1>
+            <p class="">One of the most successful network marketing concept in the recent and the last few couple of
+              years.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- hero section end -->
+  <!-- Investment plan Software start -->
+  <div class="container-fluid  mb-2 mb-lg-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5 my-2">
+          <img src="./assets/.png" alt="@dued">
+        </div>
+        <div class="col-12 col-lg-7 my-2">
+          <div class="binary-hed">
+            <h3 class="fw-bolder text-family">Helping plan software</h3>
+            <div class="">
+              <p class="text-justify">Helping plan recorded as one of the most successful network marketing concepts in
+                the recent and the last few couple of years. It is well knows as donation plan or gift plan with an easy
+                give and take strategy. The simple is to learn and earn. It’s not a secret anymore that the leaders and
+                company who have been associated with the concept, earning huge amount of money. The concept revolves
+                around giving an amount of money in the form of Gift to one or more users directly and receiving
+                multiple high value gifts from others in return.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Investment plan Software end -->
+  <!-- Advantages of Investment plan: start -->
+  <div class="container-fluid my-2 my-lg-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-7 my-3">
+          <div class="uni-head">
+            <h3 class="fw-bolder">Advantages of Helping plan:</h3>
+            <div class="binary-bullet">
+              <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Earn maximum with the system</span>
+            </div>
+            <div class="binary-bullet">
+              <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Easy to work and understand</span>
+            </div>
+            <div class="binary-bullet">
+              <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Not to wait a much for the ROI</span>
+            </div>
+            <div class="binary-bullet">
+              <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> You don’t have to influence others to join your downline for the income</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 my-3">
+          <div><img src="" alt="@dued"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Advantages of HELPING plan:  end -->
+
+  <?php include ("./includes/footer.php"); ?>
+  <?php include ("./includes/script.php"); ?>
 </body>
+
 </html>

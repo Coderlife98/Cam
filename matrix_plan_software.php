@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binary plan software</title>
+    <title>Matrix plan software</title>
   <?php include("./includes/link.php");?>
 </head>
 <body>
 <?php include("./includes/header.php");?>
 <!-- hero section start -->
-<div class="container-fluid set-binary-plan-bg">
+<div class="container-fluid set-matrix-plan-bg">
   <div class="container">
     <div class="row">
       <div class="col-12">
        <div class="binary-txtx-hero text-white ">
         <h1 class="fw-bolder">Matrix Plan Software</h1>
-        <p class="">A Matrix Plan Software is an origanization structure use in multilevel marketing(MLM) Organizations </p>
-        <a href=""><button class="text-white">Know More</button></a>
+        <p class="">Matrix MLM Compensation Plan is one of the primary plans for Multilevel Marketing Business.</p>
        </div>
       </div>
     </div>
@@ -24,18 +23,19 @@
 </div>
 <!-- hero section end -->
 <!-- Binary Plan Software start -->
-<div class="container-fluid  ">
+<div class="container-fluid  mb-2 mb-lg-5 ">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-5">
-        <div>
-          <img src="" alt="">
-        </div>
+      <div class="col-12 col-lg-5 my-2">
+          <img src="./assets/matrix1.png" alt="@dued">
       </div>
-      <div class="col-12 col-lg-7 ">
+      <div class="col-12 col-lg-7 my-2">
         <div class="binary-hed">
           <h3 class="fw-bolder text-family">Matrix Plan Software</h3>
-          <p class="text-justify bin-br-lef">Matrix MLM Compensation Plan is one of the primary plans for Multilevel Marketing Business. In this plan, the downlines are arranged in fixed width x height matrix i.e. (W x H). This plan is referred as forced matrix plan or Ladder Plan where one distributor can grow his team within limited numbers of downline members. Matrix MLM Software is a web-based application that maintains the matrix MLM plan. Matrix MLM Software is efficient for all kind of MLM organizations whether they are small or big and it helps to keep track of downline’s incomes and expenditure.</p>
+         <div class="bin-br-lef">
+         <p class="text-justify ">Matrix MLM Compensation Plan is one of the primary plans for Multilevel Marketing Business. In this plan, the downlines are arranged in fixed width x height matrix i.e. (W x H). This plan is referred as forced matrix plan or Ladder Plan where one distributor can grow his team within limited numbers of downline members. </p>
+          <p class="text-justify">Matrix MLM Software is a web-based application that maintains the matrix MLM plan. Matrix MLM Software is efficient for all kind of MLM organizations whether they are small or big and it helps to keep track of downline’s incomes and expenditure.</p>
+         </div>
         </div>
       </div>
     </div>

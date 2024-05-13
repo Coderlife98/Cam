@@ -26,7 +26,7 @@
     </div>
     <!-- hero section end -->
     <!-- section 1 start -->
-    <div class="container my-2 my-lg-5">
+    <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 my-2 ">
                 <div class="web-head  pe-lg-4">
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center my-2">
-                <img src="./assets/webs1.png" class="" alt="@skull" />
+                <img src="./assets/webs1.png" class="set-sm-ww-width" alt="@skull" />
             </div>
         </div>
     </div>
@@ -56,14 +56,18 @@
     <!-- section 2 start -->
     <div class="container-fluid set-bg-iii">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <p>Work Flow Management, Enterprise Web Development, E-Commerce, B2B & B2C, Any custom business
-                        application.</p>
+            <div class="row d-flex justify-content-center align-items-center ">
+                <div class="col-12 col-lg-4 my-2">
+                    <div class="web-bg-box-1">
+                        <p class="text-white">Work Flow Management, Enterprise Web Development, E-Commerce, B2B & B2C, Any custom business
+                            application.</p>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <p>Custom Web Development, Customer Relationship Management (CRM)
-                        Cloud Solutions, Third-Party Integration (CRM and more).</p>
+                <div class="col-12 col-lg-4 my-2">
+                    <div class="web-bg-box-1">
+                        <p class="text-white">Custom Web Development, Customer Relationship Management (CRM)
+                            Cloud Solutions, Third-Party Integration (CRM and more).</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -39,7 +39,6 @@
         <div class="bbb1">
           <img src="./assets/team-sm-test.png" class="test-it" alt="">
           <div class="head-team">
-           
             <h5>Creativity</h5>
           </div>
           <div class="para-team">

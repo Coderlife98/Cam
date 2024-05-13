@@ -74,7 +74,7 @@
             <div class="dropdown-menu bg-light border-0 m-0">
               <a href="./software_development_company.php" class="dropdown-item">Software Development</a>
               <a href="./website_dev.php" class="dropdown-item">Website Development</a>
-              <a href="./digitalmarketing.php" class="dropdown-item">Digital marketing</a>
+              <a href="./delete.php" class="dropdown-item">Digital marketing</a>
               <a href="./mobile_app.php" class="dropdown-item">Mobile App Development</a>
               <a href="./portal.php" class="dropdown-item">Portal Development</a>
             </div>
@@ -174,10 +174,10 @@
               <a href="./matrix_plan_software.php" class="dropdown-item"
                 >Matrix Plan Software
               </a>
-              <a href="./unilevel_plan.php" class="dropdown-item"
+              <a href="./board_plan.php" class="dropdown-item"
                 >Board Plan Software
               </a>
-              <a href="testimonial.html" class="dropdown-item"
+              <a href="./unilevel_plan.php" class="dropdown-item"
                 >Unilevel Plan Software
               </a>
               <a href="./generation_plan.php" class="dropdown-item"

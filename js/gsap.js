@@ -110,7 +110,7 @@ gsap.from(".set-last-txt", {
     opacity: 0,
     scrollTrigger: {
         trigger: ".set-last-txt",
-        scroller: "body",
+        scroller: ".gsap-containe",
         scrub: 2
     }
 })
@@ -141,6 +141,9 @@ gsap.from(".nb-animate", {
 });
 
 
+
+
+
 // nbfc  end
 
 gsap.from(".tool", {
@@ -167,7 +170,6 @@ gsap.from(".butt", {
 gsap.from(".pos-sect-1-head",{
     duration:2,
     opacity:0,
-   
     scrollTrigger:{
         trigger:".pos-sect-1-head",
         scroller:"body",
@@ -176,7 +178,6 @@ gsap.from(".pos-sect-1-head",{
 });
 
 gsap.from(".poin-eff",{
-    
    x:500,
     scrollTrigger:{
         trigger:".poin-eff",
@@ -190,10 +191,24 @@ gsap.from(".hos-txt-hero",{
     duration:2,
     scale:1.5,
     stagger:0.5,
-
     scrollTrigger:{
         trigger:".hos-txt-hero",
         scroller:"body",
         scrub:3
     }
-})
+});
+
+
+gsap.from(".bus_img",{
+    x:-800,
+     scrollTrigger:{
+         trigger:".bus_img",
+         scroller:"body",
+         scrub:3
+     }
+ });
+
+//  Billing software section start
+
+
+//  Billing software section end

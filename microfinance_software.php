@@ -22,12 +22,12 @@
         </div>
     </div>
     <!-- hero end -->
-    <!-- section one -->
+    <div class="gsap-container">
+        <!-- section one -->
     <div class="container-fluid my-2 my-lg-5 ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 d-flex  align-items-center justify-content-between ">
-                    
                          <div class="container container-main-4 d-flex  align-items-center justify-content-between">
                             <div class="row">
                               <div class="col-12 d-flex justify-content-between">
@@ -208,6 +208,7 @@
         </div>
     </div>
     <!-- end txt end -->
+    </div>
     <?php include("./includes/footer.php");?>
     <?php include("./includes/script.php");?>
 </body>

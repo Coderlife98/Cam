@@ -127,8 +127,11 @@
         <!-- next prev -->
 
         <div class="arrows">
-            <button id="prev"><i class="ri-skip-right-line"></i></button>
-            <button id="next"><i class="ri-skip-left-line"></i></button>
+       
+            <!-- <button id="prev"><i class="ri-skip-right-line"></i></button> -->
+            <button id="prev"> <i class="fa-solid fa-forward"></i></button>
+            <!-- <button id="next"><i class="ri-skip-left-line"></i></button> -->
+            <button id="next"><i class="fa-solid fa-backward"></i></button>
         </div>
         <!-- time running -->
         <div class="time"></div>

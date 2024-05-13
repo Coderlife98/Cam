@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pos Software</title>
   <?php include ("./includes/link.php"); ?>
+  <style>
+    .set-hide-pos {
+      display: none;
+    }
+    .active,
+    .btn:hover {
+     background: linear-gradient(to right,#6C20DD,#1C6EFF);
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
@@ -27,7 +37,7 @@
   </div>
   <!-- Hero section end -->
   <!-- Tools to help your business succeed start -->
-  <div class="container-fluid my-2 my-lg-5 ">
+  <div class="container-fluid mb-2 ">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -43,42 +53,42 @@
       <div class="row">
         <div class="col-12 col-md-6 col-lg-3 my-2 my-lg-5">
           <div class="butt">
-            <a href="" id="btn1pos"></a><button class="text-white">Point Of Sell</button></a>
+            <button id="btn1pos" title="Click Me" class="text-white  btn-ac">Point Of Sell</button></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 my-2 my-lg-5">
           <div class="butt">
-            <a href="" id="btn2pos"></a><button class="text-white">Payment</button></a>
+            <button id="btn2pos" title="Click Me" class="text-white btn-ac">Payment</button></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 my-2 my-lg-5">
           <div class="butt">
-            <a href="" id="btn3pos"></a><button class="text-white">Inventory Management</button></a>
+            <button id="btn3pos" title="Click Me" class="text-white btn-ac">Inventory Management</button></a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 my-2 my-lg-5">
           <div class="butt">
-            <a href="" id="btn4pos"></a><button class="text-white">Sells Analytics</button></a>
+            <button id="btn4pos" title="Click Me" class="text-white btn-ac">Sells Analytics</button>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="butt">
-            <a href="" id="btn5pos"> <button class="text-white">Employee Management</button></a>
+            <button id="btn5pos" title="Click Me" class="text-white btn-ac">Employee Management</button>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="butt">
-            <a href="" id="btn6pos"> <button class="text-white">CRM and Customer Loyality</button></a>
+            <button id="btn6pos" title="Click Me" class="text-white btn-ac">CRM and Customer Loyality</button>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="butt">
-            <a href="" id="btn7pos"> <button class="text-white">Multi Store with multi user management</button></a>
+            <button id="btn7pos" title="Click Me" class="text-white btn-ac">Multi Store with multi user management</button>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="butt">
-            <a href="" id="btn8pos"><button class="text-white">External Integration</button></a>
+            <button id="btn8pos" title="Click Me" class="text-white btn-ac">External Integration</button>
           </div>
         </div>
       </div>
@@ -86,9 +96,9 @@
   </div>
   <!-- more button section end -->
   <!-- pos section 1 start -->
-  <div class="container-fluid">
+  <div class="container-fluid " id="rmve1">
     <div class="container">
-      <div class="row set-hide-pos" id="rmve1">
+      <div class="row ">
         <div class="col-12 col-lg-7 my-2 my-lg-5  ">
           <div class="pos-sect-1-head">
             <h3>Point Of Sell</h3>
@@ -122,9 +132,9 @@
   </div>
   <!-- pos section 1 end -->
   <!-- section 2 start payment -->
-  <div class="container-fluid">
+  <div class="container-fluid set-hide-pos" id="rmve2">
     <div class="container">
-      <div class="row set-hide-pos" id="rmve2">
+      <div class="row ">
         <div class="col-12 col-lg-5  my-2 my-lg-5 sm-allll">
           <div>
             <img src="./assets/payment1.png" class="payment" alt="@dued">
@@ -152,9 +162,9 @@
   </div>
   <!-- section 2 end payment -->
   <!-- inventory management section  start -->
-  <div class="container-fluid">
+  <div class="container-fluid set-hide-pos" id="rmve3">
     <div class="container">
-      <div class="row set-hide-pos" id="rmve3">
+      <div class="row ">
         <div class="col-12 col-lg-7 my-2 my-lg-5">
           <div class="pos-sect-1-head">
             <h3 class="fw-bolder">Inventory Management</h3>
@@ -192,9 +202,9 @@
   </div>
   <!-- inventory management section  end -->
   <!-- sales analytics start -->
-  <div class="container-fluid">
+  <div class="container-fluid set-hide-pos" id="rmve4">
     <div class="container">
-      <div class="row set-hide-pos" id="rmve4">
+      <div class="row ">
         <div class="col-12 col-lg-5  my-2 my-lg-5 sm-allll">
           <div>
             <img src="./assets/sale.png" alt="@dued">
@@ -233,9 +243,9 @@
   </div>
   <!-- sales analytics end -->
   <!-- employee management start -->
-  <div class="container-fluid">
+  <div class="container-fluid set-hide-pos" id="rmve5">
     <div class="container">
-      <div class="row set-hide-pos" id="rmve5">
+      <div class="row ">
         <div class="col-12 col-lg-7 my-2 my-lg-5">
           <div class="pos-sect-1-head">
             <h3 class="fw-bolder">Employee Management</h3>
@@ -266,9 +276,9 @@
   </div>
   <!-- employee management end -->
   <!-- CRM section start -->
-  <div class="container-fluid">
+  <div class="container-fluid set-hide-pos" id="rmve6">
     <div class="container">
-      <div class="row set-hide-pos" id="rmve6">
+      <div class="row ">
         <div class="col-12 col-lg-5  my-2 my-lg-5 sm-allll">
           <div>
             <img src="./assets/crm.png" alt="@dued">
@@ -304,9 +314,9 @@
   </div>
   <!-- CRM section end -->
   <!-- multi store start -->
-  <div class="container-fluid">
+  <div class="container-fluid set-hide-pos" id="rmve7">
     <div class="container">
-      <div class="row set-hide-pos" id="rmve7">
+      <div class="row ">
         <div class="col-12 col-lg-7 my-2 my-lg-5">
           <div class="pos-sect-1-head">
             <h3 class="fw-bolder">Multi Store Management</h3>
@@ -333,9 +343,9 @@
   </div>
   <!-- multi store end -->
   <!-- External integration start -->
-  <div class="container-fluid">
+  <div class="container-fluid set-hide-pos" id="rmve8">
     <div class="container">
-      <div class="row set-hide-pos" id="rmve8">
+      <div class="row ">
         <div class="col-12 col-lg-5  my-2 my-lg-5 sm-allll">
           <div>
             <img src="./assets/erp.png" class="poin-eff" alt="@dued">
@@ -359,6 +369,141 @@
   </div>
   <!-- External integration end -->
   <?php include ("./includes/footer.php"); ?>
+  <script>
+
+    var btns = document.getElementsByClassName("btn-ac");
+    for (var i = 0; i < btns.length; i++) {
+     
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+
+
+
+    $("#btn1pos").click(function () {
+      $("#rmve1").removeClass(".set-hide-pos");
+      $("#rmve1").slideDown("slow");
+      $("#rmve1").fadeIn();
+      $("#rmve1").fadeIn("slow");
+      $("#rmve1").fadeIn(3000);
+      $("#rmve1").show();
+      $("#rmve2").hide();
+      $("#rmve3").hide();
+      $("#rmve4").hide();
+      $("#rmve5").hide();
+      $("#rmve6").hide();
+      $("#rmve7").hide();
+      $("#rmve8").hide();
+    });
+    $("#btn2pos").click(function () {
+      $("#rmve2").removeClass(".set-hide-pos");
+      $("#rmve2").slideDown("slow");
+      $("#rmve2").fadeIn();
+      $("#rmve2").fadeIn("slow");
+      $("#rmve2").fadeIn(3000);
+      $("#rmve2").show();
+      $("#rmve1").hide();
+      $("#rmve3").hide();
+      $("#rmve4").hide();
+      $("#rmve5").hide();
+      $("#rmve6").hide();
+      $("#rmve7").hide();
+      $("#rmve8").hide();
+    });
+    $("#btn3pos").click(function () {
+      $("#rmve3").removeClass(".set-hide-pos");
+      $("#rmve3").slideDown("slow");
+      $("#rmve3").fadeIn();
+      $("#rmve3").fadeIn("slow");
+      $("#rmve3").fadeIn(3000);
+      $("#rmve3").show();
+      $("#rmve1").hide();
+      $("#rmve2").hide();
+      $("#rmve4").hide();
+      $("#rmve5").hide();
+      $("#rmve6").hide();
+      $("#rmve7").hide();
+      $("#rmve8").hide();
+    });
+    $("#btn4pos").click(function () {
+      $("#rmve4").removeClass(".set-hide-pos");
+      $("#rmve4").slideDown("slow");
+      $("#rmve4").fadeIn();
+      $("#rmve4").fadeIn("slow");
+      $("#rmve4").fadeIn(3000);
+      $("#rmve4").show();
+      $("#rmve1").hide();
+      $("#rmve2").hide();
+      $("#rmve3").hide();
+      $("#rmve5").hide();
+      $("#rmve6").hide();
+      $("#rmve7").hide();
+      $("#rmve8").hide();
+    });
+    $("#btn5pos").click(function () {
+      $("#rmve5").removeClass(".set-hide-pos");
+      $("#rmve5").slideDown("slow");
+      $("#rmve5").fadeIn();
+      $("#rmve5").fadeIn("slow");
+      $("#rmve5").fadeIn(3000);
+      $("#rmve5").show();
+      $("#rmve1").hide();
+      $("#rmve2").hide();
+      $("#rmve3").hide();
+      $("#rmve4").hide();
+      $("#rmve6").hide();
+      $("#rmve7").hide();
+      $("#rmve8").hide();
+    });
+    $("#btn6pos").click(function () {
+      $("#rmve6").removeClass(".set-hide-pos");
+      $("#rmve6").slideDown("slow");
+      $("#rmve6").fadeIn();
+      $("#rmve6").fadeIn("slow");
+      $("#rmve6").fadeIn(3000);
+      $("#rmve6").show();
+      $("#rmve1").hide();
+      $("#rmve2").hide();
+      $("#rmve3").hide();
+      $("#rmve4").hide();
+      $("#rmve5").hide();
+      $("#rmve7").hide();
+      $("#rmve8").hide();
+    });
+    $("#btn7pos").click(function () {
+      $("#rmve7").removeClass(".set-hide-pos");
+      $("#rmve7").slideDown("slow");
+      $("#rmve7").fadeIn();
+      $("#rmve7").fadeIn("slow");
+      $("#rmve7").fadeIn(3000);
+      $("#rmve7").show();
+      $("#rmve1").hide();
+      $("#rmve2").hide();
+      $("#rmve3").hide();
+      $("#rmve4").hide();
+      $("#rmve5").hide();
+      $("#rmve6").hide();
+      $("#rmve8").hide();
+    });
+    $("#btn8pos").click(function () {
+      $("#rmve8").removeClass(".set-hide-pos");
+      $("#rmve8").slideDown("slow");
+      $("#rmve8").fadeIn();
+      $("#rmve8").fadeIn("slow");
+      $("#rmve8").fadeIn(3000);
+      $("#rmve8").show();
+      $("#rmve1").hide();
+      $("#rmve2").hide();
+      $("#rmve3").hide();
+      $("#rmve4").hide();
+      $("#rmve5").hide();
+      $("#rmve6").hide();
+      $("#rmve7").hide();
+    });
+  </script>
   <?php include ("./includes/script.php"); ?>
   <!-- script tag end -->
 </body>
