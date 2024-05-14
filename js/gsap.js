@@ -4,7 +4,6 @@ gsap.from(".set-soft-bgg", {
     delay: 1,
     stagger: true,
 });
-
 // for home page start
 gsap.from(".set-desi", {
     x: -1300,
@@ -13,14 +12,12 @@ gsap.from(".set-desi", {
     stagger: true,
 });
 // for home page end
-
 gsap.from(".ggg-aa", {
     y: -2000,
     duration: 2,
     delay: 2,
     stagger: true
 });
-
 gsap.from(".dig-gsap1", {
     x: -500,
     duration: 1,
@@ -56,11 +53,81 @@ gsap.from(".m1gsap", {
     }
 });
 
+
 gsap.from("#m1gsapright", {
     x: 800,
     duration: 1,
     delay: 2
 });
+
+var tl = gsap.timeline();
+
+tl.from("#technologyBox1",{
+    x:-200,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#technologyBox1",
+        scroller:"body",
+        scrub:3,
+        start:"top 60%",
+        end:"top 20%"
+    }
+})
+tl.from("#technologyBox2",{
+    x:-100,
+   duration:1,
+   scrollTrigger:{
+    trigger:"#technologyBox2",
+    scroller:"body",
+    scrub:3,
+    start:"top 60%",
+    end:"top 20%"
+}
+})
+tl.from("#technologyBox3",{
+    x:200,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#technologyBox3",
+        scroller:"body",
+        scrub:3,
+        start:"top 60%",
+        end:"top 20%"
+    }
+})
+tl.from("#technologyBox4",{
+    x:400,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#technologyBox4",
+        scroller:"body",
+        scrub:3,
+        start:"top 60%",
+        end:"top 20%"
+    }
+})
+
+var mm = gsap.matchMedia();
+
+mm.add("(max-width: 500px)", function(matches) {
+    if (matches) {
+        var tl = gsap.timeline();
+
+        ["#technologyBox1", "#technologyBox2", "#technologyBox3", "#technologyBox4"].forEach(function(box) {
+            tl.from(box, {
+                opacity: 0,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: box,
+                    scroller: "body",
+                    scrub: 3,
+                   
+                }
+            });
+        });
+    }
+});
+
 
 gsap.from(".app-box", {
     x: -2000,
@@ -72,6 +139,7 @@ gsap.from(".app-box", {
         scrub: 2
     }
 });
+
 
 
 gsap.from(".soft1", {
@@ -140,10 +208,6 @@ gsap.from(".nb-animate", {
     }
 });
 
-
-
-
-
 // nbfc  end
 
 gsap.from(".tool", {
@@ -208,7 +272,20 @@ gsap.from(".bus_img",{
      }
  });
 
-//  Billing software section start
 
 
-//  Billing software section end
+
+//technology section start
+gsap.from("#gsaptech", {
+    x: -1000,
+    opacity: 0,
+    duration: 2,
+    delay: 2,
+    scrollTrigger: {
+      trigger: "#gsaptech",
+      scroller: "body",
+      marker: true,
+      scrub: 3
+    }
+  });
+
