@@ -1,9 +1,24 @@
+gsap.registerPlugin(ScrollTrigger);
+
 gsap.from(".set-soft-bgg", {
     x: 1800,
     duration: 2,
     delay: 1,
     stagger: true,
 });
+// hospital management start
+gsap.from(".hos-txt-hero", {
+    opacity: 0,
+    duration: 2,
+    scale: 1.2,
+    stagger: 0.5,
+    scrollTrigger: {
+        trigger: ".hos-txt-hero",
+        scroller: "body",
+        scrub: 3
+    }
+});
+// hospital management end
 // for home page start
 gsap.from(".set-desi", {
     x: -1300,
@@ -39,6 +54,67 @@ gsap.from(".gsap-ri", {
     stagger: true
 })
 
+// college management software start
+var college = gsap.timeline();
+college.from("#gsapCollege1,#gsapCollege2", {
+    scale: 0.5, // Starts from half the size and zooms in to full size
+    opacity: 0,
+    duration: 2, // Optional: Sets the duration of the animation
+    scrollTrigger: {
+        trigger: "#gsapCollege1,#gsapCollege2",
+        scroller: "body",
+        // markers:true,
+        // start:"top 12%",
+        // end:"bottom 60%",
+        scrub: 3,
+    }
+});
+
+    var mmCollege = gsap.timeline();
+    mmCollege.from("#collGsap1,#collGsap2", {
+        opacity: 0,
+        duration:2,
+        scrollTrigger:{
+            trigger:"#collGsap1,#collGsap2",
+            scroller:"body",
+            scrub:3
+        }
+    });
+
+
+// college management software end
+// hospital start
+let hospmedia = gsap.matchMedia();
+hospmedia.add("(min-width:800px)",()=>{
+     var hosp = gsap.timeline();
+     hosp.from("#hos1",{
+        x:-700,
+        opacity:0,
+        scrollTrigger:{
+            trigger:"#hos1",
+            scroller:"body",
+            scrub:3,
+    
+        }
+    });
+    
+    hosp.from("#hos2",{
+        x:1200,
+        opacity:0,
+        scrollTrigger:{
+            trigger:"#hos2",
+            scroller:"body",
+            scrub:3,
+    
+        }
+    });
+    
+
+ })
+
+
+// hospital end
+
 var tl = gsap.timeline();
 tl.from(".point-software", { x: -500, duration: 2 });
 gsap.from(".m1gsap", {
@@ -60,73 +136,57 @@ gsap.from("#m1gsapright", {
     delay: 2
 });
 
+// Technology we specilaise in start
+let mm = gsap.matchMedia();
+mm.add("(min-width:800px)")
+// Technology we specilaise in end
+
 var tl = gsap.timeline();
 
-tl.from("#technologyBox1",{
-    x:-200,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#technologyBox1",
-        scroller:"body",
-        scrub:3,
-        start:"top 60%",
-        end:"top 20%"
+tl.from("#technologyBox1", {
+    x: -200,
+    duration: 1,
+    scrollTrigger: {
+        trigger: "#technologyBox1",
+        scroller: "body",
+        scrub: 3,
+        start: "top 60%",
+        end: "top 20%"
     }
 })
-tl.from("#technologyBox2",{
-    x:-100,
-   duration:1,
-   scrollTrigger:{
-    trigger:"#technologyBox2",
-    scroller:"body",
-    scrub:3,
-    start:"top 60%",
-    end:"top 20%"
-}
-})
-tl.from("#technologyBox3",{
-    x:200,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#technologyBox3",
-        scroller:"body",
-        scrub:3,
-        start:"top 60%",
-        end:"top 20%"
+tl.from("#technologyBox2", {
+    x: -100,
+    duration: 1,
+    scrollTrigger: {
+        trigger: "#technologyBox2",
+        scroller: "body",
+        scrub: 3,
+        start: "top 60%",
+        end: "top 20%"
     }
 })
-tl.from("#technologyBox4",{
-    x:400,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#technologyBox4",
-        scroller:"body",
-        scrub:3,
-        start:"top 60%",
-        end:"top 20%"
+tl.from("#technologyBox3", {
+    x: 200,
+    duration: 1,
+    scrollTrigger: {
+        trigger: "#technologyBox3",
+        scroller: "body",
+        scrub: 3,
+        start: "top 60%",
+        end: "top 20%"
     }
 })
-
-var mm = gsap.matchMedia();
-
-mm.add("(max-width: 500px)", function(matches) {
-    if (matches) {
-        var tl = gsap.timeline();
-
-        ["#technologyBox1", "#technologyBox2", "#technologyBox3", "#technologyBox4"].forEach(function(box) {
-            tl.from(box, {
-                opacity: 0,
-                duration: 1,
-                scrollTrigger: {
-                    trigger: box,
-                    scroller: "body",
-                    scrub: 3,
-                   
-                }
-            });
-        });
+tl.from("#technologyBox4", {
+    x: 400,
+    duration: 1,
+    scrollTrigger: {
+        trigger: "#technologyBox4",
+        scroller: "body",
+        scrub: 3,
+        start: "top 60%",
+        end: "top 20%"
     }
-});
+})
 
 
 gsap.from(".app-box", {
@@ -223,57 +283,41 @@ gsap.from(".tool", {
 
 gsap.from(".butt", {
     duration: 2,
-    opacity:0,
-    scrollTrigger:{
-        trigger:".butt",
-        scroller:"body",
-        scrub:4
+    opacity: 0,
+    scrollTrigger: {
+        trigger: ".butt",
+        scroller: "body",
+        scrub: 4
     }
 })
 
-gsap.from(".pos-sect-1-head",{
-    duration:2,
-    opacity:0,
-    scrollTrigger:{
-        trigger:".pos-sect-1-head",
-        scroller:"body",
-        scrub:3
+gsap.from(".pos-sect-1-head", {
+    duration: 2,
+    opacity: 0,
+    scrollTrigger: {
+        trigger: ".pos-sect-1-head",
+        scroller: "body",
+        scrub: 3
     }
 });
 
-gsap.from(".poin-eff",{
-   x:500,
-    scrollTrigger:{
-        trigger:".poin-eff",
-        scroller:"body",
-        scrub:3
+gsap.from(".poin-eff", {
+    x: 500,
+    scrollTrigger: {
+        trigger: ".poin-eff",
+        scroller: "body",
+        scrub: 3
     }
 });
 
-gsap.from(".hos-txt-hero",{
-   opacity:0,
-    duration:2,
-    scale:1.5,
-    stagger:0.5,
-    scrollTrigger:{
-        trigger:".hos-txt-hero",
-        scroller:"body",
-        scrub:3
+gsap.from(".bus_img", {
+    x: -800,
+    scrollTrigger: {
+        trigger: ".bus_img",
+        scroller: "body",
+        scrub: 3
     }
 });
-
-
-gsap.from(".bus_img",{
-    x:-800,
-     scrollTrigger:{
-         trigger:".bus_img",
-         scroller:"body",
-         scrub:3
-     }
- });
-
-
-
 
 //technology section start
 gsap.from("#gsaptech", {
@@ -282,10 +326,12 @@ gsap.from("#gsaptech", {
     duration: 2,
     delay: 2,
     scrollTrigger: {
-      trigger: "#gsaptech",
-      scroller: "body",
-      marker: true,
-      scrub: 3
+        trigger: "#gsaptech",
+        scroller: "body",
+        marker: true,
+        scrub: 3
     }
-  });
+});
+
+
 

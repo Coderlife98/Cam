@@ -2030,6 +2030,66 @@ button {
     border-radius: 0px 0px 291px 252px;
 }
 
+.set-bg-faqqqqq{
+    background-color: black;
+}
+
+.accordian li{
+    list-style: none;
+    width: 100%;
+    /* margin: 20px; */
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e3edf7;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+label::before{
+    content: "+";
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordian .content{
+    color: #555;
+    padding: 0px 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    /* transition: max-height 0.9s, padding 0; */
+    transition:  0.9s;
+}
+
+.accordian input[type="radio"]:checked + label +.content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+
+.accordian input[type="radio"]:checked + label::content{
+    content: "-";
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.rmv-paddd{
+    padding-left: 0px;
+}
 /* hosiptal management software end */
 /* faq part start */
 
@@ -2176,6 +2236,15 @@ button {
     .set-bg-iii {
         height: 353px;
     }
+    .add-border-hos img {
+        position: relative;
+        bottom: 0%;
+        border-radius: 0px 0px 291px 252px;
+    }
+    .md-imh{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width:768px) and (max-width:992px) {
@@ -2202,6 +2271,16 @@ button {
 
     .set-bg-iii {
         height: 373px;
+    }
+    .add-border-hos img {
+        position: relative;
+        bottom: 0%;
+        border-radius: 0px 0px 291px 252px;
+    }
+  
+    .md-imh{
+        display: flex;
+        justify-content: center;
     }
 
 }
@@ -2343,6 +2422,11 @@ button {
         top: 40%;
         left: 4%;
         color: #00dcff;
+    }
+    .add-border-hos img {
+        position: relative;
+        bottom: 0%;
+        border-radius: 0px 0px 291px 252px;
     }
 
 

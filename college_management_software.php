@@ -21,12 +21,12 @@
     <div class="container-fluid my-3 my-lg-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-5 my-3 set-ii-colleg  ">
+          <div class="col-12 col-lg-5 my-3 set-ii-colleg  " id="gsapCollege1">
             <div>
               <img src="./assets/coll-sof.png" class="sec-i-col" alt="" />
             </div>
           </div>
-          <div class="col-12 col-lg-7 my-3">
+          <div class="col-12 col-lg-7 my-3" id="gsapCollege2">
             <div class="sch-head">
               <h3 class="text-family fw-bolder">College Management Software</h3>
               <p class="text-justify">
@@ -131,7 +131,7 @@
     <div class="container-fluid my-2 my-lg-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-7 my-2">
+          <div class="col-12 col-lg-7 my-2 " id="collGsap1">
             <div class="sect-sch">
               <h3 class="text-family fw-bolder">
                 Benefits of college management software
@@ -200,7 +200,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-5 d-flex justify-content-center my-2">
+          <div class="col-12 col-lg-5 d-flex justify-content-center my-2" id="collGsap2">
             <div>
               <img src="./assets/girl.png" class="girl-coll" alt="@dued" />
             </div>

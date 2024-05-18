@@ -67,10 +67,10 @@
   <div class="container-fluid my-2 my-lg-3">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-5 my-2 my-lg-5">
+        <div class="col-12 col-md-6 col-lg-5 my-2 my-lg-5" id="hos1" >
           <div><img src="./assets/h1.png" class="h1-hospital" alt="@dued" /></div>
         </div>
-        <div class="col-12 col-lg-7 my-2 my-lg-5">
+        <div class="col-12 col-md-6 col-lg-7 my-2 my-lg-5" id="hos2" >
           <div class="hos-head">
             <h3 class="text-family fw-bolder">
               Hospital Management Software
@@ -110,19 +110,19 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-4 my-2 my-lg-3">
+        <div class="col-12 col-md-4 my-2 my-lg-3" id="sechosgsap">
           <div class="set-hos-br">
             <img src="./assets/admin.png" width="100%" alt="" />
             <p class="mb-0 mt-3 text-center fw-bolder">Admin Login</p>
           </div>
         </div>
-        <div class="col-12 col-lg-4 my-2 my-lg-3">
+        <div class="col-12 col-md-4 my-2 my-lg-3" id="sechosgsap">
           <div class="set-hos-br">
             <img src="./assets/admin.png" width="100%" alt="" />
             <p class="mb-0 mt-3 text-center fw-bolder">Doctor Login</p>
           </div>
         </div>
-        <div class="col-12 col-lg-4 my-2 my-lg-3">
+        <div class="col-12 col-md-4 my-2 my-lg-3" id="sechosgsap">
           <div class="set-hos-br">
             <img src="./assets/admin.png" width="100%" alt="" />
             <p class="mb-0 mt-3 text-center fw-bolder">Staff Login</p>
@@ -133,7 +133,7 @@
   </div>
   <!-- section 3 contain 3 box end -->
   <!-- Make Communication easy between admin, Doctor, staff and Patients. start -->
-  <div class="container-fluid my-2 my-lg-4 set-gr-hos p-2 p-lg-5 text-white">
+  <div class="container-fluid  set-gr-hos p-2 p-lg-5 text-white">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -141,7 +141,7 @@
             Make Communication easy between admin, Doctor, staff and Patients.
           </p>
         </div>
-        <div class="col-12 col-lg-7 my-2">
+        <div class="col-12 col-md-7 col-lg-7 my-2">
           <h3 class="text-family fw-bolder">Awesome Features</h3>
           <p class="text-justify">
             With the advent of technology , the Health Sector World has also
@@ -154,7 +154,7 @@
           </p>
           <a href=""><button class="text-white">Free Live Demo</button></a>
         </div>
-        <div class="col-12 col-lg-5 my-2 d-flex justify-content-center ">
+        <div class="col-12 col-md-5 col-lg-5 my-2 d-flex justify-content-center ">
           <div>
             <img src="./assets/ben-hos.png" alt="">
           </div>
@@ -164,28 +164,191 @@
   </div>
   <!-- Make Communication easy between admin, Doctor, staff and Patients. end -->
   <!-- Hospital Management Software Module start -->
-  <div class="container-fluid">
+  <div class="container-fluid set-bg-faqqqqq p-2 p-lg-5 ">
     <div class="container">
+    <div class="row">
+        <div class="col-12 my-2 my-lg-3 ">
+          <h2 class="text-white text-center text-family ">Hospital Management Software Module</h2>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-12">
-          <h3 class="fw-bolder text-center">
-            Hospital Management Software Module
-          </h3>
+        <div class="col-12 col-lg-6 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="first">
+              <label for="first">Front Office Management:</label>
+              <div class="content">
+                <p class="text-justify">This module will take care of services provided by the hospital. Rate of
+                  services is charged by rules of hospital . It will consider panel , Night Charges , Emergency charges
+                  , Age of patient and other parameters while calculating the rate of services for a particular patient.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6  ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="second">
+              <label for="second"> OPD- Out Patient Management:</label>
+              <div class="content">
+                <p class="text-justify">OPD Registration When a patient comes to the reception desk, A new registration
+                  number is automatically Allotted to him. His personal details like Name, Age, Sex, Address etc. and
+                  the services desired are feeded into the software. OPD Billing / Collection Billing of all OPD
+                  patients with complete details of Patient Information, Services provided like Consultation,
+                  Laboratory, X-ray, Ultrasound, Medicines, Procedures etc. along with Payment details.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="third">
+              <label for="third"> IPD- In Patient Management:</label>
+              <div class="content">
+                <p class="text-justify"> IPD registration When a patient comes to the reception desk for admission, A
+                  Separate new registration number is automatically allotted to him. His personal details along with the
+                  details of Admission, Room, Consultant, Surgeon, Diet, etc. and the Advance Payment made are fed into
+                  the software. The Software will record all this information and print the related documents. IPD
+                  Billing On-line billing of all IPD patients with details of Patient Information, Services provided on
+                  daily basis like Room rent, Operation, Delivery, Oxygen & Other Gases, Consultation, Nursing Charges,
+                  Laboratory tests, X-ray, Ultrasound, Medicines, Procedures etc. IPD Collection Collection of part
+                  payment along / Full Payment details/ Refunds/Credit Notes. This information will provide the data for
+                  all MIS reports.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="fourth">
+              <label for="fourth">Pharmacy Bill Management:</label>
+              <div class="content">
+                <p class="text-justify"> Complete pharmacy shop can be managed through this module. Additionally it can
+                  be linked to main billing. As patient collects medicines from pharmacy shop their charges will
+                  automatically transfer to patient billing.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="fifth">
+              <label for="fifth">Pathology Test Management:</label>
+              <div class="content">
+                <p class="text-justify"> Pathology means the study of disease and its causes and progression. Pathology
+                  tests cover blood tests, and tests on urine, stools (faeces) and bodily tissues. If you're sick, many
+                  of the decisions about your care will be based on the results of your blood and pathology tests.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="sixth">
+              <label for="sixth"> Radiology Test Management:</label>
+              <div class="content">
+                <p class="text-justify">As the tests related to radiology is booked at reception request is
+                  automatically send to radiology department </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="seventh">
+              <label for="seventh">Operation Theatre Management</label>
+              <div class="content">
+                <p class="text-justify">An operating theater is a facility within a hospital where surgical operations
+                  are carried out in an aseptic environment. Historically, the term "operating theatre" referred to a
+                  non-sterile, tiered theater or amphitheater in which students and other spectators could watch
+                  surgeons perform surgery.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="eight">
+              <label for="eight">Blood Bank Status Management:</label>
+              <div class="content">
+                <p class="text-justify"> A blood bank is a center where blood gathered as a result of blood donation is
+                  stored and preserved for later use in blood transfusion. The term "blood bank" typically refers to a
+                  division of a hospital where the storage of blood product occurs and where proper testing is performed
+                  (to reduce the risk of transfusion related adverse events). However, it sometimes refers to a
+                  collection center, and indeed some hospitals also perform collection. Blood banking includes tasks
+                  related to blood collection, processing, testing, separation, and storage.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="ninth">
+              <label for="ninth">TPA Management:</label>
+              <div class="content">
+                <p class="text-justify"> Pre-admission forms for different TPA can be set. After admission limit of
+                  Panel's approval will be taken care of.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="tenth">
+              <label for="tenth"> Accounts Management:</label>
+              <div class="content">
+                <p class="text-justify"> Financial accounts All purchase , expenses ,payments can be feeded in this
+                  module. Receipts can be directly imported from OPD and IPD department. Balance sheet</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="eleven">
+              <label for="eleven">Birth and Death Record Management:</label>
+              <div class="content">
+                <p class="text-justify">This module will take care of all medical data of patient .</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="tweleve">
+              <label for="tweleve"> HR- Human Resource Management: </label>
+              <div class="content">
+                <p class="text-justify"> Complete salary can be computed through this module. This module can be
+                  attached through Time machines also. All necessary formats can be generated through this module.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
+ 
   <!-- Hospital Management Software Module end -->
   <!-- Why Choose our Software? start -->
   <div class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-5 my-2 my-lg-5">
-
+        <div class="col-12 col-lg-5 my-2 my-lg-5 md-imh">
           <div class="add-border-hos">
             <img src="./assets/gir.png" width="350px" alt="">
           </div>
-
         </div>
         <div class="col-12 col-lg-7 my-2 my-lg-5">
           <div class="why-hossp">
@@ -239,7 +402,7 @@
   <div class="container-fluid my-2 set-build-bg p-2 p-lg-5 text-white">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 my-2">
           <h3 class="fw-bolder">
             We Dont Just Build Nidhi Solutions We Build Possibilities for You
           </h3>
@@ -247,7 +410,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -259,7 +422,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-md-6 col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -271,7 +434,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -283,7 +446,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6  col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -295,7 +458,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -307,7 +470,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
