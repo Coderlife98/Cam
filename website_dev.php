@@ -16,8 +16,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="web-hero-txt">
-                        <h1 class="text-white fw-bolder ">Top Web Development Company </h1>
-                        <p class="text-white "> We are best in class web development company. <br>that stand out
+                        <h1 class="text-white fw-bolder ggg">Top Web Development Company </h1>
+                        <p class="text-white animation-pos"> We are best in class web development company. <br>that stand out
                             millions of competitors </p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         CSS3, Joomla, WordPress, PHP, JavaScript, ASP.NET, Drupal. They will be worth your time.</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center my-2">
+            <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center my-2 gpp">
                 <img src="./assets/webs1.png" class="set-sm-ww-width" alt="@skull" />
             </div>
         </div>

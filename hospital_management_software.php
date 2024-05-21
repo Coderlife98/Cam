@@ -347,7 +347,7 @@
       <div class="row">
         <div class="col-12 col-lg-5 my-2 my-lg-5 md-imh">
           <div class="add-border-hos">
-            <img src="./assets/gir.png" width="350px" alt="">
+            <img src="./assets/gir.png" class="hos-set-this" " alt="">
           </div>
         </div>
         <div class="col-12 col-lg-7 my-2 my-lg-5">

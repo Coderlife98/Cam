@@ -14,8 +14,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="investor-hero-text">
-                        <h1 class="text-white">Mobile Applications</h1>
-                        <p class="text-white">Development</p>
+                        <h1 class="text-white ggg">Mobile Applications</h1>
+                        <p class="text-white animation-pos">Development</p>
                         <button class="mt-2"><a href="" class="text-white">Know More</a></button>
                       </div>
                 </div>

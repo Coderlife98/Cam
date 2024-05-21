@@ -28,7 +28,7 @@
           <div class="pos-hero-txt">
             <h2 class="text-white fw-bolder text-family ggg">Retails Software Solutions to make your business Awesome
             </h2>
-            <p class="text-white">One Software that works for all Retails Values chain</p>
+            <p class="text-white animation-pos">One Software that works for all Retails Values chain</p>
             <button class="btn-pos-hero"><a href="" class="text-white">Discover More</a></button>
           </div>
         </div>

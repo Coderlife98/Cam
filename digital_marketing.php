@@ -135,13 +135,12 @@
 <div class="container-fluid p-2 p-lg-4 ">
     <div class="container">
         <div class="row">
-            
-            <div class="col-12 col-lg-5 order-1 order-lg-0  d-flex justify-content-center my-2">
+            <div class="col-12 col-lg-5 order-1 order-lg-0 scc-gsap  d-flex justify-content-center my-2">
               <div>
                 <img src="./assets/seo.png" alt="@skull">
               </div>
             </div>
-            <div class="col-12 col-lg-7 my-2 ">
+            <div class="col-12 col-lg-7 my-2 scc-gsap">
                 <div class="seo-head">
                     <h3>Search Engine Optimisation</h3>
                     <p class="text-justify">SEO is an asset earned through merit. When positioned prominently, businesses receive a steady stream of traffic of searching and ready to buy consumers. The degree of success is the high position the page has achieved for that keyword. Statistics indicate 95% searchers settle for results within page one without moving to page two or beyond. The SEO team at Camwel delivers comprehensive SEO services starting from initial briefing to initial auditing of on-site and off-site status and problems and opportunities through to research, recommendations and ongoing optimisation. Vistas SEO efforts are content driven and completely integrated the broad digital marketing efforts. Camwel SEO experts examine each word of the website content and structure for effective recognition during indexing by search engines. Additionally, the team works on optimizing offsite signals and influence search engine rankings such as media coverage, web link building and social media.</p>
@@ -182,7 +181,7 @@
         <div class="row">
             <div class="col-12 col-lg-5 my-2 order-1 order-lg-0 d-flex justify-content-center ">
                 <div>
-                    <img src="./assets/social.png" alt="@skull">
+                    <img src="./assets/social.png" class="horn" alt="@skull">
                 </div>
             </div>
             <div class="col-12 col-lg-7 my-2">
@@ -207,7 +206,7 @@
                 </div>
                 <div class="col-12 col-lg-5  d-flex justify-content-center ">
                  <div>
-                    <img src="./assets/sem.png" alt="@skull">
+                    <img src="./assets/sem.png" class="sem" alt="@skull">
                  </div>
                 </div>
             </div>
@@ -220,7 +219,7 @@
         <div class="row">
             <div class="col-12 col-lg-5 my-2 order-1 order-lg-0 d-flex justify-content-center ">
                 <div>
-                    <img src="./assets/reputation.png" alt="@skull">
+                    <img src="./assets/reputation.png" class="horn" alt="@skull">
                 </div>
             </div>
             <div class="col-12 col-lg-7 my-2">
@@ -261,7 +260,7 @@
             <div class="row">
                 <div class="col-12 col-lg-5 order-1 order-lg-0 my-2 d-flex justify-content-center ">
                     <div>
-                        <img src="./assets/email.png" alt="@skull">
+                        <img src="./assets/email.png" class="emailgsap"  alt="@skull">
                     </div>
                 </div>
                 <div class="col-12 col-lg-7">

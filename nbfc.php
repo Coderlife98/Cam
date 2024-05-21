@@ -25,8 +25,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-nbfc">
-                        <h1 class="text-white fw-bolder">NBFC Software</h1>
-                        <p class="text-white ">NBFC Provide a wide range of monetary advices like chit-re-serves and
+                        <h1 class="text-white fw-bolder ggg">NBFC Software</h1>
+                        <p class="text-white animation-pos">NBFC Provide a wide range of monetary advices like chit-re-serves and
                             advances
                         </p>
                     </div>
@@ -39,7 +39,7 @@
     <div class="container-fluid my-2 my-lg-4  ">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-7">
+                <div class="col-12 col-md-7 col-lg-7">
                     <div class="nbf-head">
                         <h3 class="text-dark fw-bolder text-family">NBFC SOFTWARE</h3>
                         <p class="text-justify">8+ years experienced Camwel Solution LLP is specialize in developing
@@ -51,7 +51,7 @@
                             and there is flexibility and transparency in their services.</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-5 col-lg-5 d-flex justify-content-center align-items-center">
                     <div>
                         <img src="./assets/nbfc-right.png" alt="@dued">
                     </div>

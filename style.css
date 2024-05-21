@@ -791,8 +791,8 @@ button {
 
 /* technology start */
 .set-tech-bg {
-    background-image: url("./assets/tech_hero.png");
-    height: 300px;
+    background-image: url("./assets/partner.png");
+    height: 350px;
     background-size: cover;
     position: relative;
     top: -77px;
@@ -1169,6 +1169,7 @@ button {
     background-image: url("./assets/software_hero.png");
     height: 350px;
     top: -77px;
+    position: relative;
     background-size: cover;
 }
 
@@ -1204,6 +1205,8 @@ button {
 .set-box-bg-soft {
     background: linear-gradient(to left, #580243, #340356);
 }
+
+
 
 .box-inner-soft {
     /* border:2px solid #7D1F37; */
@@ -1964,6 +1967,42 @@ button {
     filter: drop-shadow(10px 10px 10px black);
 }
 
+.ggg{
+    animation: text-focus-in 1s linear 0.4s 1 normal none;
+}
+
+.animation-pos{
+    animation: focus-in-expand-top 1s linear 0.4s 1 normal none;
+}
+
+@keyframes text-focus-in {
+			
+    0% {
+        filter:blur(12px);
+        opacity:0;
+    }
+    100% {
+        filter:blur(0);
+        opacity:1;
+    }
+}
+
+
+@keyframes focus-in-expand-top {
+			
+    0% {
+        letter-spacing:-.5em;
+        transform:translateY(-300px);
+        filter:blur(12px);
+        opacity:0;
+    }
+    0% {
+        transform:translateY(0);
+        filter:blur(0);
+        opacity:1;
+    }
+}
+
 /* pos software end */
 /* hosiptal management software start */
 .hospital-hero-bg {
@@ -1973,6 +2012,10 @@ button {
     position: relative;
     /* margin-top: -76px; */
     margin-top: -76px;
+}
+
+.hos-set-this{
+    width: 350px;
 }
 
 .hos-txt-hero {
@@ -2159,6 +2202,23 @@ input[type="radio"]{
     padding-left: 10px;
 }
 
+.bin-txt-ani{
+    animation: focus-in-contract 1s linear 0s 1 normal none;
+}
+
+@keyframes focus-in-contract {
+			
+    0% {
+        letter-spacing:1em;
+        filter:blur(12px);
+        opacity:0;
+    }
+    100% {
+        filter:blur(0);
+        opacity:1;
+    }
+}
+
 /* binary plan section end */
 /* matrix plan start */
 .set-matrix-plan-bg {
@@ -2170,6 +2230,29 @@ input[type="radio"]{
 }
 
 /* matrix plan end */
+/* crowd funcing plan start */
+.set-crowd-plan-bg{
+    background-image: url("./assets/crowd.png");
+    height: 300px;
+    background-size: cover;
+}
+/* crowd funcing plan end */
+/* investment plan start */
+.set-invest-plan-bg{
+    background-image: url("./assets/inves.png");
+    height: 300px;
+    background-size: cover;
+}
+/* investment plan END */
+/* board plan start */
+.set-board-plan-bg{
+    background-image: url('./assets/board.png');
+    height: 300px;
+    background-size: cover;
+    top: -77px;
+    position: relative;
+}
+/* board plan end */
 
 /* media query  */
 
@@ -2221,6 +2304,9 @@ input[type="radio"]{
     .sch-box-1 {
         height: 90px;
     }
+    .life-cycle{
+        width: 100%;
+    }
 
 }
 
@@ -2242,6 +2328,13 @@ input[type="radio"]{
         border-radius: 0px 0px 291px 252px;
     }
     .md-imh{
+        display: flex;
+        justify-content: center;
+    }
+    .life-cycle{
+        width: 100%;
+    }
+    .sm-md-midd{
         display: flex;
         justify-content: center;
     }
@@ -2277,8 +2370,22 @@ input[type="radio"]{
         bottom: 0%;
         border-radius: 0px 0px 291px 252px;
     }
+    .sm-md-midd{
+        display: flex;
+        justify-content: center;
+    }
   
     .md-imh{
+        display: flex;
+        justify-content: center;
+    }
+    .bbb1 {
+        height: 170px;
+    }
+    .life-cycle{
+        width: 100%;
+    }
+    .set-img-mddd{
         display: flex;
         justify-content: center;
     }
@@ -2382,12 +2489,15 @@ input[type="radio"]{
     .banner-txt {
         font-size: 28px;
     }
+    .set-soft-bg-hero {
+        background-position: center;
+    }
 
     .spe_head {
         position: absolute;
-        top: 35%;
+        top: 42%;
         font-weight: 700;
-        font-size: 37px;
+        font-size: 25px;
     }
 
     .set-about-bg {
@@ -2403,6 +2513,10 @@ input[type="radio"]{
     .about-banner-text {
         top: 45%;
         font-size: 29px;
+    }
+    .md-imh{
+        display: flex;
+        justify-content: center;
     }
 
     .main-box {
@@ -2503,6 +2617,10 @@ input[type="radio"]{
         top: 45%;
         /* left: 4%; */
     }
+    .sm-md-midd{
+        display: flex;
+        justify-content: center;
+    }
 
     .set-her-disclaimers {
         background-image: url("./assets/dis-sm.png");
@@ -2521,6 +2639,10 @@ input[type="radio"]{
         background-size: cover;
         position: relative;
         background-position: center;
+    }
+    .set-img-mddd{
+        display: flex;
+        justify-content: center;
     }
 
     .set_privacy_hero {
@@ -2641,5 +2763,18 @@ input[type="radio"]{
         border: none;
         padding-left: 0px;
         margin-left: 0px;
+    }
+    .add-border-hos {
+        width: 300px;
+        height: 100%;
+        background-color: #6F61DD;
+        border-radius: 0px 0px 187px 164px;
+        position: relative;
+    }
+    .hos-set-this{
+        width: 100%;
+    }
+    .life-cycle{
+        width: 100%;
     }
 }

@@ -26,8 +26,8 @@
  <div class="container">
   <div class="row">
     <div class="col-8">
-      <h3 class="nidhi-bn-hea fw-bolder ">Nidhi Comapny Software</h3>
-        <p class="text-white fw-bolder nidhi-bn-txt m-0 ">Nidhi Company Software:Streamling
+      <h3 class="nidhi-bn-hea fw-bolder ggg">Nidhi Comapny Software</h3>
+        <p class="text-white fw-bolder nidhi-bn-txt m-0  animation-pos">Nidhi Company Software:Streamling
           financial operations for nidhi companies
           with robust features like accounting,deposits,loans,and compliance management.
         </p>

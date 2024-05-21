@@ -11,7 +11,7 @@
 <body>
     <?php include ("./includes/header.php"); ?>
     <!-- hero section start -->
-    <div class="container-fluid set-matrix-plan-bg">
+    <div class="container-fluid set-crowd-plan-bg">
         <div class="container">
             <div class="row">
                 <div class="col-12 ">

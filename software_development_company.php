@@ -20,7 +20,7 @@
     </div>
     <!-- hero section end -->
     <!-- section 1 start -->
-    <div class="container my-2 my-lg-5 set-soft-bgg p-3 p-lg-5">
+    <div class="container mb-2 mb-lg-5 set-soft-bgg p-3 p-lg-5">
       <div class="row">
         <div class="col-12 col-lg-8 pe-3">
           <div class="software-head">
@@ -42,7 +42,7 @@
             </p>
           </div>
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 sm-md-midd">
           <img src="./assets/software-left.png" class="ggg-aa" alt="@skull" />
         </div>
       </div>
@@ -202,7 +202,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-5">
+        <div class="col-12 col-lg-5 sm-md-midd">
           <img src="./assets/team_soft.png" class="team-soft-md" alt="@skull" />
         </div>
       </div>
@@ -325,7 +325,7 @@
       </div>
       <div class="row my-2 my-lg-5">
         <div class="col-12">
-          <img src="./assets/life-cycle.jpg" alt="@skull" />
+          <img src="./assets/life-cycle.jpg" class="life-cycle" alt="@skull" />
           <p>
             Each stage holds significance in delivering and deployment of
             successful software.

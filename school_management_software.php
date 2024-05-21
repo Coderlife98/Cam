@@ -14,8 +14,8 @@
         <div class="row">
           <div class="col-12">
             <div class="hero-schl-txt">
-              <h1 class="text-white text-family">School Management Software</h1>
-              <p class="text-white">
+              <h1 class="text-white text-family ggg">School Management Software</h1>
+              <p class="text-white animation-pos">
                 Time To Let Go of the Old System. Time to Embrace the Smart Way
                 of Learning!
               </p>

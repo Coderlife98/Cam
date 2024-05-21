@@ -14,8 +14,8 @@
     <div class="row">
       <div class="col-12">
        <div class="binary-txtx-hero text-white ">
-        <h1 class="fw-bolder">Binary Plan Software</h1>
-        <p class="">A binary plan is an origanization structure use in multilevel marketing(MLM) Organizations </p>
+        <h1 class="fw-bolder bin-txt-ani">Binary Plan Software</h1>
+        <p class="ggg">A binary plan is an origanization structure use in multilevel marketing(MLM) Organizations </p>
         <a href=""><button class="text-white">Know More</button></a>
        </div>
       </div>

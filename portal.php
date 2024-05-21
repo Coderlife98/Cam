@@ -14,8 +14,8 @@
     <div class="row">
       <div class="col-12">
         <div class="portal-hero-text">
-          <h1 class="text-white fw-bolder ">Web Portal</h1>
-          <p class="text-white">Development</p>
+          <h1 class="text-white fw-bolder ggg">Web Portal</h1>
+          <p class="text-white animation-pos">Development</p>
           <button class="mt-2"><a href="" class="text-white">Know More</a></button>
         </div>
       </div>
@@ -57,7 +57,7 @@
           </div>
           <div class="col-12 col-lg-5 d-flex justify-content-center  align-items-center ">
             <div>
-             <img src="./assets/web-portal.png"  alt="" />
+             <img src="./assets/web-portal.png" class="portal-gsap"  alt="" />
             </div>
            </div>
         </div>
@@ -108,7 +108,7 @@
           </div>
           <div class="col-12 col-lg-4 d-flex justify-content-center my-3 my-lg-0 ">
             <div class="why-por-bg">
-              <img src="./assets/why-portal.png" alt="">
+              <img src="./assets/why-portal.png" class="por-ii" alt="">
             </div>
           </div>
         </div>

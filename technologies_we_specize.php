@@ -24,7 +24,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h3 class="text-white spe_head">
+          <h3 class="text-white spe_head animation-pos">
             Software Solutions Development With <br />
             The Latest Technologies
           </h3>
@@ -48,7 +48,7 @@
   <!-- card row 1 start -->
   <div class="container my-2 my-lg-5 ">
     <div class="row" >
-      <div class="col-12 col-lg-3 my-2 d-flex justify-content-center" id="technologyBox1">
+      <div class="col-12 col-md-6 col-lg-3 my-2 d-flex justify-content-center" id="technologyBox1">
         <div class="card" style="width: 17rem; background: lavender;" >
           <img src="./assets/cloud.png" class="card-img-top" alt="@skull">
           <div class="card-body">
@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-3 my-2 d-flex justify-content-center" id="technologyBox2">
+      <div class="col-12 col-md-6 col-lg-3 my-2 d-flex justify-content-center" id="technologyBox2">
         <div class="card" style="width: 17rem; background: lavender;">
           <img src="./assets/block.png" class="card-img-top" alt="@skull">
           <div class="card-body">
@@ -70,7 +70,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-3 my-2 d-flex justify-content-center" id="technologyBox3">
+      <div class="col-12 col-md-6 col-lg-3 my-2 d-flex justify-content-center" id="technologyBox3">
         <div class="card" style="width: 17rem; background: lavender;">
           <img src="./assets/aug.png" class="card-img-top" alt="@skull">
           <div class="card-body">
@@ -82,7 +82,7 @@
         </div>
 
       </div>
-      <div class="col-12 col-lg-3 my-2 d-flex justify-content-center" id="technologyBox4">
+      <div class="col-12 col-md-6 col-lg-3 my-2 d-flex justify-content-center" id="technologyBox4">
         <div class="card" style="width: 17rem; background: lavender;">
           <img src="./assets/iot.png" class="card-img-top" alt="@skull">
           <div class="card-body">

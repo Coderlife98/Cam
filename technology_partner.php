@@ -13,22 +13,22 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="text-white banner-txt">Our Technology Partners</h3>
+            <h3 class="text-white banner-txt animation-pos">Our Technology Partners</h3>
           </div>
         </div>
       </div>
     </div>
     <!-- hero section end -->
     <!-- Our Partners start -->
-    <div class="container my-2 my-lg-3  ">
+    <div class="container   ">
         <div class="row">
-            <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center ">
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center ">
                 <div class="heading-tech ">
                     <h3 class="fw-bolder ">Our Partners</h3>
                     <p class="pt-3 ">From manufacturing line to meeting room, our software development solutions will help you elevate your Enterprise Core and overcome the challenges of technological transformation both in daily and large-scale operations.</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-8 d-flex justify-content-center ">
+            <div class="col-12 col-lg-6 d-flex justify-content-center ">
                 <img src="./assets/tech-left.png" class="tec-partner" alt="@skull">
             </div>
         </div>

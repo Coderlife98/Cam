@@ -14,8 +14,8 @@
             <div class="row">
                 <div class="col-12">
                   <div class="micro-soft">
-                    <h1 class="text-white fw-bolder ">Microfinance Software</h1>
-                    <p class="text-white text-center ">Camwel solution llp is the Best Microfinance <br> software Provider </p>
+                    <h1 class="text-white fw-bolder ggg">Microfinance Software</h1>
+                    <p class="text-white text-center animation-pos">Camwel solution llp is the Best Microfinance <br> software Provider </p>
                   </div>
                 </div>
             </div>

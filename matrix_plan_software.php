@@ -14,8 +14,8 @@
     <div class="row">
       <div class="col-12">
        <div class="binary-txtx-hero text-white ">
-        <h1 class="fw-bolder">Matrix Plan Software</h1>
-        <p class="">Matrix MLM Compensation Plan is one of the primary plans for Multilevel Marketing Business.</p>
+        <h1 class="fw-bolder animation-pos">Matrix Plan Software</h1>
+        <p class="ggg">Matrix MLM Compensation Plan is one of the primary plans for Multilevel Marketing Business.</p>
        </div>
       </div>
     </div>

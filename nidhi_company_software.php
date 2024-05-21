@@ -20,9 +20,9 @@
         <div class="row">
           <div class="col-8">
             <div class="head-bannnn">
-              <h2 class="text-white set-head-sot">Nidhi Company Software</h2>
+              <h2 class="text-white set-head-sot animation-pos">Nidhi Company Software</h2>
               <div>
-                <p class="text-white set-para-sot">
+                <p class="text-white set-para-sot ggg ">
                   we are the best nidhi consultant in India hence, we have
                   developed this software purely as per banking modules and also
                   as per nidhi rules and companies act.
@@ -48,8 +48,8 @@
           </div>
           <div class="col-12 col-lg-7 my-2 block1">
             <div class="nidhi-softare-section1">
-              <h3 class="fw-bolder">Nidhi Company Software</h3>
-              <p>
+              <h3 class="fw-bolder ggg">Nidhi Company Software</h3>
+              <p class="">
                 8+ years experienced Camwel Solution LLP is specialize in
                 developing software for Nidhi Company. as of now, there are
                 plenty of nidhi software available in The market; however, none
@@ -372,7 +372,7 @@
               </button>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-4 set-img-mddd">
             <div class="bg-back">
               <img src="./assets/why.png" class="gss" alt="" />
             </div>

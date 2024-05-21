@@ -48,7 +48,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
-          <a href="./home.php" class="nav-link active">Home</a>
+          <a href="./home.php" class="nav-link ">Home</a>
           <div class="nav-item dropdown">
             <a
               href="about.php"
@@ -74,7 +74,7 @@
             <div class="dropdown-menu bg-light border-0 m-0">
               <a href="./software_development_company.php" class="dropdown-item">Software Development</a>
               <a href="./website_dev.php" class="dropdown-item">Website Development</a>
-              <a href="./delete.php" class="dropdown-item">Digital marketing</a>
+              <a href="./digital_marketing.php" class="dropdown-item">Digital marketing</a>
               <a href="./mobile_app.php" class="dropdown-item">Mobile App Development</a>
               <a href="./portal.php" class="dropdown-item">Portal Development</a>
             </div>
