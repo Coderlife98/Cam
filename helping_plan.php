@@ -11,7 +11,7 @@
 <body>
   <?php include ("./includes/header.php"); ?>
   <!-- hero section start -->
-  <div class="container-fluid set-matrix-plan-bg">
+  <div class="container-fluid set-helping-plan-bg">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -29,10 +29,10 @@
   <div class="container-fluid  mb-2 mb-lg-5 ">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-5 my-2">
-          <img src="./assets/.png" alt="@dued">
+        <div class="col-12 col-lg-3 my-2">
+          <img src="./assets/help.png" height="250px " alt="@dued">
         </div>
-        <div class="col-12 col-lg-7 my-2">
+        <div class="col-12 col-lg-9 my-2 d-flex align-items-center ">
           <div class="binary-hed">
             <h3 class="fw-bolder text-family">Helping plan software</h3>
             <div class="">
@@ -53,7 +53,7 @@
   <div class="container-fluid my-2 my-lg-5 ">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-7 my-3">
+        <div class="col-12 col-lg-7 my-3 d-flex align-items-center ">
           <div class="uni-head">
             <h3 class="fw-bolder">Advantages of Helping plan:</h3>
             <div class="binary-bullet">
@@ -70,8 +70,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-5 my-3">
-          <div><img src="" alt="@dued"></div>
+        <div class="col-12 col-lg-5 my-3 d-flex justify-content-center ">
+          <div><img src="./assets/ad_helping.png" alt="@dued"></div>
         </div>
 
       </div>

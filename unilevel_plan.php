@@ -9,7 +9,7 @@
 <body>
 <?php include("./includes/header.php");?>
 <!-- hero section start -->
-<div class="container-fluid set-matrix-plan-bg">
+<div class="container-fluid set-unilevel-plan-bg">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -27,7 +27,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-5 my-2">
-          <img src="./assets/.png" alt="@dued">
+          <img src="./assets/uni1.png" alt="@dued">
       </div>
       <div class="col-12 col-lg-7 my-2">
         <div class="binary-hed">
@@ -46,14 +46,14 @@
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-        <div class="col-12 col-lg-7 my-3">
+        <div class="col-12 col-lg-7 my-3 d-flex align-items-center ">
                 <div class="uni-head">
                     <h3 class="fw-bolder">Advantages of Unilevel plan</h3>
                     <p class="text-justify">To start to earn commissions with the Unilevel Compensation plan usually only requires a minimal amount of personal volume. This is a very attractive feature to those that are starting their Network Marketing business on a part-time basis. They can start their business, and very quickly see an income starting to come in. In many cases faster than they would with either a Binary or Matrix Compensation plans. Another great advantage of the Unilevel Compensation plan is it's ease in explaining it to new prospects. This ease in the compensation plan is as simple as the more distributors / associates you sponsor, the more money you make! Experienced Network Marketers, especially those who are great at recruiting, thrive in a Unilevel Compensation plan as they are able to make an extremely wide organization.</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-5 my-3">
-                <div><img src="" alt="@dued"></div>
+            <div class="col-12 col-lg-5 my-3 d-flex justify-content-center ">
+                <div><img src="./assets/uni2.png" alt="@dued"></div>
             </div>
            
         </div>

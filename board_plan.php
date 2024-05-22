@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-5 my-2">
-                    <img src="./assets/" alt="@dued">
+                    <img src="./assets/b1.png" height="300px" alt="@dued">
                 </div>
                 <div class="col-12 col-lg-7 my-2">
                     <div class="binary-hed">
@@ -57,11 +57,7 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-5 my-2 my-lg-5">
-                    <div>
-                        <img src="" alt="@dued">
-                    </div>
-                </div>
+               
                 <div class="col-12 col-lg-7 my-2 my-lg-5">
                     <div class="benefit-board text-justify">
                         <h3 class="fw-bolder text-family">Board plan software features</h3>
@@ -89,6 +85,11 @@
                         <div class="binary-bullet">
                             <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span class="text-justify">Other personalized reports and forms also added as per required to manage MLM Board plan into the Board plan software.</span>
                         </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 my-2 my-lg-5 d-flex justify-content-center ">
+                    <div>
+                        <img src="./assets/b2.png" alt="@dued">
                     </div>
                 </div>
             </div>

@@ -6,28 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Investment plan software</title>
   <?php include ("./includes/link.php"); ?>
-  <style>
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  </style>
 </head>
 
 <body>
@@ -51,8 +30,8 @@
   <div class="container-fluid  mb-2 mb-lg-5 ">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-5 my-2">
-          <img src="./assets/.png" alt="@dued">
+        <div class="col-12 col-lg-5 my-2  ">
+          <img src="./assets/invest.png" width="220px" alt="@dued">
         </div>
         <div class="col-12 col-lg-7 my-2">
           <div class="binary-hed">
@@ -88,8 +67,8 @@
               level marketing. Nowadays many of the companies have adopted this plan.</p>
           </div>
         </div>
-        <div class="col-12 col-lg-5 my-3">
-          <div><img src="" alt="@dued"></div>
+        <div class="col-12 col-lg-5 my-3 d-flex justify-content-center ">
+          <div><img src="./assets/investm.png" alt="@dued"></div>
         </div>
 
       </div>
@@ -150,42 +129,65 @@
   </div>
   <!--Features of Investment plan: end -->
 
-
+  <div class="container-fluid p-3 p-lg-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center fw-bolder">MEET OUR TEAM</h2>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="./assets/c1.jpg" alt="@dued"></div>
-      <div class="swiper-slide"><img src="./assets/c2.jpg" alt="@dued"></div>
-      <div class="swiper-slide"><img src="./assets/c3.jpg" alt="@dued"></div>
-      <div class="swiper-slide"><img src="./assets/c4.jpg" alt="@dued"></div>
-      <div class="swiper-slide"><img src="./assets/c5.jpg" alt="@dued"></div>
-      <div class="swiper-slide"><img src="./assets/c1.jpg" alt="@dued"></div>
+      <div class="swiper-slide">
+        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+        <p>Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+        <p>Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+        <p>Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+        <p>Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+        <p>Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+        <p>Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
     </div>
     <div class="swiper-pagination"></div>
   </div>
 
 
 
-
-
   <?php include ("./includes/footer.php"); ?>
- 
+
   <?php include ("./includes/script.php"); ?>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      autoplay:{
-        delay:2500,
-        disableOnInteraction:false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
+   
 </body>
 
 </html>
