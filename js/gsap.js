@@ -267,19 +267,42 @@ software.add("(min-width:1024px)", () => {
 })
 // software dev end
 
+var maxSoftware = gsap.matchMedia();
+maxSoftware.add("(min-width:1024px)",()=>{
+    var t1 = gsap.timeline();
+    t1.from(".m1gsap", {
+        x: -500,
+        duration: 1,
+        delay: 2,
+        stagger: true,
+        scrollTrigger: {
+            trigger: ".m1gsap",
+            scroller: "body",
+            scrub: 2
+        }
+    });
+})
 
 
-gsap.from(".m1gsap", {
-    x: -500,
-    duration: 1,
-    delay: 2,
-    stagger: true,
-    scrollTrigger: {
-        trigger: ".m1gsap",
-        scroller: "body",
-        scrub: 2
-    }
-});
+
+var software = gsap.matchMedia();
+software.add("(max-width:1024px)", () => {
+    var t1 = gsap.timeline();
+    t1.from(".m1gsap", {
+      opacity:0,
+        duration: 1,
+        delay: 2,
+        stagger: true,
+        scrollTrigger: {
+            trigger: ".m1gsap",
+            scroller: "body",
+            scrub: 2
+        }
+    });
+  
+   
+
+})
 
 // website dev start
 var website = gsap.matchMedia();

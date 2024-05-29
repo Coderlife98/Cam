@@ -33,7 +33,7 @@
         <div class="col-12 col-lg-7">
           <div class="heading-privacy">
             <h3>Camwel Privacy Policy</h3>
-            <p>
+            <p class="text-justify">
               We don’t sell your personal information, but we still have to tell
               you what we collect from you and how we use it. We may update this
               policy from time to time. Your continued use of this site
@@ -446,7 +446,7 @@
       <div class="row">
         <div class="col-12 col-lg-8">
           <div>
-            <p>
+            <p class="text-justify">
               We have put in place technological, physical and administrative
               procedures to protect your personal information from loss, misuse,
               unauthorized access, disclosure, alteration, and destruction,

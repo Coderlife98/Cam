@@ -25,12 +25,12 @@
     <!-- hero section end -->
 
     <!-- section 1 start -->
-    <div class="container-fluid my-2 my-lg-5">
+    <div class="container-fluid ">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-7">
             <div class="portal-head">
-              <h3>Web Portal <span class="text-danger ">Development</span></h3>
+              <h2>Web Portal <span class="text-danger ">Development</span></h2>
               <p class="text-justify">
                 Camwel Solution LLP In this internet driven world where business
                 from all around the world use the internet as a medium to reach
@@ -120,48 +120,48 @@
       <div class="container">
         <div class="row">
         <div class="col-12">
-          <h4>What do we do in Web Portal & Development ?</h4>
+          <h4 class="fw-bolder">What do we do in Web Portal & Development ?</h4>
         </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-3 my-2">
             <div class="bob">
-              <h5 class="mb-0 ">Real Estate Web Portal</h5>
+              <h6 class="mb-0 ">Real Estate Web Portal</h6>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 my-2">
             <div class="bob">
-              <h5 class="mb-0 ">Networking Web Portal</h5>
+              <h6 class="mb-0 ">Networking Web Portal</h6>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 my-2">
             <div class="bob">
-              <h5 class="mb-0 ">Government Web Portal</h5>
+              <h6 class="mb-0 ">Government Web Portal</h6>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 my-2">
             <div class="bob">
-              <h5 class="mb-0 ">Real Estate Web Portal</h5>
+              <h6 class="mb-0 ">Real Estate Web Portal</h6>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 my-2">
             <div class="bob">
-              <h5 class="mb-0 ">E-Commerce Web Portal</h5>
+              <h6 class="mb-0 ">E-Commerce Web Portal</h6>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 my-2">
             <div class="bob">
-              <h5 class="mb-0 ">job Web Portal</h5>
+              <h6 class="mb-0 ">job Web Portal</h6>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 my-2">
             <div class="bob">
-              <h5 class="mb-0 ">Community Web Portal</h5>
+              <h6 class="mb-0 ">Community Web Portal</h6>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 my-2">
             <div class="bob">
-              <h5 class="mb-0 ">Service Web Portal</h5>
+              <h6 class="mb-0 ">Service Web Portal</h6>
             </div>
           </div>
         </div>

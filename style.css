@@ -738,6 +738,7 @@ button {
 
 .set-section-about {
     background-color: #E5DDEC;
+    margin-top: -77px;
 }
 
 .yellow-circle {
@@ -819,6 +820,9 @@ button {
 .tech-input {
     padding: 4px 10px;
     width: 100%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .tech-heading h3 {
@@ -834,12 +838,13 @@ button {
     padding-left: 10px;
     margin-left: 10px;
 }
-.add-bg-tecg-slide{
+
+.add-bg-tecg-slide {
     background-color: #6d54d3;
     padding: 20px;
 }
 
-.set-testimonials-bsckground{
+.set-testimonials-bsckground {
     background-color: #000;
     padding-top: 100px;
 }
@@ -1039,6 +1044,7 @@ button {
         left: 290px;
     }
 }
+
 
 /* our team section end */
 
@@ -1281,7 +1287,7 @@ button {
     padding: 10px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: 0.9s;
+    transition: 0.5s;
 }
 
 .box-inner-soft:hover {
@@ -1405,9 +1411,36 @@ button {
 
 /* software dev end */
 /* Features Of Our Nidhi Software start */
+.btn-accord {
+    width: 100%;
+}
+
+#nidhi1,
+#nidhi2,
+#nidhi3,
+#nidhi4,
+#nidhi5 {
+    width: 100%;
+}
 
 /* Features Of Our Nidhi Software end */
+/* nidhi registration start */
+.set-nidh-rrr {
+    width: 380px;
+}
 
+.set-colorful-bg {
+    background-color: #EDE8F5;
+}
+
+.move-number {
+    margin-top: 5px;
+    padding: 8px;
+    background-color: #00ff957a;
+    border-radius: 50%;
+}
+
+/* nidhi registration end */
 
 
 
@@ -1420,10 +1453,20 @@ button {
     position: relative;
 }
 
+.set-web-page-color {
+    background-image: linear-gradient(to right, #241441, #1C1648)
+}
+
 .web-hero-txt {
     position: absolute;
     top: 45%;
     left: 14%;
+}
+
+.soo-hero-txt {
+    position: absolute;
+    top: 45%;
+    left: 10%;
 }
 
 .set-bg-iii {
@@ -1440,21 +1483,24 @@ button {
 .set-web-brr {
     border-radius: 50%;
     width: 75px;
-    border: 2px dotted #6F4EC4;
+    border: 2px dotted white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .web-box-1 {
-    background-color: #FAFAFA;
+    background-color: #38296C;
+    color: white;
     padding: 10px;
-    transition: 0.9s;
+    transition: 0.5s;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .web-box-1:hover {
-    border-right: 2px dotted rgba(241, 11, 69, 0.39);
-    border-bottom: 2px dotted rgba(241, 11, 69, 0.39);
+    border: 1px solid white;
+    border-radius: 0px 42px 0px 42px;
 }
+
+
 
 .web-bg-box-1 {
     height: 155px;
@@ -1538,7 +1584,7 @@ button {
 }
 
 .set-last-txt {
-    background-color: #d2fccb;
+    background-color: #d2fccb3b;
 }
 
 @keyframes skull {
@@ -1583,6 +1629,107 @@ button {
 /* microfinance end */
 
 
+/* microfinance registration start */
+.set-micro_hero_reg-bg {
+    background-image: url('./assets/micro_reg.png');
+    background-size: cover;
+    height: 350px;
+    top: -77px;
+    position: relative;
+}
+
+.mcr-set {
+    /* top: -50px; */
+}
+
+.add-dn-bu {
+    margin-top: 5px;
+}
+
+.add-dn-bu2 {
+    margin-top: 6px;
+}
+
+.set-rps-bg {
+    background: #100E24;
+}
+
+.main-design-box {
+    width: 230px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 3px 10px 0 #3C3782;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.road_map {
+    background-color: #010204;
+}
+
+.ll {
+    width: 650px;
+
+}
+
+.main-dued-reg {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 28px 5px 22px 5px;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+.bg-self{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 50px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    transition: 0.9s;
+  
+}
+
+.main-dued-reg:hover{
+    background: radial-gradient(circle at 222% 5%, rgba(56, 42, 113, 1) 0%, rgba(37, 32, 57, 1) 50%, rgba(52, 40, 99, 1) 100%);
+    border: 1px solid white;
+}
+
+#height_set{
+    height: 330px;
+}
+#h_20{
+    height: 276px;
+}
+
+.set-third-bg{
+    background: linear-gradient(166deg, rgba(74, 84, 143, 1) 0%, rgba(27, 56, 69, 1) 50%, rgba(0, 6, 6, 1) 100%);
+}
+
+.gradient_bg{
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.gradient___bg{
+    background: linear-gradient(102deg, rgba(147, 60, 166, 0.68) 0%, rgba(42, 74, 175, 0.83) 50%, rgba(2, 4, 9, 0.88) 100%);
+}
+
+/* microfinance registration end */
+
 
 
 
@@ -1602,6 +1749,7 @@ button {
 }
 
 .set-digi-bg {
+    margin-top: -77px;
     background: linear-gradient(to left, #b772ff4d, #d27cde73);
 }
 
@@ -1617,6 +1765,22 @@ button {
 .paid-bg-set {
     background: #3959A1;
     border-radius: 5px;
+}
+
+/* .set-mail-bg{
+    background: linear-gradient(90deg, rgba(130, 230, 238, 0.17) 0%, rgba(0, 0, 255, 0.13) 100%);
+} */
+
+/* .set-reputation-bg{
+    background: linear-gradient(90deg, rgba(0, 255, 235, 0.08) 0%, rgba(7, 58, 187, 0.13) 100%);
+} */
+
+.set-sem-bg {
+    background: linear-gradient(90deg, rgba(158, 221, 245, 0.32) 0%, rgba(0, 209, 255, 0.07) 100%);
+}
+
+.set-seo-bg {
+    background: linear-gradient(90deg, rgba(152, 238, 130, 0.1) 0%, rgba(0, 133, 150, 0.12) 100%);
 }
 
 /* Digital marketing end */
@@ -1764,34 +1928,36 @@ button {
 
 .set-bg-ncr1 {
     background: #F4F9FD;
+    margin-top: -77px;
 }
 
-.head-box-ncr {
-    background-color: white;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.docu-req {
+    background-color: #373cc71f;
 }
 
-.head-box-ncr span {
+.regfa {
+    font-size: 15px;
+}
+
+
+.head-box-ncr h4 {
     background: -webkit-linear-gradient(#5423E4, #275EEF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.set-b-nc {
+/* .set-b-nc {
     background-image: linear-gradient(to right, #3139B6, #00B9F8);
     padding: 18px;
-}
+} */
 
-.setb2-bg {
+/* .setb2-bg {
     border: 2px dotted red;
     border-radius: 25px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-}
+} */
 
 .btn-fqqq {
 
@@ -1987,6 +2153,14 @@ button {
     border-radius: 0px 0px 133px 150px;
 }
 
+.schl-margin {
+    margin-top: -77px;
+}
+
+.we-w-dth-rad {
+    border-radius: 0px 0px 318px 169px;
+}
+
 /* school management software end */
 /* pos software start */
 .pos_bg-hero {
@@ -2159,10 +2333,18 @@ button {
 }
 
 label::before {
-    content: "+";
+    content: "";
     margin-right: 10px;
     font-size: 24px;
     font-weight: 600;
+}
+
+input {
+    outline: none;
+}
+
+input:focus {
+    border: 0.5px solid black;
 }
 
 input[type="radio"] {
@@ -2352,6 +2534,8 @@ input[type="radio"] {
     border-radius: 10px;
 }
 
+
+
 /* helping plam end */
 
 
@@ -2408,6 +2592,10 @@ input[type="radio"] {
 
     .life-cycle {
         width: 100%;
+    }
+
+    .set-arrow-reg {
+        margin: 5px 10px;
     }
 
 }
@@ -2497,6 +2685,19 @@ input[type="radio"] {
     }
 
     .set-img-mddd {
+        display: flex;
+        justify-content: center;
+    }
+
+    .web-box-1 {
+        height: 250px;
+    }
+
+    .set-nidh-rrr {
+        width: 100%;
+    }
+
+    .set-arrow-reg {
         display: flex;
         justify-content: center;
     }
@@ -2612,6 +2813,10 @@ input[type="radio"] {
         font-size: 25px;
     }
 
+    .third_road {
+        margin-top: 0px;
+    }
+
     .set-about-bg {
         background-image: linear-gradient(to right, rgb(0 0 0 / 75%), rgb(0 0 0 / 63%)), url(./assets/sm-about-hero.png);
         background-size: cover;
@@ -2619,6 +2824,20 @@ input[type="radio"] {
         width: 100%;
         position: relative;
     }
+
+    .set-hero-web {
+        background-position: center;
+    }
+
+    .web-hero-txt {
+        left: 10%;
+    }
+
+    .soo-hero-txt {
+        left: 10%;
+    }
+
+
 
     .about-img-rad {}
 
@@ -2712,6 +2931,11 @@ input[type="radio"] {
         position: relative;
     }
 
+    .set-arrow-reg {
+        display: flex;
+        justify-content: center;
+    }
+
     .contact-hero-txt {
         position: absolute;
         top: 55%;
@@ -2761,6 +2985,7 @@ input[type="radio"] {
         justify-content: center;
     }
 
+
     .set_privacy_hero {
         background-image: url(./assets/privacy_hero.png);
         background-size: cover;
@@ -2791,6 +3016,14 @@ input[type="radio"] {
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.18);
         background-color: black;
+    }
+
+    .sm-rode-hide {
+        display: none;
+    }
+
+    .second-roadmap {
+        margin-top: 0px;
     }
 
     .mmm {
@@ -2825,6 +3058,11 @@ input[type="radio"] {
         justify-content: center;
     }
 
+    .we-w-dth-rad {
+        border-radius: 0px 150px 150px 0px;
+        width: 100%;
+    }
+
     .ins-set-ss {
         display: flex;
         justify-content: center;
@@ -2844,12 +3082,29 @@ input[type="radio"] {
         background-position: center;
     }
 
+    .all-section {
+        padding: 10px 0px;
+    }
+
+    .tech-heading h3 {
+        padding: 10px 0px 0px 10px;
+    }
+
     .tec-partner {
         width: 100%;
     }
 
     .set-team-hero {
         background-position: center;
+    }
+
+    .set-tss {
+        text-align: center;
+    }
+
+    .buttonsoft {
+        display: flex;
+        justify-content: center;
     }
 
     .pos_bg-hero {
@@ -2874,6 +3129,7 @@ input[type="radio"] {
 
     .set-sm-ww-width {
         width: 100%;
+        border-radius: 0px 0px 318px 169px;
     }
 
     .left-tech-de {
@@ -2897,10 +3153,24 @@ input[type="radio"] {
     .life-cycle {
         width: 100%;
     }
+
     /* swiper added */
-    .swiper-slide{
+    .swiper-slide {
         width: 100% !important;
         height: 100% !important;
     }
+
+    .soft1 {
+        width: 100%;
+    }
+
+    .set-nidh-rrr {
+        width: 100%;
+    }
+
+    .set-arrow img {
+        display: none;
+    }
+
     /* swiper ended */
 }

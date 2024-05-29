@@ -21,7 +21,7 @@
       slidesPerView: 3,
       spaceBetween: 30,
       autoplay: {
-        delay: 10500,
+        delay: 2500,
         disableOnInteraction: false,
       },
       pagination: {
@@ -47,6 +47,8 @@
         });
     });
 </script>
+
+
     
 
 

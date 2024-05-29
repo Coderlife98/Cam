@@ -24,7 +24,7 @@
     <!-- hero end -->
     <div class="gsap-container">
         <!-- section one -->
-    <div class="container-fluid my-2 my-lg-5 ">
+    <div class="container-fluid my-2 my-lg-3 ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 d-flex  align-items-center justify-content-between ">

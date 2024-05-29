@@ -35,7 +35,8 @@
     </div>
     <!-- Our Partners end -->
     <!-- contact form section start -->
-    <div class="container set-bg-tech-form my-2 my-lg-4">
+    <div class="container-fluid set-bg-tech-form">
+    <div class="container  my-2 my-lg-4">
         <div class="row">
             <div class="col-12 col-lg-7  ">
                <div>
@@ -65,7 +66,7 @@
                     <h3 class="fw-bolder">Keep in touch</h3>
                 </div>
                 <div class="product-head mt-3 ">
-                    <p>We understand the real value of loyal, long-term business partnerships. This is why we are ready to go the extra mile and tailor our partnership options to your specific business needs and expectations. Let's connect today.</p>
+                    <p class="text-justify">We understand the real value of loyal, long-term business partnerships. This is why we are ready to go the extra mile and tailor our partnership options to your specific business needs and expectations. Let's connect today.</p>
                 </div>
                 <div class="contact_form_section">
                     <form action="" method="">
@@ -89,6 +90,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- contact form section end -->
     <?php include("./includes/footer.php");?>

@@ -1,3 +1,9 @@
+<style>
+  .navbar-toggler{
+    background-color: white;
+  }
+</style>
+
 <!-- Topbar Start -->
 <div class="container-fluid py-2 px-0 d-none d-lg-block">
   <div class="row gx-0 align-items-center">
@@ -37,6 +43,7 @@
       <div class="nav-item dropdown">
         <a href="about.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
         <div class="dropdown-menu bg-light border-0 m-0">
+          <a href="./about.php" class="dropdown-item">About</a>
           <a href="./technologies_we_specize.php" class="dropdown-item">Technologies We Specialize in</a>
           <a href="./technology_partner.php" class="dropdown-item">Our Technology Partner</a>
           <a href="./our_team.php" class="dropdown-item">Our Team</a>
@@ -61,16 +68,16 @@
           <a href="./" class="dropdown-item">Credit Co-operative Society Software</a>
           <a href="./microfinance_software.php" class="dropdown-item">DSA Loan Management Software
           </a>
-          <a href="javascript:void(0);" class="dropdown-item">MicroFinance Company Registration</a>
+          <a href="microfinance_registration.php" class="dropdown-item">MicroFinance Company Registration</a>
           <a href="./microfinance_software.php" class="dropdown-item">Micro-finance Software</a>
           <a href="./nbfc.php" class="dropdown-item">NBFC Software</a>
           <a href="#" class="dropdown-item">Producer Company</a>
           <a href="#" class="dropdown-item">MLM Software</a>
-          <a href="#" class="dropdown-item">Chit Fund Software</a>
-          <a href="#" class="dropdown-item">College Management Software</a>
-          <a href="#" class="dropdown-item">School Management Software</a>
-          <a href="#" class="dropdown-item">Institute Management Software</a>
-          <a href="#" class="dropdown-item">POS Software </a>
+          <a href="chitfund_software.php" class="dropdown-item">Chit Fund Software</a>
+          <a href="college_management_software.php" class="dropdown-item">College Management Software</a>
+          <a href="school_management_software.php" class="dropdown-item">School Management Software</a>
+          <a href="instituate_management.php" class="dropdown-item">Institute Management Software</a>
+          <a href="billing_software.php" class="dropdown-item">POS Software </a>
           <a href="./hospital_management_software.php" class="dropdown-item">Hospital Management Software
           </a>
         </div>
@@ -79,7 +86,7 @@
         <a href="javascript:void(0);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Financial</a>
         <div class="dropdown-menu bg-light border-0 m-0">
           <a href="./core_banking_software.php" class="dropdown-item">Core Banking Software</a>
-          <a href="appointment.html" class="dropdown-item">NBFC Software</a>
+          <a href="./nbfc.php" class="dropdown-item">NBFC Software</a>
           <a href="./nidhi_company_software.php" class="dropdown-item">Nidhi Company Software</a>
           <a href="404.html" class="dropdown-item">Credit Co-operative Society Software</a>
           <a href="./producer" class="dropdown-item">Producer Company Software</a>

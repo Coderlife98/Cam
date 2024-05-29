@@ -78,8 +78,8 @@
       <div class="row">
         <div class="col-12 my-3">
           <div class="head-box-ncr">
-            <span class="fw-bolder"
-              >Eligibility for Nidhi Company Registration</span
+            <h4 class="fw-bolder"
+              >Eligibility for Nidhi Company Registration</h4
             >
           </div>
         </div>
@@ -151,18 +151,18 @@
     </div>
     <!-- section 2 end -->
     <!--  Process of Nidhi Company Registration start -->
-    <div class="container-fluid">
+    <div class="container-fluid set-colorful-bg p-2 p-lg-5">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="head-box-ncr">
-              <span class="fw-bolder"
-                >Process of Nidhi Company Registration</span
+              <h4 class="fw-bolder"
+                >Process of Nidhi Company Registration</h4
               >
             </div>
           </div>
           <div class="col-12">
-            <p class="my-3">
+            <p class="my-2">
               A Nidhi company is one that belongs to the non-banking Indian
               finance sector and is recognized under section 406 of the
               Companies Act, 2013. Their core business is borrowing and lending
@@ -242,11 +242,11 @@
     </div>
     <!--  Process of Nidhi Company Registration end -->
     <!-- Benefits of Nidhi Company start -->
-    <div class="container-fluid set-b-nc">
+    <div class="container-fluid my-3">
       <div class="container setb2-bg">
         <div class="row">
           <div class="col-12">
-            <h2 class="text-white text-center fw-bolder">
+            <h2 class="text-center fw-bolder">
               Benefits of Nidhi Company
             </h2>
           </div>
@@ -254,7 +254,7 @@
         <div class="row">
           <div class="col-12 col-lg-7 my-2">
             <div class="bnch">
-              <h5 class="text-white">
+              <h5 class="">
                 The following are the major advantages of incorporating a Nidhi
                 company in India.
               </h5>
@@ -268,7 +268,7 @@
                   class="pe-2"
                 />
               </div>
-              <p class="text-white">
+              <p class="">
                 Nidhi Company works with the objective of increasing savings of
                 its members.
               </p>
@@ -282,7 +282,7 @@
                   class="pe-2"
                 />
               </div>
-              <p class="text-white">
+              <p class="">
                 It is very easy to make donations and get loans from the company
                 for its members.
               </p>
@@ -296,7 +296,7 @@
                   class="pe-2"
                 />
               </div>
-              <p class="text-white">
+              <p class="">
                 The loans given to the members at a lower rate compared to the
                 market rate hence it attracts the members to do more savings.
               </p>
@@ -310,7 +310,7 @@
                   class="pe-2"
                 />
               </div>
-              <p class="text-white">
+              <p class="">
                 Nidhi Company though it is a finance company and falls under the
                 category of NBFC, does not require approval of RBI.
               </p>
@@ -324,28 +324,26 @@
                   class="pe-2"
                 />
               </div>
-              <p class="text-white">
+              <p class="">
                 The investments in the Nidhi Company are secured ones. The risk
                 of non- payment of loans is less as compared to other finance
                 businesses.
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-5 my-2">
-            <img src="./asss/ss" alt="@dued" />
+          <div class="col-12 col-lg-5 my-2 d-flex align-items-center">
+          <div>
+          <img src="./assets/nidhi-reg.png" class="set-nidh-rrr" alt="@dued" />
+          </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-6"></div>
-        <div class="col-12 col-lg-6"></div>
-      </div>
-    </div>
+  
     <!-- Benefits of Nidhi Company end -->
     <!-- Document Required start -->
-    <div class="container my-3 my-lg-5">
+   <div class="container-fluid docu-req p-2 p-lg-3">
+   <div class="container my-3 my-lg-5">
       <div class="row">
         <div class="col-12">
           <h3 class="fw-bolder">Document Required</h3>
@@ -446,209 +444,115 @@
         </div>
       </div>
     </div>
+   </div>
     <!-- Document Required end -->
 
     <!-- Company Registration FAQ's start -->
+    <div class="container-fluid set-bg-faqqqqq p-2 p-lg-5 ">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-6 my-2 my-lg-4">
-          <div
-            class="head-faq d-flex justify-content-center align-items-center"
-          >
-            <div class="left-fq">
-              <p class="mb-0">
-                How many people are required to register a Nidhi Company?
-              </p>
-            </div>
-            <div class="right-fq">
-              <i
-                class="fa-solid fa-plus text-dark ps-3 btn-fqqq"
-                id="click_btn1"
-              ></i>
-            </div>
-          </div>
-          <div class="" id="show_hide">
-            <p class="mb-0">
-              A minimum of 3 directors and 7 shareholders are required to
-              register a Nidhi company in India.
-            </p>
-          </div>
-        </div>
-        <!-- 2222222 -->
-        <div class="col-12 col-lg-6 my-2 my-lg-4">
-          <div
-            class="head-faq d-flex justify-content-center align-items-center"
-          >
-            <div class="left-fq">
-              <p class="mb-0">
-                How many people are required to register a Nidhi Company?
-              </p>
-            </div>
-            <div class="right-fq">
-              <i
-                class="fa-solid fa-plus text-dark ps-3 btn-fqqq"
-                id="click_btn2"
-              ></i>
-            </div>
-          </div>
-          <div class="" id="show_hide">
-            <p class="mb-0">
-              A minimum of 3 directors and 7 shareholders are required to
-              register a Nidhi company in India.
-            </p>
-          </div>
-        </div>
-        <!-- 333333 -->
-        <div class="col-12 col-lg-6 my-2 my-lg-4">
-          <div
-            class="head-faq d-flex justify-content-center align-items-center"
-          >
-            <div class="left-fq">
-              <p class="mb-0">
-                Is an office required to start a Nidhi Company?
-              </p>
-            </div>
-            <div class="right-fq">
-              <i
-                class="fa-solid fa-plus text-dark ps-3 btn-fqqq"
-                id="fq-btn2"
-              ></i>
-            </div>
-          </div>
-          <div class="hide-faq">
-            <p class="mb-0">
-              An address in India where the registered office of the Company
-              will be situated is required. The premises can be
-              commercial/industrial/residential where communication from the MCA
-              will be received.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 my-2 my-lg-4">
-          <div
-            class="head-faq d-flex justify-content-center align-items-center"
-          >
-            <div class="left-fq">
-              <p class="mb-0">
-                Do I have to be present in person to incorporate a Nidhi
-                Company?
-              </p>
-            </div>
-            <div class="right-fq">
-              <i
-                class="fa-solid fa-plus text-dark ps-3 btn-fqqq"
-                id="fq-btn2"
-              ></i>
-            </div>
-          </div>
-          <div class="hide-faq">
-            <p class="mb-0">
-              No, you don’t have to be present at our office or appear at any
-              office for the registration of a Nidhi Company.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 my-2 my-lg-4">
-          <div
-            class="head-faq d-flex justify-content-center align-items-center"
-          >
-            <div class="left-fq">
-              <p class="mb-0">What is a Digital Signature Certificate?</p>
-            </div>
-            <div class="right-fq">
-              <i
-                class="fa-solid fa-plus text-dark ps-3 btn-fqqq"
-                id="fq-btn2"
-              ></i>
-            </div>
-          </div>
-          <div class="hide-faq">
-            <p class="mb-0">
-              A Digital Signature establishes the identity of the sender or
-              signee electronically while filing documents through the Internet.
-              The Ministry of Corporate Affairs (MCA) mandates that the
-              Directors sign some of the application documents using their
-              Digital Signature.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 my-2 my-lg-4">
-          <div
-            class="head-faq d-flex justify-content-center align-items-center"
-          >
-            <div class="left-fq">
-              <p class="mb-0">
-                . What are the documents required for Nidhi Company
-                registration?
-              </p>
-            </div>
-            <div class="right-fq">
-              <i
-                class="fa-solid fa-plus text-dark ps-3 btn-fqqq"
-                id="fq-btn2"
-              ></i>
-            </div>
-          </div>
-          <div class="hide-faq">
-            <p class="mb-0">
-              Identity proof and address proof are mandatory for all the
-              proposed Directors of the Nidhi Company. PAN Card is mandatory for
-              Indian Nationals. In addition, the landlord of the registered
-              office premises must provide a No Objection Certificate for having
-              the registered office in his/her premises and must submit his/her
-              identity proof and address proof.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 my-2 my-lg-4">
-          <div
-            class="head-faq d-flex justify-content-center align-items-center"
-          >
-            <div class="left-fq">
-              <p class="mb-0">What is DIN?</p>
-            </div>
-            <div class="right-fq">
-              <i
-                class="fa-solid fa-plus text-dark ps-3 btn-fqqq"
-                id="fq-btn2"
-              ></i>
-            </div>
-          </div>
-          <div class="hide-faq">
-            <p class="mb-0">
-              Director Identification Number is a unique identification number
-              assigned to all existing and proposed Directors of a Company. It
-              is mandatory for all present or proposed Directors to have a
-              Director Identification Number. Director Identification Number
-              never expires and a person can have only one Director
-              Identification Number.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 my-2 my-lg-4">
-          <div
-            class="head-faq d-flex justify-content-center align-items-center"
-          >
-            <div class="left-fq">
-              <p class="mb-0">Who regulates the Nidhi Companies?</p>
-            </div>
-            <div class="right-fq">
-              <i
-                class="fa-solid fa-plus text-dark ps-3 btn-fqqq"
-                id="fq-btn2"
-              ></i>
-            </div>
-          </div>
-          <div class="hide-faq">
-            <p class="mb-0">
-              The Ministry of Corporate Affairs regulates Nidhi Company and is
-              also accountable for Nidhi Company Registration.
-            </p>
-          </div>
+    <div class="row">
+        <div class="col-12 my-2 my-lg-3 ">
+          <h2 class="text-white text-center text-family ">Hospital Management Software Module</h2>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="first">
+              <label for="first">How many people are required to register a Nidhi Company?</label>
+              <div class="content">
+                <p class="text-justify">A minimum of 3 directors and 7 shareholders are required to register a Nidhi company in India.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6  ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="fourth">
+              <label for="fourth">Do I have to be present in person to incorporate a Nidhi Company?</label>
+              <div class="content">
+                <p class="text-justify">No, you don’t have to be present at our office or appear at any office for the registration of a Nidhi Company.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6  my-2">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="second">
+              <label for="second"> What are the requirements to be a Director?</label>
+              <div class="content">
+                <p class="text-justify">The Director needs to be over 18 years of age and must be a natural person.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="third">
+              <label for="third"> Is an office required to start a Nidhi Company?</label>
+              <div class="content">
+                <p class="text-justify">An address in India where the registered office of the Company will be situated is required. The premises can be commercial/industrial/residential where communication from the MCA will be received.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+       
+        <div class="col-12 col-lg-6 my-2">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="fifth">
+              <label for="fifth">What is a Digital Signature Certificate?</label>
+              <div class="content">
+                <p class="text-justify"> A Digital Signature establishes the identity of the sender or signee electronically while filing documents through the Internet. The Ministry of Corporate Affairs (MCA) mandates that the Directors sign some of the application documents using their Digital Signature.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="sixth">
+              <label for="sixth">What are the documents required for Nidhi Company registration?</label>
+              <div class="content">
+                <p class="text-justify">Identity proof and address proof are mandatory for all the proposed Directors of the Nidhi Company. PAN Card is mandatory for Indian Nationals. In addition, the landlord of the registered office premises must provide a No Objection Certificate for having the registered office in his/her premises and must submit his/her identity proof and address proof.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="seventh">
+              <label for="seventh">What is DIN?</label>
+              <div class="content">
+                <p class="text-justify">Director Identification Number is a unique identification number assigned to all existing and proposed Directors of a Company. It is mandatory for all present or proposed Directors to have a Director Identification Number. Director Identification Number never expires and a person can have only one Director Identification Number.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="eight">
+              <label for="eight">Who regulates the Nidhi Companies?</label>
+              <div class="content">
+                <p class="text-justify">The Ministry of Corporate Affairs regulates Nidhi Company and is also accountable for Nidhi Company Registration.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      
+      </div>
     </div>
+  </div>
     <!-- Company Registration FAQ's end -->
+    <?php include("./includes/footer.php");?>
+    <?php include("./includes/script.php");?>
     <script>
       const cursorDot = document.querySelector("[data-cursor-dot]");
       const cursorOutline = document.querySelector("[data-cursor-outline]");
@@ -673,15 +577,6 @@
       });
     </script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="./js/gsap.js"></script>
-    <script src="./js/counter.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
   </body>
 </html>

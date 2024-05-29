@@ -65,14 +65,77 @@
       </div>
     </div>
     <!-- section 2 end -->
-    <!-- meet our team section start -->
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-12"></div>
+     <!--Features of Investment plan: end -->
+
+
+  <div class="container-fluid p-3 p-lg-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center fw-bolder">MEET OUR TEAM</h2>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Swiper -->
+  <div class="container">
+    <div class="row">
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide rashmijii-slider">
+      <div class="d-flex justify-content-center">
+       <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+       </div>
+        <p class="text-dark">Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide rashmijii-slider">
+      <div class="d-flex justify-content-center">
+       <img src="./assets/manisha.jpg" class="meet-team" alt="@dued">
+       </div>
+        <p class="text-dark">Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide rashmijii-slider">
+       <div class="d-flex justify-content-center">
+       <img src="./assets/mritunjay.jpg" class="meet-team" alt="@dued">
+       </div>
+        <p class="text-dark">Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide rashmijii-slider">
+      <div class="d-flex justify-content-center">
+       <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+       </div>
+        <p class="text-dark">Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide rashmijii-slider">
+      <div class="d-flex justify-content-center">
+       <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+       </div>
+        <p class="text-dark">Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper ">Rashmikant Singh</span>
+      </div>
+      <div class="swiper-slide ">
+      <div class="d-flex justify-content-center">
+       <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
+       </div>
+        <p class="text-dark">Lorem 
+        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
+        <span class="name-swiper">Rashmikant Singh</span>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+    </div>
+  </div>
     <!-- meet our team section end -->
     <?php include("./includes/footer.php");?>
     <?php include("./includes/script.php");?>

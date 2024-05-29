@@ -57,13 +57,13 @@
     <div class="container-fluid set-bg-iii">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center ">
-                <div class="col-12 col-lg-4 my-2">
+                <div class="col-12 col-md-6 col-lg-4 my-2">
                     <div class="web-bg-box-1">
                         <p class="text-white">Work Flow Management, Enterprise Web Development, E-Commerce, B2B & B2C, Any custom business
                             application.</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 my-2">
+                <div class="col-12 col-md-6 col-lg-4 my-2">
                     <div class="web-bg-box-1">
                         <p class="text-white">Custom Web Development, Customer Relationship Management (CRM)
                             Cloud Solutions, Third-Party Integration (CRM and more).</p>
@@ -74,11 +74,12 @@
     </div>
     <!-- section 2 end -->
     <!-- section 3 start -->
-    <div class="container my-3 my-lg-5 ">
+  <div class="container-fluid set-web-page-color p-2 p-lg-5">
+  <div class="container my-3 my-lg-5 ">
         <div class="row">
             <div class="col-12">
-                <h3>Performance-driven website development company</h3>
-                <p>that delivers value to your precise business needs</p>
+                <h3 class="text-white">Performance-driven website development company</h3>
+                <p class="text-white">that delivers value to your precise business needs</p>
             </div>
         </div>
         <div class="row">
@@ -91,7 +92,7 @@
                         <h5 class="text-center ">Advanced Web Development</h5>
                     </div>
                     <div class="web-para">
-                        <p>We are skilled in cutting-edge technologies like HTML5, CSS3, CakePHP 3.X for creative
+                        <p class="text-center">We are skilled in cutting-edge technologies like HTML5, CSS3, CakePHP 3.X for creative
                             technical execution.</p>
                     </div>
                 </div>
@@ -105,7 +106,7 @@
                         <h5>Consolidation & Integration</h5>
                     </div>
                     <div class="web-para">
-                        <p>We integrate potential tools, innovative technologies and good quality designs.</p>
+                        <p class="text-center">We integrate potential tools, innovative technologies and good quality designs.</p>
                     </div>
                 </div>
             </div>
@@ -118,7 +119,7 @@
                         <h5>Cloud-based Development</h5>
                     </div>
                     <div class="web-para">
-                        <p>Maximally leveraging cloud services to accelerate the development process.</p>
+                        <p class="text-center">Maximally leveraging cloud services to accelerate the development process.</p>
                     </div>
                 </div>
             </div>
@@ -131,7 +132,7 @@
                         <h5>Dedicated web teams</h5>
                     </div>
                     <div class="web-para">
-                        <p>Our professionals are certified in the various technologies they work for, so our customers
+                        <p class="text-center text-justify">Our professionals are certified in the various technologies they work for, so our customers
                             can get the most out of our service.</p>
                     </div>
                 </div>
@@ -145,7 +146,7 @@
                         <h5>Full-cycle Development</h5>
                     </div>
                     <div class="web-para">
-                        <p>Includes project planning, requirement analysis, system design, implementation, testing and
+                        <p class="text-center">Includes project planning, requirement analysis, system design, implementation, testing and
                             deployment.</p>
                     </div>
                 </div>
@@ -159,13 +160,14 @@
                         <h5>Quality Assurance</h5>
                     </div>
                     <div class="web-para">
-                        <p>We are skilled in cutting-edge technologies like HTML5, CSS3, CakePHP 3.X for creative
+                        <p class="text-center">We are skilled in cutting-edge technologies like HTML5, CSS3, CakePHP 3.X for creative
                             technical execution.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+  </div>
     <!-- section 3 end -->
     <?php include ("./includes/footer.php"); ?>
     <?php include ("./includes/script.php"); ?>

@@ -57,7 +57,7 @@
                         <h4>
                             Digital Marketing </h4>
                            <div class=" ">
-                            <p class="add-l-b"> Camwel Solution LLP deploys multiple skills in creating high impact digital marketing creative development, effective promotion and deliver higher ROI. Totally aligned with the brand, Team Camwel digital marketing services emulates the style, tone and voice customers have come to trust.</p>
+                            <p class="add-l-b text-justify"> Camwel Solution LLP deploys multiple skills in creating high impact digital marketing creative development, effective promotion and deliver higher ROI. Totally aligned with the brand, Team Camwel digital marketing services emulates the style, tone and voice customers have come to trust.</p>
                             <p>Ranked among leading digital marketing companies in Patna, several demanding skills come-together in making digital marketing a success.</p>
                             <p>
                                 Ranked among leading digital marketing companies in Patna, several demanding skills come-together in making digital marketing a success.Specializations under the umbrella term of digital marketing agency in Bangalore services are:-
@@ -195,8 +195,8 @@
 </div>
     <!-- Social Media Marketing end -->
     <!-- Search Engine Marketing (SEM) start -->
-    <div class="container-fluid ">
-        <div class="container   p-2 p-lg-4 ">
+    <div class="container-fluid set-sem-bg  p-2 p-lg-4">
+        <div class="container   ">
             <div class="row">
                 <div class="col-12 col-lg-7">
                     <div class="paid-head">
@@ -214,7 +214,7 @@
     </div>
     <!-- Search Engine Marketing (SEM) end -->
 <!--Online Reputation Management start -->
-<div class="conatiner-fluid p-2 p-lg-4 ">
+<div class="conatiner-fluid p-2 p-lg-4  set-reputation-bg">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-5 my-2 order-1 order-lg-0 d-flex justify-content-center ">
@@ -234,8 +234,8 @@
 </div>
 <!--Online Reputation Management end -->
 <!-- Local Listing SEO start -->
-<div class="container-fluid ">
-    <div class="container   p-2 p-lg-4 ">
+<div class="container-fluid p-2 p-lg-4  set-seo-bg">
+    <div class="container   ">
         <div class="row">
             <div class="col-12 col-lg-7">
                 <div class="paid-head">
@@ -255,7 +255,7 @@
 <!-- Local Listing SEO end -->
 <!-- Email Marketing sta
     rt -->
-    <div class="conatiner-fluid p-2 p-lg-4 ">
+    <div class="conatiner-fluid p-2 p-lg-4 set-mail-bg">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-5 order-1 order-lg-0 my-2 d-flex justify-content-center ">

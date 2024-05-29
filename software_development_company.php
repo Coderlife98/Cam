@@ -12,8 +12,11 @@
     <div class="container-fluid set-soft-bg-hero">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-
+        <div class="col-12">
+            <div class="soo-hero-txt">
+                        <h1 class="text-white fw-bolder ggg">Software Developement </h1>
+                        <p class="text-white animation-pos"> Time to Change Your Traditional Build Software Development <br>To The New Technology Platform and Get Better Insights. </p>
+                    </div>
           </div>
         </div>
       </div>

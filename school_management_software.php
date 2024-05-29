@@ -26,7 +26,7 @@
     </div>
     <!-- hero section end -->
     <!-- To begin with, let's explore why do schools need management system at all? start -->
-    <div class="container-fluid">
+    <div class="container-fluid schl-margin">
       <div class="container">
         <div class="row">
           <div class="col-12 my-2 my-lg-5">
@@ -261,7 +261,7 @@
     <div class="container-fluid my-2 my-lg-5 set-manaa-bggg">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6 my-2">
+          <div class="col-12 col-lg-12 my-2">
             <h3 class="text-family fw-bolder">For School Management</h3>
             <p>&ldquo;Let Management Function Well &rdquo;</p>
             <p class="text-justify mt-3">
@@ -294,27 +294,7 @@
               seconds to make an intelligent decision.
             </p>
           </div>
-          <div class="col-12 col-lg-6 my-2">
-            <div class="high-manag">
-              <h3 class="text-family fw-bolder text-center">
-                Highlights of Management Module:
-              </h3>
-              <!-- <div class="high-box d-flex justify-content-center flex-column ">
-                    <p class="mb-1">Notes & assignments</p>
-                    <p class="mb-1">Time table</p>
-                    <p class="mb-1">Academic</p>
-                    <p class="mb-1">Payroll</p>
-                    <p class="mb-1">Transport</p>
-                    <p class="mb-1">Hostel</p>
-                    <p class="mb-1">Examinations</p>
-                    <p class="mb-1">Fee management</p>
-                    <p class="mb-1">Library management</p>
-                    <p class="mb-1">Account management</p>
-                    <p class="mb-1">Staff/ faculty management</p>
-                    <p class="mb-1">Online Fee Payment</p>
-                </div> -->
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
@@ -447,7 +427,7 @@
           <div class="col-12">
             <h3 class="fw-bolder">For Parents</h3>
           </div>
-          <div class="col-12 col-lg-6 my-2 my-lg-4">
+          <div class="col-12 col-lg-8 my-2 my-lg-3">
             <div class="paraents">
               <h5>
                 &ldquo;Helps to keep watch on your children progress &rdquo;
@@ -476,9 +456,11 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-6 my-2 my-lg-4">
-            <div class="">
-              <img src="" alt="@dued" />
+          <div class="col-12 col-lg-4 my-2 my-lg-4">
+            <div class="d-flex justify-content-center">
+            <div>
+            <img src="./assets/improve_school.png" alt="@dued" />
+            </div>
             </div>
           </div>
         </div>
@@ -489,9 +471,9 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-5 my-2 my-lg-5">
+          <div class="col-12  col-lg-5 my-2 my-lg-5">
             <div>
-              <img src="" alt="@dued" />
+              <img src="./assets/rangeSchool.png" class="we-w-dth-rad" alt="@dued" />
             </div>
           </div>
           <div class="col-12 col-lg-7 my-2 my-lg-5">
