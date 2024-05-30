@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microfinance Software</title>
+    <title>Dsa Loan Management Software</title>
     <?php include ("./includes/link.php"); ?>
 </head>
 
 <body>
     <?php include ("./includes/header.php"); ?>
     <!-- hero start -->
-    <div class="container-fluid set-micro_hero_reg-bg">
+    <div class="container-fluid set-dsa-bg">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="micro-soft">
-                        <h2 class="text-white fw-bolder ggg">Microfinance Company Registration</h2>
+                        <h2 class="text-white fw-bolder ggg">Dsa Loan Management Software</h2>
                     </div>
                 </div>
             </div>
@@ -24,44 +24,31 @@
     </div>
     <!-- hero end -->
     <!-- Microfinance Company Registration start -->
-    <div class="container-fluid mcr-set">
+    <div class="container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="fw-bolder">Microfinance Company Registration</h3>
-                    <p class="text-justify">
-                        Microfinance Company is a small primary financial institution that provides small loans and
-                        other credit facilities to stakeholders. Such financial institutions would provide loans to SMEs
-                        and other form of institutions that easily don’t get credit facilities from banks. It is
-                        important to register this institution with the concerned authorities.
-                    </p>
-                </div>
-                <div>
-                    <h4 class="my-3 fw-bolder">Package inclusions:</h4>
-                    <div class="bullet_point">
-                        <div class="d-flex">
+                    <h3 class="fw-bolder">DSA Loan Management Software</h3>
+                    <div class="bullet-reg-micro">
+                        <div class="d-flex ">
                             <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
                             <div>
-                                <p class="mb-0 ">Procedure for Microfinance Company Registration</p>
-                            </div>
-                        </div>
-                        <div class="d-flex my-2">
-                            <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
-                            <div>
-                                <p class="mb-0 ">Liaising with the concerned regulatory authorities for microfinance
-                                    company registration</p>
+                                <p>Have you ever applied for a loan through an agent instead of directly with the bank?
+                                </p>
                             </div>
                         </div>
                         <div class="d-flex ">
                             <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
                             <div>
-                                <p class="mb-0 ">Documentation Support</p>
+                                <p>Have you ever questioned why someone is pushing you to apply for a loan when you can
+                                    do it in person at a bank or NBFC?</p>
                             </div>
                         </div>
-                        <div class="d-flex my-2">
+                        <div class="d-flex ">
                             <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
                             <div>
-                                <p class="mb-0 ">Compliance Services</p>
+                                <p>Well, for starters, more often than not, this is not a scam. In fact, people who help
+                                    you procure a loan from a bank or an NBFC are direct selling agents or DSA.</p>
                             </div>
                         </div>
                     </div>
@@ -70,161 +57,18 @@
         </div>
     </div>
     <!-- Microfinance Company Registration end -->
-    <!-- Microfinance Company Registration Process start -->
-    <div class="container-fluid my-2 my-lg-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="fw-bolder">
-                        Microfinance Company Registration Process
-                    </h3>
-                    <p class="my-2">
-                        The registration process for microfinance companies requires compliance with RBI guidelines for
-                        NBFCs.
-                    </p>
-                    <div class="bullet-reg-micro">
-                        <div class="d-flex ">
-                            <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
-                            <div>
-                                <p><b>Prepare DSC. DIN & Name approval : </b> The first step is to file for Digital
-                                    Signature Certificate (DSC), Director Identification Number (DIN), and name
-                                    approval. The proposed name should be unique and reflect your brand in a single
-                                    word. Additionally, a maximum of 6 name options can be filed at once.</p>
-                            </div>
 
-                        </div>
-                        <div class="d-flex ">
-                            <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
-                            <div>
-                                <p><b>Apply for License :</b> The most important step is to obtain a government license
-                                    to perform social work in India with the proper application and attachments.</p>
-                            </div>
 
-                        </div>
-                        <div class="d-flex ">
-                            <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
-                            <div>
-                                <p><b>File for incorporation:</b> The third step is to file the incorporation with all
-                                    necessary documents attached, including MOA, AOA, and declarations.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Microfinance Company Registration Process end -->
-    <!-- Features of Microfinance Company start -->
-    <div class="container-fluid my-2 my-lg-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="fw-bolder text-center">
-                        Features of <b class="text-danger">Microfinance Company</b>
-                    </h3>
-                </div>
-            </div>
-            <div class="row mt-2 mt-lg-4">
-                <div class="col-12">
-                    <h5 class="fw-bolder">The following features must be present in an entity acting as a Microfinance
-                        company:</h5>
-                    <div class="bullet-prevent my-2">
-                        <div class="d-flex ">
-                            <i class="fa-solid fa-arrow-right-to-bracket text-primary pe-3 add-dn-bu2"></i>
-                            <div>
-                                <p class="mb-0"> The following features must be present in an entity acting as a
-                                    Microfinance company</p>
-                            </div>
-                        </div>
-                        <div class="d-flex  my-2">
-                            <i class="fa-solid fa-arrow-right-to-bracket text-primary pe-3 add-dn-bu2"></i>
-                            <div>
-                                <p class="mb-0"> A Microfinance institution must meet the required net worth.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex  my-2">
-                            <i class="fa-solid fa-arrow-right-to-bracket text-primary pe-3 add-dn-bu2"></i>
-                            <div>
-                                <p class="mb-0"> There must be compliance by the microfinance company to secur the
-                                    requisite license.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex ">
-                            <i class="fa-solid fa-arrow-right-to-bracket text-primary pe-3 add-dn-bu2"></i>
-                            <div>
-                                <p class="mb-0">Microfinance companies typically cater to the economically disadvantaged
-                                    segments of society.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex my-2">
-                            <i class="fa-solid fa-arrow-right-to-bracket text-primary pe-3 add-dn-bu2"></i>
-                            <div>
-                                <p class="mb-0">Banking and other services are provided to underserved communities.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex ">
-                            <i class="fa-solid fa-arrow-right-to-bracket text-primary pe-3 add-dn-bu2"></i>
-                            <div>
-                                <p class="mb-0">Microfinance companies typically serve clients in trades such as fishery
-                                    and
-                                    carpentry.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex  my-2">
-                            <i class="fa-solid fa-arrow-right-to-bracket text-primary pe-3 add-dn-bu2"></i>
-                            <div>
-                                <p class="mb-0">This company was established without requiring any collateral.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Features of Microfinance Company end -->
     <!-- microfinance companty registration process start -->
     <div class="container-fluid set-rps-bg p-2 p-lg-5">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-12 col-md-6 col-lg-3 my-2 set-arrow-reg">
-                    <div class="main-design-box d-flex flex-column align-items-center ">
-                        <h5 class="text-white move-number">01</h5>
-                        <p class="p-2 text-center text-white">Register as a private limited or public company</p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3 my-2 set-arrow-reg">
-                    <div class="main-design-box d-flex flex-column justify-content-center align-items-center ">
-                        <h5 class="text-white move-number">02</h5>
-                        <p class="p-2 text-center text-white">Check the eligibility</p>
-
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 my-2 set-arrow-reg">
-                    <div class="main-design-box d-flex  flex-column justify-content-center align-items-center ">
-                        <h5 class="text-white move-number">03</h5>
-                        <p class="p-2 text-center text-white">Raise funds</p>
-
-                    </div>
-                </div>
-
+               <div class="col-12">
+                <h3 class="fw-bolder text-center text-white head_grad">DSA Registration Process</h3>
+                <p class="text-center text-white">It is important to follow a specific process in order to become a direct sales agent. You cannot simply decide to sell loans from a bank without first completing the registration process.Each bank, NBFC, and lending platform has its unique registration process, with some common steps:</p>
+               </div>
             </div>
-            <div class="row mt-lg-5 d-flex justify-content-center  ">
-                <div class="col-12 col-md-6 col-lg-3 my-2 set-arrow-reg">
-                    <div class="main-design-box d-flex flex-column justify-content-center align-items-center ">
-                        <h5 class="text-white move-number">04</h5>
-                        <p class="p-2 text-center text-white">Get NBFC registration Certification</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 my-2 set-arrow-reg">
-                    <div class="main-design-box d-flex flex-column justify-content-center align-items-center ">
-                        <h5 class="text-white move-number">05</h5>
-                        <p class="p-2 text-center text-white">Apply for NBFC finance</p>
-                    </div>
-                </div>
 
-            </div>
         </div>
     </div>
     <!-- microfinance companty registration process end -->
@@ -796,20 +640,22 @@
                         <div class="pe-3">
                             <i class="fa-solid fa-arrow-right-from-bracket text-dark"></i>
                         </div>
-                        <p class="mb-0 text-white">Educational Certificates and other certificates related to the key management executives and shareholders of the <br> company.</p>
+                        <p class="mb-0 text-white">Educational Certificates and other certificates related to the key
+                            management executives and shareholders of the <br> company.</p>
                     </div>
-                 
+
                     <div class="d-flex gradient_bg p-3 my-2">
                         <div class="pe-3">
                             <i class="fa-solid fa-arrow-right-from-bracket text-dark"></i>
                         </div>
-                        <p class="mb-0 text-white">   Financial Report related to the Directors.</p>
+                        <p class="mb-0 text-white"> Financial Report related to the Directors.</p>
                     </div>
                     <div class="d-flex gradient_bg p-3 my-2">
                         <div class="pe-3">
                             <i class="fa-solid fa-arrow-right-from-bracket text-dark"></i>
                         </div>
-                        <p class="mb-0 text-white">It is necessary to provide utility bills like electricity and water bills, along with bank statements of the registered <br> office.</p>
+                        <p class="mb-0 text-white">It is necessary to provide utility bills like electricity and water
+                            bills, along with bank statements of the registered <br> office.</p>
                     </div>
                     <div class="d-flex gradient_bg p-3 my-2">
                         <div class="pe-3">
@@ -822,27 +668,31 @@
                         <div class="pe-3">
                             <i class="fa-solid fa-arrow-right-from-bracket text-dark"></i>
                         </div>
-                        <p class="mb-0 text-white">Detailed information about the risk evaluation process for Microfinance Company Registration.</p>
+                        <p class="mb-0 text-white">Detailed information about the risk evaluation process for
+                            Microfinance Company Registration.</p>
                     </div>
                     <div class="d-flex gradient_bg p-3 my-2">
                         <div class="pe-3">
                             <i class="fa-solid fa-arrow-right-from-bracket text-dark"></i>
                         </div>
-                        <p class="mb-0 text-white">Passport size photograph: Not more than ten months old photo of directors and shareholders</p>
+                        <p class="mb-0 text-white">Passport size photograph: Not more than ten months old photo of
+                            directors and shareholders</p>
                     </div>
                     <div class="d-flex gradient_bg p-3 my-2">
                         <div class="pe-3">
                             <i class="fa-solid fa-arrow-right-from-bracket text-dark"></i>
                         </div>
-                        <p class="mb-0 text-white">Educational Certificates and other certificates related to the key management executives and shareholders of the company.</p>
+                        <p class="mb-0 text-white">Educational Certificates and other certificates related to the key
+                            management executives and shareholders of the company.</p>
                     </div>
                     <div class="d-flex gradient_bg p-3 my-2">
                         <div class="pe-3">
                             <i class="fa-solid fa-arrow-right-from-bracket text-dark"></i>
                         </div>
-                        <p class="mb-0 text-white">Indian nationals must provide proof of their passport. Foreign nationals must submit notarized or apostilled copies of their passport.</p>
+                        <p class="mb-0 text-white">Indian nationals must provide proof of their passport. Foreign
+                            nationals must submit notarized or apostilled copies of their passport.</p>
                     </div>
-                  
+
                 </div>
             </div>
         </div>
@@ -853,28 +703,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="text-center fw-bolder">Loans provided by <span class="text-danger">Microfinance Institutions</span></h3>
-                    <p class="text-justify">Usually, a small amount of loans would be provided by a Microfinance Company. As these loans are provided to the rural sectors of the society, such loans would not be secured. However the company is capable of charging interest rate in accordance with the requirements.</p>
+                    <h3 class="text-center fw-bolder">Loans provided by <span class="text-danger">Microfinance
+                            Institutions</span></h3>
+                    <p class="text-justify">Usually, a small amount of loans would be provided by a Microfinance
+                        Company. As these loans are provided to the rural sectors of the society, such loans would not
+                        be secured. However the company is capable of charging interest rate in accordance with the
+                        requirements.</p>
                     <div class="spice_bullet">
-                            <div class="d-flex ">
-                                <div class="pe-3">
-                                    <i class="fa-solid fa-arrow-right-from-bracket text-danger"></i>
-                                </div>
-                                <p>The Interest rate charged by a microfinance company must not exceed a particular level.</p>
+                        <div class="d-flex ">
+                            <div class="pe-3">
+                                <i class="fa-solid fa-arrow-right-from-bracket text-danger"></i>
                             </div>
-                            <div class="d-flex ">
-                                <div class="pe-3">
-                                    <i class="fa-solid fa-arrow-right-from-bracket text-danger"></i>
-                                </div>
-                                <p>The interest rate charged by a MFI must be reasonable.</p>
-                            </div>
-                            <div class="d-flex ">
-                                <div class="pe-3">
-                                    <i class="fa-solid fa-arrow-right-from-bracket text-danger"></i>
-                                </div>
-                                <p>The requirements of the loans being paid must comply with the requirements related to an MFI.</p>
-                            </div>
+                            <p>The Interest rate charged by a microfinance company must not exceed a particular level.
+                            </p>
                         </div>
+                        <div class="d-flex ">
+                            <div class="pe-3">
+                                <i class="fa-solid fa-arrow-right-from-bracket text-danger"></i>
+                            </div>
+                            <p>The interest rate charged by a MFI must be reasonable.</p>
+                        </div>
+                        <div class="d-flex ">
+                            <div class="pe-3">
+                                <i class="fa-solid fa-arrow-right-from-bracket text-danger"></i>
+                            </div>
+                            <p>The requirements of the loans being paid must comply with the requirements related to an
+                                MFI.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -66,7 +66,7 @@
           <a href="./nidhi_company_registration.php" class="dropdown-item">Nidhi Company Registration</a>
           <a href="./nidhi_company_software.php" class="dropdown-item">Nidhi Company Software</a>
           <a href="./" class="dropdown-item">Credit Co-operative Society Software</a>
-          <a href="./microfinance_software.php" class="dropdown-item">DSA Loan Management Software
+          <a href="./dsa_loan.php" class="dropdown-item">DSA Loan Management Software
           </a>
           <a href="microfinance_registration.php" class="dropdown-item">MicroFinance Company Registration</a>
           <a href="./microfinance_software.php" class="dropdown-item">Micro-finance Software</a>

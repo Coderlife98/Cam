@@ -1722,6 +1722,10 @@ button {
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 0.9s;
+}
+.gradient_bg:hover{
+    box-shadow: none;
 }
 
 .gradient___bg{
@@ -1729,7 +1733,20 @@ button {
 }
 
 /* microfinance registration end */
-
+/* dsa loan management start */
+.set-dsa-bg{
+    background-image: url("./assets/dsa.png");
+    height: 350px;
+    background-size: cover;
+    position: relative;
+    top: -77px;
+}
+.head_grad{
+    background: -webkit-linear-gradient(left,#8758DC, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* dsa loan management end */
 
 
 
