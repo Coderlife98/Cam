@@ -350,84 +350,109 @@
         </div>
         <div class="row my-3">
             <div class="col-12 col-lg-3 px-1 my-2 ">
+             
                 <div class="box-inner-soft">
+                <div class="img-dd d-flex justify-content-center py-2">
+                <img src="./assets/dev.png" height="80px" width="80px" alt="">
+              </div>
                     <div class="he-ti">
                         <h5 class="text-white text-center  ">DevOps</h5>
                     </div>
                     <div class="describe d-flex justify-content-center ">
-                        <p class="text-white p-2 "> Camwel has a team of expert DevOps developer to create proper architecture as well as the deployment process. our professionals ensure seamless integration between development and operations, leading to efficient and reliable software delivery. </p>
+                        <p class="text-white p-2 text-justify"> Camwel has a team of expert DevOps developer to create proper architecture as well as the deployment process. our professionals ensure seamless integration between development and operations, leading to efficient and reliable software delivery. </p>
                     </div>
                 </div>
               </div>
            
               <div class="col-12 col-lg-3 px-1 my-2 ">
                 <div class="box-inner-soft">
+                <div class="img-dd d-flex justify-content-center py-2">
+                <img src="./assets/meth.png" height="80px" width="80px" alt="">
+              </div>
                     <div class="he-ti">
                         <h5 class="text-white text-center  ">Agile Methodology</h5>
                     </div>
                     <div class="describe d-flex justify-content-center ">
-                        <p class="text-white p-2 ">At Camwel, we are dedicated followers of the Agile methodology. This approach grants our clients the freedom to actively participate in the project execution process. By embracing  we prioritize  adaptability throughout every stage of development.</p>
+                        <p class="text-white p-2 text-justify">At Camwel, we are dedicated followers of the Agile methodology. This approach grants our clients the freedom to actively participate in the project execution process. By embracing  we prioritize  adaptability throughout every stage of development.</p>
                     </div>
                 </div>
               </div>
               <div class="col-12 col-lg-3 px-1 my-2 ">
                 <div class="box-inner-soft">
+                <div class="img-dd d-flex justify-content-center py-2">
+                <img src="./assets/doc.png" height="80px" width="80px" alt="">
+              </div>
                     <div class="he-ti">
                         <h5 class="text-white text-center  ">Documentation</h5>
                     </div>
                     <div class="describe d-flex justify-content-center ">
-                        <p class="text-white p-2 ">At Camwel, we believe in thorough end-to-end documentation processes. This commitment not only enhances confidence in the quality of our products but also provides transparent status updates to all stakeholders involved.</p>
+                        <p class="text-white p-2 text-justify">At Camwel, we believe in thorough end-to-end documentation processes. This commitment not only enhances confidence in the quality of our products but also provides transparent status updates to all stakeholders involved.</p>
                     </div>
                 </div>
               </div>
               <div class="col-12 col-lg-3 px-1 my-2 ">
                 <div class="box-inner-soft">
+                <div class="img-dd d-flex justify-content-center py-2">
+                <img src="./assets/env.png" height="80px" width="80px" alt="">
+              </div>
                     <div class="he-ti">
                         <h5 class="text-white text-center  ">Infrastructure</h5>
                     </div>
                     <div class="describe d-flex justify-content-center ">
-                        <p class="text-white p-2 ">At Camwel, we prioritize creating a stress-free, healthy, and hygienic environment for our employees. We believe that a supportive workplace culture translates into world-class products and services for our clients.</p>
+                        <p class="text-white p-2 text-justify">At Camwel, we prioritize creating a stress-free, healthy, and hygienic environment for our employees. We believe that a supportive workplace culture translates into world-class products and services for our clients.</p>
                     </div>
                 </div>
               </div>
               <!-- second row -->
               <div class="col-12 col-lg-3 px-1 my-2 ">
                 <div class="box-inner-soft">
+                <div class="img-dd d-flex justify-content-center py-2">
+                <img src="./assets/skill.png" height="80px" width="80px" alt="">
+              </div>
                     <div class="he-ti">
                         <h5 class="text-white text-center  ">Skilled Manpower</h5>
                     </div>
                     <div class="describe d-flex justify-content-center ">
-                        <p class="text-white p-2 ">At Camwel, we pride ourselves on our diverse team of skilled professionals. From experienced DevOps engineers to meticulous quality assurance specialists and seasoned project managers, we have the expertise to meet your project's needs</p>
+                        <p class="text-white p-2 text-justify">At Camwel, we pride ourselves on our diverse team of skilled professionals. From experienced DevOps engineers to meticulous quality assurance specialists and seasoned project managers, we have the expertise to meet your project's needs</p>
                     </div>
                 </div>
               </div>
               <div class="col-12 col-lg-3 px-1 my-2 ">
                 <div class="box-inner-soft">
+                <div class="img-dd d-flex justify-content-center py-2">
+                <img src="./assets/cons.png" height="80px" width="80px" alt="">
+              </div>
                     <div class="he-ti">
                         <h5 class="text-white text-center  ">Consulting</h5>
                     </div>
                     <div class="describe d-flex justify-content-center ">
-                        <p class="text-white p-2 ">Camwel carries dedicated consulting team with 10+ years of experience in the IT industries, they can consult throughout the process as well as in every domain. Sigma can serve as a complete development partner.</p>
+                        <p class="text-white p-2 text-justify">Camwel carries dedicated consulting team with 10+ years of experience in the IT industries, they can consult throughout the process as well as in every domain. Sigma can serve as a complete development partner.</p>
                     </div>
                 </div>
               </div>
               <div class="col-12 col-lg-3 px-1 my-2 ">
                 <div class="box-inner-soft">
+                <div class="img-dd d-flex justify-content-center py-2">
+                <img src="./assets/main.png" height="80px" width="80px" alt="">
+              </div>
                     <div class="he-ti">
                         <h5 class="text-white text-center  ">Maintenance</h5>
                     </div>
                     <div class="describe d-flex justify-content-center ">
-                        <p class="text-white p-2 ">We offer free support period with every project as well as we have very cost-effective maintenance contracts. Our team is dedicated to providing comprehensive support and maintenance services, allowing you to focus on your core business activities.</p>
+                        <p class="text-white p-2 text-justify">We offer free support period with every project as well as we have very cost-effective maintenance contracts. Our team is dedicated to providing comprehensive support and maintenance services, allowing you to focus on your core business activities.</p>
                     </div>
                 </div>
               </div>
               <div class="col-12 col-lg-3 px-1 my-2 ">
                 <div class="box-inner-soft">
+                <div class="img-dd d-flex justify-content-center py-2">
+                <img src="./assets/flex.png" height="80px" width="80px" alt="">
+              </div>
                     <div class="he-ti">
                         <h5 class="text-white text-center  ">Flexible</h5>
                     </div>
                     <div class="describe d-flex justify-content-center ">
-                        <p class="text-white p-2 ">Camwel is flexible in adopting any project management tool of client’s preferences. We can provide hire developers options, which can work inhouse or onsite based on client’s requirement. It's flexible with working hours, platforms and resource planning.</p>
+                        <p class="text-white p-2 text-justify">Camwel is flexible in adopting any project management tool of client’s preferences. We can provide hire developers options, which can work inhouse or onsite based on client’s requirement. It's flexible with working hours, platforms and resource planning.</p>
                     </div>
                 </div>
               

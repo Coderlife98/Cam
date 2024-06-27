@@ -333,33 +333,42 @@
         <div class="row">
           <div class="col-12 col-lg-7 my-2 my-lg-5">
             <div class="adv-schl">
-              <h5 class="fw-bolder">
+              <h5 class="fw-bolder smm-txt-center">
                 Camwel Solution boasts a wide range of advantages which are
                 given below:
               </h5>
             </div>
             <div class="all-bullet-school">
-              <div class="">
+              <div class="d-flex">
+                <div>
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span
-                  >Computerized attendance for everybody including students,
+                >
+                </div>
+               <span
+                  >Computerized attendance deverybody including students,
                   teachers and management</span
                 >
               </div>
-              <div class="my-2">
+              <div class="my-2 d-flex">
+                <div>
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span>Online marks and grades</span>
+                >
+                </div>
+               <span>Online marks and grades</span>
               </div>
 
-              <div class="">
+              <div class="d-flex">
+                <div>
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span>Online timetable and schedule for extra classes</span>
+                >
+                </div>
+               <span>Online timetable and schedule for extra classes</span>
               </div>
               <div class="my-2">
                 <i
@@ -367,29 +376,41 @@
                 ></i
                 ><span>Notification for homework</span>
               </div>
-              <div class="">
+              <div class="d-flex">
+                <div>
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span>Access to own as well as students attendance</span>
+                >
+                </div>
+               <span>Access to own as well as students attendance</span>
               </div>
-              <div class="my-2">
+              <div class="my-2 d-flex">
+                <div>
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span>Let communicate effectively with everybody</span>
+                >
+                </div>
+               <span>Let communicate effectively with everybody</span>
               </div>
-              <div class="">
+              <div class="d-flex">
+                <div>
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span>Access to forum for parents and teachers</span>
+                >
+                </div>
+               <span>Access to forum for parents and teachers</span>
               </div>
-              <div class="my-2">
+              <div class="my-2 d-flex">
+                <div>
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span
+                >
+                </div>
+               <span
                   >Better management for all school related operations</span
                 >
               </div>
@@ -471,7 +492,7 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12  col-lg-5 my-2 my-lg-5">
+          <div class="col-12  col-lg-5 my-2 order-2 order-md-0 my-lg-5">
             <div>
               <img src="./assets/rangeSchool.png" class="we-w-dth-rad" alt="@dued" />
             </div>
@@ -584,67 +605,91 @@
             <div class="col-12 col-lg-7 ">
                 <p class="">Camwel Solution boasts a wide range of advantages which are given below:</p>
                 <div class="poiiipp">
-                    <div class="my-2">
-                        <i
+                    <div class="my-2 d-flex">
+                      <div>
+                      <i
                           class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                         ></i
-                        ><span
+                        >
+                      </div>
+                        <span
                           >Improved communication</span
                         >
                       </div>
-                    <div class="">
-                        <i
+                    <div class="d-flex">
+                      <div>
+                      <i
                           class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                         ></i
-                        ><span
+                        >
+                      </div>
+                       <span
                           >Instant access to timetable, grades, attendance, marks and examination schedule</span
                         >
                       </div>
-                    <div class="my-2">
-                        <i
+                    <div class="my-2 d-flex">
+                      <div>
+                      <i
                           class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                         ></i
-                        ><span
+                        >
+                      </div>
+                       <span
                           >Easy reach to library and reference books</span
                         >
                       </div>
-                    <div class="">
-                        <i
+                    <div class="d-flex">
+                      <div>
+                      <i
                           class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                         ></i
-                        ><span
+                        >
+                      </div>
+                        <span
                           >Regulate and track self-progress</span
                         >
                       </div>
-                    <div class="my-2">
-                        <i
+                    <div class="my-2 d-flex">
+                      <div>
+                      <i
                           class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                         ></i
-                        ><span
+                        >
+                      </div>
+                        <span
                           >Easy submission of homework</span
                         >
                       </div>
-                    <div class="">
-                        <i
+                    <div class="d-flex">
+                      <div>
+                      <i
                           class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                         ></i
-                        ><span
+                        >
+                      </div>
+                       <span
                           >Freedom to post articles, opinions and take part in group discussion</span
                         >
                       </div>
-                    <div class="my-2">
-                        <i
+                    <div class="my-2 d-flex">
+                      <div>
+                      <i
                           class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                         ></i
-                        ><span
+                        >
+                      </div>
+                       <span
                           >Notification about school holidays and upcoming events</span
                         >
                       </div>
-                    <div class="">
-                        <i
+                    <div class="d-flex">
+                      <div>
+                      <i
                           class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                         ></i
-                        ><span
+                        >
+                      </div>
+                       <span
                           >A perfect tool between student and teacher.</span
                         >
                       </div>
@@ -672,6 +717,15 @@
         </div>
     </div>
     <!-- For HR Management end -->
+     <!-- faq section start -->
+      <div class="container-fluid py-3 py-lg-5">
+        <div class="container">
+          <div class="row">
+
+          </div>
+        </div>
+      </div>
+     <!-- faq section end -->
 
     <?php include("./includes/footer.php");?>
     <?php include("./includes/script.php");?>

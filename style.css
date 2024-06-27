@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +10,18 @@
 body {
     font-family: Inter;
     /* cursor: pointer; */
-
 }
+
+p{
+    font-size: 13px;
+}
+
 
 /* navbar start */
 
+
 /*** Navbar ***/
+
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -56,12 +61,10 @@ body {
     .navbar .navbar-brand img {
         max-height: 45px;
     }
-
     .navbar .navbar-nav {
         margin-top: 20px;
         margin-bottom: 15px;
     }
-
     .navbar .nav-item .dropdown-menu {
         padding-left: 30px;
     }
@@ -78,7 +81,6 @@ body {
         visibility: hidden;
         transition: .5s;
     }
-
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
@@ -87,7 +89,10 @@ body {
     }
 }
 
+
 /* navbar end */
+
+
 /* carousel hero section start */
 
 header {
@@ -106,7 +111,9 @@ header a {
     margin-right: 40px;
 }
 
+
 /* carousel */
+
 .carousel {
     height: 100vh;
     /* margin-top: -50px; */
@@ -181,7 +188,9 @@ header a {
     color: #eee;
 }
 
+
 /* thumbail */
+
 .thumbnail {
     position: absolute;
     bottom: 50px;
@@ -222,7 +231,9 @@ header a {
     font-weight: 300;
 }
 
+
 /* arrows */
+
 .arrows {
     position: absolute;
     top: 80%;
@@ -252,10 +263,13 @@ header a {
     color: #000;
 }
 
+
 /* animation */
+
 .carousel .list .item:nth-child(1) {
     z-index: 1;
 }
+
 
 /* animation text in first item */
 
@@ -294,7 +308,9 @@ header a {
     animation-delay: 1.8s !important;
 }
 
+
 /* create animation when next click */
+
 .carousel.next .list .item:nth-child(1) img {
     width: 150px;
     height: 220px;
@@ -341,6 +357,7 @@ header a {
     }
 }
 
+
 /* running time */
 
 .carousel .time {
@@ -362,7 +379,6 @@ header a {
     from {
         width: 100%
     }
-
     to {
         width: 0
     }
@@ -430,30 +446,28 @@ header a {
     .carousel .list .item .content {
         padding-right: 0;
     }
-
     .carousel .list .item .content .title {
         font-size: 30px;
     }
 }
 
+
 /* carousel hero section end */
 
 a {
     text-decoration: none;
-
 }
 
 li {
     list-style: none;
 }
 
-/* cursor effect start */
 
+/* cursor effect start */
 
 .cursor-dot {
     width: 6px;
     height: 6px;
-
     background-color: #ef03e8;
 }
 
@@ -475,13 +489,35 @@ li {
     pointer-events: none;
 }
 
+
 /* cursor effect end */
-
-
 
 .set-home-bg {
     /* background-color: #F5F9C7; */
 }
+
+.ser_border{
+    display: inline;
+    border-bottom: 1px solid red;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.tech_container{
+    border-top: 0.1px solid white;
+    background-color: black;
+   background-image: url("./assets/bg_home.png");
+   background-size: cover;
+   color: #bbb;
+}
+
+.industry_bg{
+    background-color: #272e7b;
+}
+
+
 
 .who-para p {
     text-align: justify;
@@ -498,14 +534,13 @@ button {
     outline: none;
     border: 0;
     padding: 8px 22px;
-
 }
 
 .logo-section-home {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: #0199ff;
+    /* background-color: #0199ff; */
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -518,8 +553,9 @@ button {
 }
 
 .add-mar:hover {
-
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    transform: translate(0, -10px);
 }
 
 .add-p-home {
@@ -559,7 +595,6 @@ button {
 
 .set-tech-head:hover {
     border-bottom: 2px solid red;
-
 }
 
 .set-bank-bg {
@@ -587,9 +622,7 @@ button {
 }
 
 .set-counter {
-    background-image: url("./assets/counter_bg.png");
-    background-size: cover;
-    background-attachment: fixed;
+    background-color:black;
 }
 
 .counter {
@@ -677,7 +710,6 @@ button {
     padding: 50px 0 30px;
     /* border-top-left-radius: 125px; */
     /* border-top-right-radius: 125px; */
-
 }
 
 .footer-para-left {
@@ -693,11 +725,21 @@ button {
     padding: 7px 0px;
 }
 
+.text-slate{
+    color: #bbb;;
+}
+
 .bg-copyright {
     background-color: black;
 }
 
+.set_card_home{
+    background-color: black;
+}
+
+
 /* business vertices start */
+
 .set-img-business {
     background-image: url("./assets/business_ver_hero.png");
     background-size: cover;
@@ -712,13 +754,34 @@ button {
     top: 45%;
 }
 
-.bus_img {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border-radius: 20px;
+.business-section{
+    margin-top: -78px;
+    background-color: #000;
+    border-bottom: 0.3px solid white;
+    color: white;
 }
 
+.links_bg{
+    background-color: black;
+    color: white;
+}
+/* 
+.brder{
+    border: 1px dashed white;
+    padding: 20px 10px 10px 10px;
+} */
+
+.bus_img {
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    /* border-radius: 20px; */
+}
+
+
 /* business vertices start */
+
+
 /* about page start */
+
 .set-about-bg {
     background-image: url("./assets/about_hero.png");
     background-size: cover;
@@ -753,8 +816,7 @@ button {
     width: 280px;
     border-radius: 50%;
     background: #e0e0e0;
-    box-shadow: 5px 5px 10px #969696,
-        -5px -5px 10px #ffffff;
+    box-shadow: 5px 5px 10px #969696, -5px -5px 10px #ffffff;
 }
 
 .set-color-about {
@@ -788,15 +850,23 @@ button {
     padding: 5px;
 }
 
+
 /* about page end */
 
+
 /* technology start */
+
 .set-tech-bg {
     background-image: url("./assets/partner.png");
     height: 350px;
     background-size: cover;
     position: relative;
     top: -77px;
+}
+
+.tech_bg_page{
+    background-color: black;
+    color: #bbb;
 }
 
 .banner-txt {
@@ -808,9 +878,13 @@ button {
 }
 
 .set-bg-tech-form {
-    background: #5670c538;
+   color: #bbb;
     padding: 10px 15px;
-    border-radius: 10px;
+    
+    background-color: black;
+    
+   
+    
 }
 
 .product-head p {
@@ -849,10 +923,46 @@ button {
     padding-top: 100px;
 }
 
+.rotate{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    border: 1px dashed white;
+    animation: rotate 20s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client_bg_container{
+    background-color: #1d2d91;
+    background-image: url("./assets/it.png");
+    height: 350px;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.img-rotate{
+    position: absolute;
+}
+
+.input-bg{
+    background-color: transparent;
+    border: 0.1px solid white;
+    color: white;
+}
+.input-bg:focus{
+    border: 0.1px solid yellow;
+}
+
+
+
 /* technology end */
 
 
 /* swiper code here start */
+
 .swiper {
     /* width: 100%; */
     /* height: 100%; */
@@ -884,25 +994,12 @@ button {
     font-weight: 800;
 }
 
+
 /* swiper code here end */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* technology set-bg-specize start */
+
 .set-bg-specize {
     /* background-image: url("./assets/tech_speci_hero.png"); */
     background-image: url("./assets/tech_hero.png");
@@ -928,12 +1025,15 @@ button {
     background-color: #6043d31c;
     padding: 8px;
     border-radius: 25px;
-
     text-align: center;
 }
 
+
 /* technology set-bg-specize end */
+
+
 /* Investor start */
+
 .set-investor-bg {
     background-image: url("./assets/investor_hero.png");
     height: 350px;
@@ -952,8 +1052,16 @@ button {
     text-align: justify;
 }
 
+.investor_bg{
+    margin-top: -78px;
+    background-color: #00000F;
+}
+
 /* Investor end */
+
+
 /* contact us section start */
+
 .set-contact-hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.479)), url("./assets/contact_hero.png");
     height: 350px;
@@ -964,14 +1072,14 @@ button {
 }
 
 .contact-hero-txt {
-
     position: absolute;
     top: 45%;
     left: 11%;
 }
 
 .set-contact-bg {
-    background: linear-gradient(to right, #7E7CB1, #1B1960);
+    background: black;
+    margin-top: -78px;
 }
 
 .set-cont-bg {
@@ -993,11 +1101,12 @@ button {
     font-weight: 800;
 }
 
+
 /* contact us section end */
 
 
-
 /* our team section start */
+
 .set-team-hero {
     background-image: url("./assets/team_hero.png");
     background-size: cover;
@@ -1017,11 +1126,21 @@ button {
 }
 
 .bbb1 {
-    border: 1px dotted black;
+    border: 1px dashed white;
     padding: 10px;
+    
     border-radius: 5px;
     position: relative;
 }
+
+.bg_team_first{
+    background-color: #000;
+    margin-top: -78px;
+}
+
+
+
+
 
 .test-it {
     border-radius: 50%;
@@ -1032,33 +1151,27 @@ button {
     transform: translate(-50%, +50%);
     background: #e0e0e0;
     box-shadow: 44px 44px 88px #7b7b7b, -44px -44px 88px #ffffff;
-    animation: mymove 5s infinite;
+   
 }
 
-@keyframes mymove {
-    from {
-        left: 150px;
-    }
 
-    to {
-        left: 290px;
-    }
+@keyframes try {
+    
 }
+
 
 
 /* our team section end */
 
 
-
-
 /* disclaimer start */
+
 .set-her-disclaimers {
     background-image: url("./assets/dis_hero.png");
     height: 350px;
     background-size: cover;
     position: relative;
     top: -77px;
-
 }
 
 .dis-hero-txt {
@@ -1095,28 +1208,24 @@ button {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-
     border: 1px solid rgba(255, 255, 255, 0.18);
     /* display: flex;
     justify-content: center;
     align-items: center; */
-
 }
+
 
 /* disclaimer end */
 
 
-
-
 /* privacy section start */
+
 .set_privacy_hero {
     background-image: url("./assets/privacy_hero.png");
     background-size: cover;
     height: 350px;
     top: -77px;
 }
-
-
 
 .set-privacy-design {
     background-color: rgb(238, 160, 160);
@@ -1145,21 +1254,21 @@ button {
     color: white;
 }
 
-
 .contact-set-priv:hover {
     border: 1px solid goldenrod;
     background-color: white;
 }
 
 .contact-set-priv:hover .set-pp-cc {
-
     color: black;
 }
+
 
 /* privacy section end */
 
 
 /* Blog section start */
+
 .set-blog-hero-bg {
     background-image: url("./assets/blog_hero.png");
     background-size: cover;
@@ -1168,23 +1277,35 @@ button {
     position: relative;
 }
 
+
+
 .head-bannnn-blog {
     position: absolute;
     top: 45%;
     left: 13%;
 }
 
-.back_border {
+.blog_mart{
+    margin-top: -78px;
+    background-color: black;
+    color: white;
+}
+
+.above-back-border2{
+    position: absolute;
+    top: 61px;
+}
+
+/* .back_border {
     height: 350px;
     width: 350px;
     background-color: #FF6B78;
     border-radius: 184px 0px 185px 185px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+} */
 
 .above-back-border {
-    border-radius: 171px;
-
+    border-radius: 0px 0px 166px 227px;
 }
 
 .txt-color {
@@ -1212,19 +1333,14 @@ button {
     transition: 0.9s;
 }
 
-.img-rad:hover {
-    transform: translate3d(-20px, 0, 0);
-}
+
+
 
 /* Blog section end */
 
 
-
-
-
-
-
 /* software dev start */
+
 .soft-linear {
     background: -webkit-linear-gradient(#5423E4, #275EEF);
     -webkit-background-clip: text;
@@ -1269,10 +1385,9 @@ button {
 }
 
 .set-box-bg-soft {
-    background: linear-gradient(to left, #580243, #340356);
+    background: black;
+    color: white;
 }
-
-
 
 .box-inner-soft {
     /* border:2px solid #7D1F37; */
@@ -1293,7 +1408,6 @@ button {
 .box-inner-soft:hover {
     box-shadow: none;
     border: 0.8px solid goldenrod;
-
 }
 
 .outer-plan {
@@ -1346,7 +1460,6 @@ button {
 
 .set-bg-rule {
     background-color: #40B2AC;
-
 }
 
 .rule-box {
@@ -1369,7 +1482,6 @@ button {
 
 .set-feature-nidhi {
     background-color: #e7edf7;
-
 }
 
 .featur-img {
@@ -1409,8 +1521,12 @@ button {
     background-color: #e7d9a1;
 }
 
+
 /* software dev end */
+
+
 /* Features Of Our Nidhi Software start */
+
 .btn-accord {
     width: 100%;
 }
@@ -1423,14 +1539,18 @@ button {
     width: 100%;
 }
 
+
 /* Features Of Our Nidhi Software end */
+
+
 /* nidhi registration start */
+
 .set-nidh-rrr {
     width: 380px;
 }
 
 .set-colorful-bg {
-    background-color: #EDE8F5;
+    background-color: black;
 }
 
 .move-number {
@@ -1440,11 +1560,12 @@ button {
     border-radius: 50%;
 }
 
+
 /* nidhi registration end */
 
 
-
 /* website dev start */
+
 .set-hero-web {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.089)), url("./assets/website_hero.png");
     height: 350px;
@@ -1480,6 +1601,12 @@ button {
     /* background-attachment: fixed; */
 }
 
+.web__bg{
+    background-color: black;
+    color: white;
+    margin-top: -78px;
+}
+
 .set-web-brr {
     border-radius: 50%;
     width: 75px;
@@ -1500,8 +1627,6 @@ button {
     border-radius: 0px 42px 0px 42px;
 }
 
-
-
 .web-bg-box-1 {
     height: 155px;
     padding: 20px;
@@ -1511,11 +1636,14 @@ button {
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-
 }
 
+
 /* website dev end */
+
+
 /* microfinance start */
+
 .set-micro_hero-bg {
     background-image: url('./assets/micro_finance_hero.png');
     background-size: cover;
@@ -1558,14 +1686,10 @@ button {
     border-radius: 15px;
 }
 
-.set-bg-sllll {
-    background-color: #3d3d3d;
 
-}
 
 .slide-box-design {
     height: 370px;
-
     /* padding: 10px; */
     border: 0.5px dotted black;
     border-right: 5px blue solid;
@@ -1579,8 +1703,6 @@ button {
     position: relative;
     height: 100%;
     object-fit: cover;
-
-
 }
 
 .set-last-txt {
@@ -1591,23 +1713,18 @@ button {
     0% {
         left: 10%
     }
-
     30% {
         left: 40%
     }
-
     40% {
         left: 60%
     }
-
     60% {
         left: 80%
     }
-
     80% {
         left: 95%
     }
-
     100% {
         left: 105%
     }
@@ -1626,10 +1743,12 @@ button {
     animation: skull 2s linear forwards;
 }
 
+
 /* microfinance end */
 
 
 /* microfinance registration start */
+
 .set-micro_hero_reg-bg {
     background-image: url('./assets/micro_reg.png');
     background-size: cover;
@@ -1671,7 +1790,6 @@ button {
 
 .ll {
     width: 650px;
-
 }
 
 .main-dued-reg {
@@ -1680,77 +1798,88 @@ button {
     border-radius: 28px 5px 22px 5px;
     border-width: 1px;
     border-style: solid;
-    
 }
 
-.bg-self{
+.bg-self {
     width: 70px;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba( 255, 255, 255, 0 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba( 255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
     border-radius: 50px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    border: 1px solid rgba( 255, 255, 255, 0.18);
     transition: 0.9s;
-  
 }
 
-.main-dued-reg:hover{
+.main-dued-reg:hover {
     background: radial-gradient(circle at 222% 5%, rgba(56, 42, 113, 1) 0%, rgba(37, 32, 57, 1) 50%, rgba(52, 40, 99, 1) 100%);
     border: 1px solid white;
 }
 
-#height_set{
+#height_set {
     height: 330px;
 }
-#h_20{
+
+#h_20 {
     height: 276px;
 }
 
-.set-third-bg{
+.set-third-bg {
     background: linear-gradient(166deg, rgba(74, 84, 143, 1) 0%, rgba(27, 56, 69, 1) 50%, rgba(0, 6, 6, 1) 100%);
 }
 
-.gradient_bg{
-    background: rgba( 255, 255, 255, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+.gradient_bg {
+    background: rgba( 255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba( 255, 255, 255, 0.18);
     transition: 0.9s;
 }
-.gradient_bg:hover{
+
+.gradient_bg:hover {
     box-shadow: none;
 }
 
-.gradient___bg{
+.gradient___bg {
     background: linear-gradient(102deg, rgba(147, 60, 166, 0.68) 0%, rgba(42, 74, 175, 0.83) 50%, rgba(2, 4, 9, 0.88) 100%);
 }
 
+
 /* microfinance registration end */
+
+
 /* dsa loan management start */
-.set-dsa-bg{
+
+.set-dsa-bg {
     background-image: url("./assets/dsa.png");
     height: 350px;
     background-size: cover;
     position: relative;
     top: -77px;
 }
-.head_grad{
-    background: -webkit-linear-gradient(left,#8758DC, #333);
+
+.loan_section1{
+    margin-top: -78px;
+}
+
+.head_grad {
+    background: -webkit-linear-gradient(left, #8758DC, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
 /* dsa loan management end */
 
 
-
 /* Digital marketing start */
+
 .set-her-dg-mar {
     background-image: url("./assets/digital_hero.png");
     height: 350px;
@@ -1784,9 +1913,11 @@ button {
     border-radius: 5px;
 }
 
+
 /* .set-mail-bg{
     background: linear-gradient(90deg, rgba(130, 230, 238, 0.17) 0%, rgba(0, 0, 255, 0.13) 100%);
 } */
+
 
 /* .set-reputation-bg{
     background: linear-gradient(90deg, rgba(0, 255, 235, 0.08) 0%, rgba(7, 58, 187, 0.13) 100%);
@@ -1800,23 +1931,36 @@ button {
     background: linear-gradient(90deg, rgba(152, 238, 130, 0.1) 0%, rgba(0, 133, 150, 0.12) 100%);
 }
 
+
 /* Digital marketing end */
 
 
-
-
-
-
-
-
-
 /* mobile app start */
+
 .set-mobile-hero-bg {
     background-image: url("./assets/mobilapp_heo.png");
     height: 350px;
     background-size: cover;
     top: -77px;
     position: relative;
+}
+
+.text-orange{
+    color: #f59e0b;
+}
+
+.text-green{
+    color: #4ade80;
+}
+
+.blue_set_mobile{
+    background-color: #00093c;
+    color: white;
+    margin-top: -78px;
+}
+.black{
+    background-color: #000;
+    color: white;
 }
 
 .bg-app {
@@ -1839,13 +1983,23 @@ button {
     justify-content: center;
     align-items: center;
     position: relative;
+    border: 0.3px dashed white;
+    border-radius: 10px;
     z-index: 1111;
     overflow: hidden;
 }
 
+.web_2_portal{
+    background-color: black;
+    color: white;
+}
+
+
 /* mobile app end */
 
+
 /* portal section start */
+
 .set-portal-hero {
     background-image: url("./assets/portal_hero.png");
     height: 350px;
@@ -1854,6 +2008,17 @@ button {
     top: -77px;
 }
 
+.web_dev_bg{
+    background-color: #0d0e2b;
+    color: white;
+}
+
+
+.set_prtal_bg{
+    background-color: #000;
+    color: white;
+    margin-top: -76px;
+}
 .portal-hero-text {
     position: absolute;
     left: 14%;
@@ -1871,13 +2036,14 @@ button {
 .why-por-bg img {
     position: absolute;
     left: -24%;
-
 }
 
 
 /* portal section end */
 
+
 /* core banking start */
+
 .set-core-banking-hero {
     position: relative;
     background-image: linear-gradient(to right, rgb(0 0 0 / 56%), rgb(0 0 0 / 43%)), url("./assets/core_bank_hero1.png");
@@ -1886,12 +2052,20 @@ button {
     background-size: cover;
 }
 
+.banking_core{
+    margin-top: -78px;
+    background-color: #000;
+    color: white;
+}
+
 .core-1 {
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     filter: grayscale(50%);
     transition: 0.9s;
 }
+
+
 
 .core-1:hover {
     filter: grayscale(0%);
@@ -1919,8 +2093,12 @@ button {
     width: 100%;
 }
 
+
 /* core banking end */
+
+
 /* nidhi company registration start */
+
 .set-nidhi-hero-bg {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.336)), url("./assets/nidhi_registration_hero.png");
     background-size: cover;
@@ -1956,17 +2134,19 @@ button {
     font-size: 15px;
 }
 
-
 .head-box-ncr h4 {
-    background: -webkit-linear-gradient(#5423E4, #275EEF);
+    background: -webkit-linear-gradient(#90e423, #caef27);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
+
 
 /* .set-b-nc {
     background-image: linear-gradient(to right, #3139B6, #00B9F8);
     padding: 18px;
 } */
+
 
 /* .setb2-bg {
     border: 2px dotted red;
@@ -1977,7 +2157,6 @@ button {
 } */
 
 .btn-fqqq {
-
     cursor: pointer;
 }
 
@@ -1991,8 +2170,12 @@ button {
     background-color: #FF6B78;
 }
 
+
 /* nidhi company registration end */
+
+
 /* nidhi company software start */
+
 .nidh-soft-hero {
     background-image: url("./assets/nidhi_soft-hero.png");
     background-size: cover;
@@ -2001,18 +2184,27 @@ button {
     position: relative;
 }
 
+.set_nidhi_bg{
+    background-color: #091424;
+    color: white;
+    margin-top: -78px;
+}
+
 .head-bannnn {
     position: absolute;
     top: 48%;
 }
 
-
 .set-para-sot {
     width: 516px;
 }
 
+
 /* nidhi company software end */
+
+
 /* nbfc software start */
+
 .set-nbfc-bg {
     background-image: url("./assets/nbfc_hero.png");
     background-size: cover;
@@ -2024,7 +2216,6 @@ button {
 .text-nbfc {
     position: absolute;
     top: 45%;
-
 }
 
 .nbsw-box {
@@ -2056,6 +2247,7 @@ button {
     width: 100%;
 }
 
+
 /* .set-text-bg{
     background: linear-gradient(to left, #328352, #2c494e, #2f446a);
     color: white;
@@ -2079,8 +2271,12 @@ button {
 
 @keyframes mymove {}
 
+
 /* nbfc software end */
+
+
 /* chitfund start */
+
 .set-chit-fund-bg {
     background-image: linear-gradient(to right, #0000004a, #000000a1), url("./assets/chit_fund_hero.png");
     height: 350px;
@@ -2106,8 +2302,12 @@ button {
     box-shadow: none;
 }
 
+
 /* chitfund end */
+
+
 /* college management start */
+
 .set-college-hero {
     background-image: url("./assets/college_hero.png");
     min-height: 350px;
@@ -2116,16 +2316,45 @@ button {
     top: -77px;
 }
 
+.college_margint{
+    margin-top: -78px;
+}
+
 .sec-i-col {
     border-radius: 10px;
+}
+.set_bg_man{
+    background-color: #384bff;
+    color: white;
+}
+.set_circle_move{
+  background-image: url("./assets/circle-shape.png");
+  animation: rotate 20s linear infinite;
+}
+
+.bull-sec-sch{
+    display: flex;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 .girl-coll {
     border-radius: 191px 0px 195px 281px;
 }
 
+
 /* college management end */
+
+
 /* instituate management start */
+
 .set-instituate-bg {
     background-image: linear-gradient(to left, #0000008f, #000000b3), url("./assets/instituste_hero.png");
     height: 350px;
@@ -2140,8 +2369,12 @@ button {
     left: 8%;
 }
 
+
 /* instituate management end */
+
+
 /* school management software start */
+
 .set-school-bg {
     background-image: linear-gradient(to left, #0000008f, #00000096), url(./assets/school_hero.png);
     height: 350px;
@@ -2178,8 +2411,12 @@ button {
     border-radius: 0px 0px 318px 169px;
 }
 
+
 /* school management software end */
+
+
 /* pos software start */
+
 .pos_bg-hero {
     position: relative;
     background-image: linear-gradient(to right, #00000073, #000000c2), url("./assets/pos_hero_test.png");
@@ -2207,6 +2444,7 @@ button {
 
 .butt button {
     width: 100%;
+    height: 58px;
 }
 
 .poin-eff {
@@ -2227,28 +2465,23 @@ button {
 }
 
 @keyframes text-focus-in {
-
     0% {
         filter: blur(12px);
         opacity: 0;
     }
-
     100% {
         filter: blur(0);
         opacity: 1;
     }
 }
 
-
 @keyframes focus-in-expand-top {
-
     0% {
         letter-spacing: -.5em;
         transform: translateY(-300px);
         filter: blur(12px);
         opacity: 0;
     }
-
     0% {
         transform: translateY(0);
         filter: blur(0);
@@ -2256,8 +2489,12 @@ button {
     }
 }
 
+
 /* pos software end */
+
+
 /* hosiptal management software start */
+
 .hospital-hero-bg {
     background-image: linear-gradient(to left, #00000073, #000000ba), url("./assets/hospital_hero.png");
     height: 350px;
@@ -2275,7 +2512,6 @@ button {
     position: absolute;
     top: 44%;
     left: 11%;
-
 }
 
 .set-hos-br {
@@ -2383,7 +2619,6 @@ input[type="radio"] {
     padding: 10px 10px 20px;
 }
 
-
 .accordian input[type="radio"]:checked+label::content {
     content: "-";
     margin-right: 10px;
@@ -2395,9 +2630,11 @@ input[type="radio"] {
     padding-left: 0px;
 }
 
-/* hosiptal management software end */
-/* faq part start */
 
+/* hosiptal management software end */
+
+
+/* faq part start */
 
 .faq-item {
     margin-bottom: 20px;
@@ -2424,7 +2661,9 @@ input[type="radio"] {
     display: block;
 }
 
+
 /* faq part end */
+
 .im1,
 .im4 {
     border-radius: 0px 50px 0px 50px;
@@ -2439,7 +2678,9 @@ input[type="radio"] {
     user-select: none;
 }
 
+
 /* binary plan section start */
+
 .set-binary-plan-bg {
     background-image: url("./assets/binary_hero.png");
     background-size: cover;
@@ -2469,21 +2710,23 @@ input[type="radio"] {
 }
 
 @keyframes focus-in-contract {
-
     0% {
         letter-spacing: 1em;
         filter: blur(12px);
         opacity: 0;
     }
-
     100% {
         filter: blur(0);
         opacity: 1;
     }
 }
 
+
 /* binary plan section end */
+
+
 /* matrix plan start */
+
 .set-matrix-plan-bg {
     background-image: url("./assets/matrix_hero.png");
     background-size: cover;
@@ -2492,8 +2735,12 @@ input[type="radio"] {
     position: relative;
 }
 
+
 /* matrix plan end */
+
+
 /* crowd funcing plan start */
+
 .set-crowd-plan-bg {
     background-image: url("./assets/crowd.png");
     height: 300px;
@@ -2502,8 +2749,12 @@ input[type="radio"] {
     position: relative;
 }
 
+
 /* crowd funcing plan end */
+
+
 /* investment plan start */
+
 .set-invest-plan-bg {
     background-image: url("./assets/inves.png");
     height: 300px;
@@ -2512,8 +2763,12 @@ input[type="radio"] {
     position: relative;
 }
 
+
 /* investment plan END */
+
+
 /* board plan start */
+
 .set-board-plan-bg {
     background-image: url('./assets/board.png');
     height: 300px;
@@ -2522,8 +2777,12 @@ input[type="radio"] {
     position: relative;
 }
 
+
 /* board plan end */
+
+
 /* unilevel start */
+
 .set-unilevel-plan-bg {
     background-image: url('./assets/unilevel.png');
     height: 300px;
@@ -2537,8 +2796,12 @@ input[type="radio"] {
     width: 150px;
 }
 
+
 /* unilevel end */
+
+
 /* helping plam start */
+
 .set-helping-plan-bg {
     background-image: url('./assets/helping_hero.png');
     height: 300px;
@@ -2552,7 +2815,6 @@ input[type="radio"] {
 }
 
 
-
 /* helping plam end */
 
 
@@ -2563,21 +2825,21 @@ input[type="radio"] {
         display: flex;
         justify-content: space-between;
     }
-
     .set-pd-dis {
         padding-bottom: 95px;
     }
-
     .box-inner-soft {
-        height: 280px;
+        height: 400px;
     }
-
     .web-box-1 {
         height: 250px;
     }
-
     .sch-box-1 {
         height: 80px;
+    }
+    .cricle-shape{
+        width: 450px !important;
+      
     }
 }
 
@@ -2585,140 +2847,130 @@ input[type="radio"] {
     .set-pd-dis {
         padding-bottom: 115px;
     }
-
     .box-inner-soft {
         height: 355px;
     }
-
     .web-box-1 {
         height: 280px;
     }
-
     .main-box {
         height: 335px;
     }
-
     .set-privacy-design {
         width: 225px;
         height: 75px;
     }
-
     .sch-box-1 {
         height: 90px;
     }
-
     .life-cycle {
         width: 100%;
     }
-
     .set-arrow-reg {
         margin: 5px 10px;
     }
-
+    .above-back-border2{
+       display: none;
+    }
+    .set_circle_move{
+        display: none;
+    }
 }
 
 @media (min-width:576px) and (max-width:768px) {
     .main-box {
         height: 230px;
     }
-
     .sch-box-1 {
         height: 90px;
     }
-
     .set-bg-iii {
         height: 353px;
     }
-
     .add-border-hos img {
         position: relative;
         bottom: 0%;
         border-radius: 0px 0px 291px 252px;
     }
-
     .md-imh {
         display: flex;
         justify-content: center;
     }
-
     .life-cycle {
         width: 100%;
     }
-
     .sm-md-midd {
         display: flex;
         justify-content: center;
     }
+  
 }
 
 @media (min-width:768px) and (max-width:992px) {
     .main-box {
         height: 210px;
     }
-
     .bus_img {
         width: 295px;
     }
-
     .set-privacy-design {
         width: 250px;
     }
-
     .set-ii-colleg {
         display: flex;
         justify-content: center;
     }
-
     .sch-box-1 {
         height: 90px;
     }
-
     .set-bg-iii {
         height: 373px;
     }
-
+    .above-back-border2{
+        display: none;
+     }
+     .above-back-border{
+        display: none;
+     }
     .add-border-hos img {
         position: relative;
         bottom: 0%;
         border-radius: 0px 0px 291px 252px;
     }
-
     .sm-md-midd {
         display: flex;
         justify-content: center;
     }
-
     .md-imh {
         display: flex;
         justify-content: center;
     }
-
     .bbb1 {
         height: 170px;
     }
-
     .life-cycle {
         width: 100%;
     }
-
     .set-img-mddd {
         display: flex;
         justify-content: center;
     }
-
     .web-box-1 {
         height: 250px;
     }
-
     .set-nidh-rrr {
         width: 100%;
     }
-
     .set-arrow-reg {
         display: flex;
         justify-content: center;
     }
-
+    .above-back-border2{
+        width: 100px;
+    }
+    .set_circle_move{
+        display: none;
+    }
 }
 
 @media (min-width:1400px) {
@@ -2726,48 +2978,41 @@ input[type="radio"] {
         display: flex;
         justify-content: space-between;
     }
-
     .set-pd-dis {
         padding-bottom: 70px;
     }
-
     .box-inner-soft {
         height: 280px;
     }
-
     .web-box-1 {
         height: 250px;
     }
-
     .nidh-soft-hero {
         background-image: url("./assets/nidhi_soft-hero.png");
         background-size: cover;
         height: 550px;
         position: relative;
     }
-
     .head-bannnn {
         position: absolute;
         top: 54%;
         left: 20%;
     }
-
-
     .set-para-sot {
         width: 516px;
     }
-
     .set-privacy-design {
-
         width: 250px;
     }
-
     .design-soft {
         height: 300px;
     }
-
     .sch-box-1 {
         height: 90px;
+    }
+    .cricle-shape{
+        width: 450px !important;
+      
     }
 }
 
@@ -2778,7 +3023,6 @@ input[type="radio"] {
         background-size: cover;
         position: relative;
     }
-
     .set-bg-specize {
         height: 500px;
     }
@@ -2788,25 +3032,20 @@ input[type="radio"] {
     .sm-text {
         text-align: center;
     }
-
     .footer-bg {
         background-image: linear-gradient(to right, #00093c, #2d0b00);
         color: #ffffff;
         padding: 50px 0 30px;
         /* border-top-left-radius: 125px; */
         /* border-top-right-radius: 125px; */
-
     }
-
     .team-soft-md {
         width: 100%;
     }
-
     .set-middel {
         display: flex;
         justify-content: center;
     }
-
     .add-mar {
         margin: 20px 0px;
         padding: 0px;
@@ -2814,26 +3053,33 @@ input[type="radio"] {
         transition: all 300ms;
         border: 1px solid grey;
     }
-
     .banner-txt {
         font-size: 28px;
     }
+    .set_circle_move{
+        display: none;
+    }
 
+    .smm-txt-center{
+        text-align: center;
+    }
+
+    #hos1{
+        display: flex;
+        justify-content: center;
+    }
     .set-soft-bg-hero {
         background-position: center;
     }
-
     .spe_head {
         position: absolute;
         top: 42%;
         font-weight: 700;
         font-size: 25px;
     }
-
     .third_road {
         margin-top: 0px;
     }
-
     .set-about-bg {
         background-image: linear-gradient(to right, rgb(0 0 0 / 75%), rgb(0 0 0 / 63%)), url(./assets/sm-about-hero.png);
         background-size: cover;
@@ -2841,37 +3087,27 @@ input[type="radio"] {
         width: 100%;
         position: relative;
     }
-
     .set-hero-web {
         background-position: center;
     }
-
     .web-hero-txt {
         left: 10%;
     }
-
     .soo-hero-txt {
         left: 10%;
     }
-
-
-
-    .about-img-rad {}
-
+    
     .about-banner-text {
         top: 45%;
         font-size: 29px;
     }
-
     .md-imh {
         display: flex;
         justify-content: center;
     }
-
     .main-box {
         height: 300px;
     }
-
     .set-nidhi-hero-bg {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.336)), url("./assets/nidhi_c_r_sm.png");
         background-size: cover;
@@ -2879,21 +3115,17 @@ input[type="radio"] {
         height: 350px;
         position: relative;
     }
-
     .nidhi-bn-hea {
         position: absolute;
         top: 40%;
         left: 4%;
         color: #00dcff;
     }
-
     .add-border-hos img {
         position: relative;
         bottom: 0%;
         border-radius: 0px 0px 291px 252px;
     }
-
-
     .nidhi-bn-txt {
         position: absolute;
         top: 52%;
@@ -2901,23 +3133,19 @@ input[type="radio"] {
         left: 3%;
         padding: 0px 10px 0px 0px;
     }
-
     .nidh-soft-hero {
         background-image: url(./assets/nidhi-hero-sm.png);
         background-size: cover;
         height: 450px;
         position: relative;
     }
-
     .set-para-sot {
         width: 100%;
     }
-
     .head-bannnn {
         position: absolute;
         top: 52%;
     }
-
     .set-blog-hero-bg {
         background-image: url("./assets/blog_hero.png");
         background-size: cover;
@@ -2925,13 +3153,11 @@ input[type="radio"] {
         position: relative;
         background-position: center;
     }
-
     .head-bannnn-blog {
         position: absolute;
         top: 45%;
         left: 13%;
     }
-
     .set-img-business {
         background-image: linear-gradient(to right, #000000c7, rgba(0, 0, 0, 0.315)), url("./assets/business-sm.png");
         background-size: cover;
@@ -2939,7 +3165,6 @@ input[type="radio"] {
         width: 100%;
         position: relative;
     }
-
     .set-contact-hero {
         background-image: url("./assets/contact-sm.png");
         height: 350px;
@@ -2947,18 +3172,14 @@ input[type="radio"] {
         background-size: cover;
         position: relative;
     }
-
     .set-arrow-reg {
         display: flex;
         justify-content: center;
     }
-
     .contact-hero-txt {
         position: absolute;
         top: 55%;
-
     }
-
     .set-her-dg-mar {
         background-image: url(./assets/digital_hero.png);
         height: 350px;
@@ -2966,29 +3187,24 @@ input[type="radio"] {
         background-position: center;
         position: relative;
     }
-
     .digital-hero {
         position: absolute;
         top: 45%;
         /* left: 4%; */
     }
-
     .sm-md-midd {
         display: flex;
         justify-content: center;
     }
-
     .set-her-disclaimers {
         background-image: url("./assets/dis-sm.png");
         height: 350px;
         background-size: cover;
         position: relative;
     }
-
     .dis-hero-txt {
         display: none;
     }
-
     .set-portal-hero {
         background-image: url(./assets/portal_hero.png);
         height: 350px;
@@ -2996,20 +3212,16 @@ input[type="radio"] {
         position: relative;
         background-position: center;
     }
-
     .set-img-mddd {
         display: flex;
         justify-content: center;
     }
-
-
     .set_privacy_hero {
         background-image: url(./assets/privacy_hero.png);
         background-size: cover;
         height: 350px;
         background-position: center;
     }
-
     .set-micro_hero-bg {
         background-image: url(./assets/micro_finance_hero.png);
         background-size: cover;
@@ -3017,15 +3229,12 @@ input[type="radio"] {
         background-position: center;
         position: relative;
     }
-
     .container-main-4 {
         width: 100%;
         height: 370px;
         /* border: 1px solid red; */
         border-radius: 10px;
         padding: 10px 5px;
-
-
         background: rgba(255, 255, 255, 0.25);
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
         backdrop-filter: blur(4px);
@@ -3034,22 +3243,18 @@ input[type="radio"] {
         border: 1px solid rgba(255, 255, 255, 0.18);
         background-color: black;
     }
-
     .sm-rode-hide {
         display: none;
     }
-
     .second-roadmap {
         margin-top: 0px;
     }
-
     .mmm {
         width: 100%;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border: 2px solid white;
     }
-
     .set-nbfc-bg {
         background-image: url(./assets/nbfc_hero.png);
         background-size: cover;
@@ -3057,104 +3262,84 @@ input[type="radio"] {
         position: relative;
         background-position: center;
     }
-
     .chit1-sec {
         width: 100%;
     }
-
     .set-chit-fund-bg {
         background-position: center;
     }
-
     .set-college-hero {
         background-position: center;
     }
 
+    .above-back-border2{
+        width: 100%;
+    }
     .set-ii-colleg {
         display: flex;
         justify-content: center;
     }
-
     .we-w-dth-rad {
         border-radius: 0px 150px 150px 0px;
         width: 100%;
     }
-
     .ins-set-ss {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
     .girl-coll {
         width: 350px;
     }
-
     .sm-allll {
         display: flex;
         justify-content: center;
     }
-
     .set-bg-specize {
         background-position: center;
     }
-
     .all-section {
         padding: 10px 0px;
     }
-
     .tech-heading h3 {
         padding: 10px 0px 0px 10px;
     }
-
     .tec-partner {
         width: 100%;
     }
-
     .set-team-hero {
         background-position: center;
     }
-
     .set-tss {
         text-align: center;
     }
-
     .buttonsoft {
         display: flex;
         justify-content: center;
     }
-
     .pos_bg-hero {
         background-position: center;
     }
-
     .pos-hero-txt {
         position: absolute;
         top: 35%;
         left: 11%;
     }
-
     .web-bg-box-1 {
         height: 160px;
     }
-
     .set-bg-iii {
-
         height: 360px;
-
     }
-
     .set-sm-ww-width {
         width: 100%;
         border-radius: 0px 0px 318px 169px;
     }
-
     .left-tech-de {
         border: none;
         padding-left: 0px;
         margin-left: 0px;
     }
-
     .add-border-hos {
         width: 300px;
         height: 100%;
@@ -3162,32 +3347,25 @@ input[type="radio"] {
         border-radius: 0px 0px 187px 164px;
         position: relative;
     }
-
     .hos-set-this {
         width: 100%;
     }
-
     .life-cycle {
         width: 100%;
     }
-
     /* swiper added */
     .swiper-slide {
         width: 100% !important;
         height: 100% !important;
     }
-
     .soft1 {
         width: 100%;
     }
-
     .set-nidh-rrr {
         width: 100%;
     }
-
     .set-arrow img {
         display: none;
     }
-
     /* swiper ended */
 }

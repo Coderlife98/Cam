@@ -23,7 +23,7 @@
    <div class="container-fluid set-section-about">
     <div class="container  p-2 p-lg-5  ">
       <div class="row">
-        <div class="col-12 col-lg-7">
+        <div class="col-12 col-lg-7 d-flex justify-content-center flex-column">
           <div class="about-heading">
             <h3 class=" fw-bolder">About Us</h3>
           </div>

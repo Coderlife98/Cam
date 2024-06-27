@@ -27,16 +27,19 @@
     <!-- testimonials end -->
 
     <!-- section 2 start -->
-    <div class="container mb-2 mb-lg-5">
+  <div class="container-fluid bg_team_first py-2 py-lg-5">
+  <div class="container mb-2 mb-lg-5">
       <div class="row">
         <div class="col-12 col-md-6  col-lg-4 my-3">
         <div class="bbb1">
-          <img src="./assets/team-sm-test.png" class="test-it" alt="">
+         <div class="">
+         <img src="./assets/team-sm-test.png" class="test-it" alt="">
+         </div>
           <div class="head-team">
-            <h5>Creativity</h5>
+            <h5 class="text-warning">Creativity</h5>
           </div>
           <div class="para-team">
-            <p class="text-justify">It's the ability to think outside the box. We make decisions, create something new and generate a lot of ideas.</p>
+            <p class="text-justify text-slate">It's the ability to think outside the box. We make decisions, create something new and generate a lot of ideas.</p>
           </div>
         </div>
         </div>
@@ -44,10 +47,10 @@
           <div class="bbb1 set-sha-tttt">
             <img src="./assets/world.png" class="test-it" alt="">
             <div class="head-team">
-              <h5>Worldwide</h5>
+              <h5 class="text-warning"> Worldwide</h5>
             </div>
             <div class="para-team">
-              <p class="text-justify">All sites you make with Camwel Solution LLP are mobile-friendly. You don't have to create a special mobile version of your site.</p>
+              <p class="text-justify text-slate">All sites you make with Camwel Solution LLP are mobile-friendly. You don't have to create a special mobile version of your site.</p>
             </div>
           </div>
         </div>
@@ -55,15 +58,16 @@
           <div class="bbb1">
             <img src="./assets/unique.png" class="test-it" alt="">
             <div class="head-team">
-              <h5>Unique Styles</h5>
+              <h5 class="text-warning">Unique Styles</h5>
             </div>
             <div class="para-team">
-              <p class="text-justify">Camwel Solution LLP offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.</p>
+              <p class="text-justify text-slate">Camwel Solution LLP offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
     <!-- section 2 end -->
      <!--Features of Investment plan: end -->
 

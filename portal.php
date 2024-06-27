@@ -25,13 +25,13 @@
     <!-- hero section end -->
 
     <!-- section 1 start -->
-    <div class="container-fluid ">
+    <div class="container-fluid set_prtal_bg py-2 py-lg-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-7">
-            <div class="portal-head">
+          <div class="col-12 col-lg-7 ">
+            <div class="portal-head ">
               <h2>Web Portal <span class="text-danger ">Development</span></h2>
-              <p class="text-justify">
+              <p class="text-justify text-slate">
                 Camwel Solution LLP In this internet driven world where business
                 from all around the world use the internet as a medium to reach
                 their clients and perform their business module in an
@@ -40,7 +40,7 @@
                 use in developing the most feature-rich and user-friendly web
                 portals for our global clients.
               </p>
-              <p class="text-justify">
+              <p class="text-justify text-slate">
                 Web portal development in appearance, structure, and functioning
                 is the website that most often contains limited or personalized
                 or Business and corporate enterprise portals. These Web Portals
@@ -65,9 +65,10 @@
     </div>
     <!-- section 1 end -->
     <!-- section2 start -->
-    <div class="container">
+   <div class="container-fluid py-2 py-lg-3">
+   <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 ">
           <h3 class="text-center fw-bolder ">Best Web Portal <br> Development Company</h3>
         </div>
         <div class="col-12">
@@ -75,12 +76,13 @@
         </div>
       </div>
     </div>
+   </div>
     <!-- section2 end -->
     <!-- section 3 start -->
     <div class="container-fluid my-2 my-lg-4 ">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-8">
+          <div class="col-12 col-lg-8 fadeInRight">
             <div class="section3-head">
               <h3>Why do you need web portal development Company</h3>
             </div>
@@ -116,7 +118,7 @@
     </div>
     <!-- section 3 end -->
     <!-- section 4 start -->
-    <div class="container-fluid my-2 my-lg-5 ">
+    <div class="container-fluid py-2 py-lg-5 web_dev_bg">
       <div class="container">
         <div class="row">
         <div class="col-12">
@@ -169,18 +171,18 @@
     </div>
     <!-- section 4 end -->
     <!-- section 5 start -->
-    <div class="container-fluid">
+    <div class="container-fluid web_2_portal py-2 py-lg-5">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h4 class="fw-bolder ">Our Portal Development Services:</h4>
+            <h4 class="fw-bolder text-info">Our Portal Development Services:</h4>
             <div class="bullet-portal-services">
-               <div class="main-portal-bullet d-flex my-2 ">
+               <div class="main-portal-bullet d-flex my-2  ">
                 <div class="left-portal">
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span><b>Portal website design:</b> modern, responsive user interface to offer ultimate user experience in any browser and on all mobile screens</span>
+                  <span class="text-slate"><b class="text-warning">Portal website design:</b> modern, responsive user interface to offer ultimate user experience in any browser and on all mobile screens</span>
                 </div>
                </div>
                <div class="main-portal-bullet d-flex ">
@@ -188,7 +190,7 @@
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span><b>Web portal development</b> :&nbsp; an end-to-end solution from defining the requirements to implementation and quality assurance</span>
+                  <span  class="text-slate"><b class="text-warning">Web portal development</b> :&nbsp; an end-to-end solution from defining the requirements to implementation and quality assurance</span>
                 </div>
                </div>
                <div class="main-portal-bullet d-flex my-2 ">
@@ -196,7 +198,7 @@
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span>Mobile app development</span>
+                  <span  class="text-slate">Mobile app development</span>
                 </div>
                </div>
                <div class="main-portal-bullet d-flex ">
@@ -204,7 +206,7 @@
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span><b>Migration:</b> &nbsp; creating a new web portal that would fit your emerging needs and seamlessly inherit data (including content, interface, meta-data, and users) from the legacy system</span>
+                  <span  class="text-slate"><b class="text-warning">Migration:</b> &nbsp; creating a new web portal that would fit your emerging needs and seamlessly inherit data (including content, interface, meta-data, and users) from the legacy system</span>
                 </div>
                </div>
                <div class="main-portal-bullet d-flex my-2 ">
@@ -212,7 +214,7 @@
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span> Maintenance and support</span>
+                  <span  class="text-slate"> Maintenance and support</span>
                 </div>
                </div>
                <div class="main-portal-bullet d-flex ">
@@ -220,7 +222,7 @@
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span><b> Scaling and high-load optimization:</b> &nbsp; creating a new web portal that would fit your emerging needs and seamlessly inherit data (including content, interface, meta-data, and users) from the legacy system</span>
+                  <span  class="text-slate"><b class="text-warning"> Scaling and high-load optimization:</b> &nbsp; creating a new web portal that would fit your emerging needs and seamlessly inherit data (including content, interface, meta-data, and users) from the legacy system</span>
                 </div>
                </div>
                <div class="main-portal-bullet d-flex my-2 ">
@@ -228,7 +230,7 @@
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span>Regular web portal updates to improve the functionality</span>
+                  <span  class="text-slate">Regular web portal updates to improve the functionality</span>
                 </div>
                </div>
                <div class="main-portal-bullet d-flex ">
@@ -236,7 +238,7 @@
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span>Security audit, including penetration testing, and updates to validate existing security measures, detect and eliminate vulnerabilities</span>
+                  <span  class="text-slate">Security audit, including penetration testing, and updates to validate existing security measures, detect and eliminate vulnerabilities</span>
                 </div>
                </div>
                <div class="main-portal-bullet d-flex my-2 ">
@@ -244,7 +246,7 @@
                   <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
                 </div>
                 <div class="right-portal">
-                  <span>We offer both the provision of certain services and full-cycle web portal development, striving for technical excellence at every stage of the development process.</span>
+                  <span  class="text-slate">We offer both the provision of certain services and full-cycle web portal development, striving for technical excellence at every stage of the development process.</span>
                 </div>
                </div>
             </div>

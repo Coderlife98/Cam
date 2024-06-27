@@ -26,24 +26,25 @@
     </div>
     <!-- hero section end -->
     <!-- section 1 start -->
-    <div class="container">
+   <div class="container-fluid web__bg py-2 py-lg-5">
+   <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 my-2 ">
                 <div class="web-head  pe-lg-4">
-                    <h3>WEB DEVELOPMENT COMPANY</h3>
-                    <p class="text-justify">Camwel Solution LLP is a premier website development company. We’re in the
+                    <h3 class="text-warning">WEB DEVELOPMENT COMPANY</h3>
+                    <p class="text-justify text-slate">Camwel Solution LLP is a premier website development company. We’re in the
                         business of awesome web development because we only rely on premier, modern and most worthy
                         technologies to build web projects. Focusing on process-driven development, each of us at Camwel
                         Solution LLP aims at providing impressive website development services, quick product-to-market
                         delivery so that users (client’s customers) don’t look any further as they can find everything
                         they need on the websites we build.</p>
-                    <p class="text-justify">Be it a start-up, enterprise or large-scale organization, our strategy is
+                    <p class="text-justify text-slate">Be it a start-up, enterprise or large-scale organization, our strategy is
                         the same- to understand how users will interact with your product and work on it to maximize
                         user engagement and satisfaction. With over 14 years of experience in offering custom web
                         development services for clients around the world, we’ve fulfilled over 3000 projects spanning
                         multiple industries and business domains including health care, education, eCommerce, finance,
                         media, entertainment, travel and automotive and more.</p>
-                    <p class="text-justify">Our team comprises certified developers, skilled professionals in HTML5,
+                    <p class="text-justify text-slate">Our team comprises certified developers, skilled professionals in HTML5,
                         CSS3, Joomla, WordPress, PHP, JavaScript, ASP.NET, Drupal. They will be worth your time.</p>
                 </div>
             </div>
@@ -52,6 +53,7 @@
             </div>
         </div>
     </div>
+   </div>
     <!-- section 1 end -->
     <!-- section 2 start -->
     <div class="container-fluid set-bg-iii">

@@ -24,24 +24,26 @@
     </div>
     <!-- hero section end -->
     <!-- section 1 start -->
-    <div class="container my-2 my-lg-5 ">
+  <div class="container-fluid py-2 py-lg-4 investor_bg">
+  <div class="container my-2 my-lg-5 ">
         <div class="row">
             <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center ">
               <div>
                 <img src="./assets/section1.png" width="350px"  alt="@skull">
               </div>
             </div>
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-8 d-flex align-items-center">
                 <div class="investor-heading">
-                    <h3>
+                    <h3 class="text-warning">
                         Investor</h3>
-                        <p>Camwel Solution is the Software platform for business spend. We deliver “Value as a Service” by helping our customers maximize their spend under management, achieve significant cost savings and drive profitability. Camwel provides a unified, software-based spend management platform that connects hundreds of organizations representing the Patna, Pune, and Bangalore with millions of customer in india. The Camwel platform provides greater visibility into and control over how companies spend money. Customers – small, medium and large – have used the Camwel platform to bring billions of rupees in cumulative spend under management.
+                        <p class="text-slate">Camwel Solution is the Software platform for business spend. We deliver “Value as a Service” by helping our customers maximize their spend under management, achieve significant cost savings and drive profitability. Camwel provides a unified, software-based spend management platform that connects hundreds of organizations representing the Patna, Pune, and Bangalore with millions of customer in india. The Camwel platform provides greater visibility into and control over how companies spend money. Customers – small, medium and large – have used the Camwel platform to bring billions of rupees in cumulative spend under management.
                         The objective of our investor relations work is to create credibility and sustainable shareholder value in a dialogue with the capital market through transparent and continuous communication.Our Investor Relations team will be pleased to assist you at any time. An investor is any person who commits capital with the expectation of financial returns. Investors utilize investments in order to grow their money and/or provide an income during retirement, such as with an annuity.</p>
-                        <p>A wide variety of investment vehicles exist including (but not limited to) stocks, bonds, commodities, mutual funds, exchange-traded funds (ETFs), options, futures, foreign exchange, gold, silver, retirement plans and real estate.</p>
+                        <p class="text-slate">A wide variety of investment vehicles exist including (but not limited to) stocks, bonds, commodities, mutual funds, exchange-traded funds (ETFs), options, futures, foreign exchange, gold, silver, retirement plans and real estate.</p>
                 </div>
             </div>
         </div>
     </div>
+  </div>
     <!-- section 1 end -->
     <!-- Ready to get started ? start -->
     <div class="container my-2 my-lg-4 ">

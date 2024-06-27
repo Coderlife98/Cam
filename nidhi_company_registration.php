@@ -83,7 +83,7 @@
             >
           </div>
         </div>
-        <div class="col-12 d-flex  ">
+        <div class="col-12  d-flex  ">
           <div>
             <img
               src="./assets/correct.png"
@@ -156,13 +156,13 @@
         <div class="row">
           <div class="col-12">
             <div class="head-box-ncr">
-              <h4 class="fw-bolder"
+              <h4 class="fw-bolder text-center"
                 >Process of Nidhi Company Registration</h4
               >
             </div>
           </div>
           <div class="col-12">
-            <p class="my-2">
+            <p class="py-4 text-center text-slate">
               A Nidhi company is one that belongs to the non-banking Indian
               finance sector and is recognized under section 406 of the
               Companies Act, 2013. Their core business is borrowing and lending
@@ -180,7 +180,7 @@
                 class="pe-2"
               />
             </div>
-            <p>Apply for Digital Signature Certificate (DSC).</p>
+            <p class="text-warning">Apply for Digital Signature Certificate (DSC).</p>
           </div>
           <div class="col-12 my-2 d-flex">
             <div>
@@ -191,7 +191,7 @@
                 class="pe-2"
               />
             </div>
-            <p>Apply for the Director Identification Number (DIN).</p>
+            <p class="text-warning">Apply for the Director Identification Number (DIN).</p>
           </div>
           <div class="col-12 d-flex">
             <div>
@@ -202,7 +202,7 @@
                 class="pe-2"
               />
             </div>
-            <p>Apply for the business name availability.</p>
+            <p class="text-warning">Apply for the business name availability.</p>
           </div>
           <div class="col-12 my-2 d-flex">
             <div>
@@ -213,7 +213,7 @@
                 class="pe-2"
               />
             </div>
-            <p>Select An Appropriate Name.</p>
+            <p class="text-warning" >Select An Appropriate Name.</p>
           </div>
           <div class="col-12 d-flex">
             <div>
@@ -224,7 +224,7 @@
                 class="pe-2"
               />
             </div>
-            <p>Preparing Memorandum Of Association.</p>
+            <p class="text-warning" >Preparing Memorandum Of Association.</p>
           </div>
           <div class="col-12 my-2 d-flex">
             <div>
@@ -235,7 +235,7 @@
                 class="pe-2"
               />
             </div>
-            <p>File the e-Memorandum of Association (eMoA) and EAOA.</p>
+            <p class="text-warning" >File the e-Memorandum of Association (eMoA) and EAOA.</p>
           </div>
         </div>
       </div>

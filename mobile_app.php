@@ -27,11 +27,11 @@
 
 
     <!-- div.why choose camwel start -->
-    <div class="container-fluid">
+    <div class="container-fluid py-2 py-lg-5 blue_set_mobile">
         <div class="container">
             <div class="row my-2 ">
                 <div class="col-12">
-                    <h3 class="text-center fw-bold ">Why choose Camwel Solution <br> LLP to create your app?</h3>
+                    <h3 class="text-center fw-bold ">Why choose <span class="text-orange">Camwel Solution <br> LLP</span> to create your app?</h3>
                 </div>
             </div>
             <div class="row my-3 my-lg-4 ">
@@ -42,19 +42,19 @@
                 </div>
                 <div class="col-12 col-lg-7" id="m1gsapright">
                     <div class="app-head">
-                        <h3>Camwel Solution LLP</h3>
-                        <p class="text-justify">We create and maintain a highly available infrastructure in the public cloud. Thanks to automation and CI/CD processes, we help developers deliver high-quality products to our clients faster.</p>
+                        <h3 class="text-green">Camwel Solution LLP</h3>
+                        <p class="text-justify text-slate">We create and maintain a highly available infrastructure in the public cloud. Thanks to automation and CI/CD processes, we help developers deliver high-quality products to our clients faster.</p>
                         <div class="point-app">
-                            <span class="fw-bolder ">We have an experienced team, recognized for its achievements</span>
-                            <p class="text-justify" >All members of our team are senior developers with a wealth of experience. Machine learning, augmented reality, block chain wallets - you name it, we’ve done it. We also pride ourselves on being at the cutting edge of all the latest technology.</p>
+                            <span class="fw-bolder text-info">We have an experienced team, recognized for its achievements</span>
+                            <p class="text-justify text-slate" >All members of our team are senior developers with a wealth of experience. Machine learning, augmented reality, block chain wallets - you name it, we’ve done it. We also pride ourselves on being at the cutting edge of all the latest technology.</p>
                         </div>
                         <div class="point-app">
-                            <span class="fw-bolder ">We’re a one-stop-shop for everything you need</span>
-                            <p class="text-justify" >We have experts in front-end and back-end development, design, branding and app-maintenance, with excellent inter-team communication, meaning that you don’t have to look anywhere else.</p>
+                            <span class="fw-bolder text-info ">We’re a one-stop-shop for everything you need</span>
+                            <p class="text-justify text-slate" >We have experts in front-end and back-end development, design, branding and app-maintenance, with excellent inter-team communication, meaning that you don’t have to look anywhere else.</p>
                         </div>
                         <div class="point-app">
-                            <span class="fw-bolder "> We create tailor-made applications for both iOS and Android</span>
-                            <p class="text-justify" >We develop apps with platform-specific functionalities and guidelines in mind to provide the best possible experience for both iOS and Android users. Where relevant, we use AI and Machine Learning to ensure that your product goes the extra mile.</p>
+                            <span class="fw-bolder text-info"> We create tailor-made applications for both iOS and Android</span>
+                            <p class="text-justify text-slate" >We develop apps with platform-specific functionalities and guidelines in mind to provide the best possible experience for both iOS and Android users. Where relevant, we use AI and Machine Learning to ensure that your product goes the extra mile.</p>
                         </div>
                     </div>
                 </div>
@@ -124,25 +124,25 @@
     <!-- What are You Looking For ? start -->
 
 
-    <div class="container-fluid my-2 my-lg-4 ">
+    <div class="container-fluid py-2 py-lg-4 black">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-4 my-2 d-flex justify-content-center align-items-center  ">
                    <div>
-                    <img src="./assets/app-last.png" alt="@dued">
+                    <img src="./assets/app-last.png" class="movegsap" alt="@dued">
                    </div>
                  </div>
                 <div class="col-12 col-lg-8 my-2">
                     <div class="my-4">
-                    <h2 class="fw-bolder">What are You Looking For ?</h2>
+                    <h2 class="fw-bolder text-warning">What are You Looking For ?</h2>
                     </div>
                     <div class="look-head">
-                        <h4>Cross platform solutions</h4>
-                        <p class="text-justify" >Cross platform frameworks work hard to deliver on their main promise, which is to use a single codebase in as many places possible. With the new wave of mobile frameworks, we can finally make this happen, and it has proven very effective. Using a single codebase for both platforms, significantly reduces development time and improves app maintenance - releases can be done simultaneously on iOS and Android.</p>
+                        <h4 class="text-info">Cross platform solutions</h4>
+                        <p class="text-justify text-slate" >Cross platform frameworks work hard to deliver on their main promise, which is to use a single codebase in as many places possible. With the new wave of mobile frameworks, we can finally make this happen, and it has proven very effective. Using a single codebase for both platforms, significantly reduces development time and improves app maintenance - releases can be done simultaneously on iOS and Android.</p>
                     </div>
                     <div class="look-head my-2 ">
-                        <h4>Native solutions</h4>
-                        <p class="text-justify" >When we don't want to make compromises, be it on performance, security or maintenance, we can build apps using native frameworks available on given platforms. Sometimes we may be constrained to a feature-set that mostly relies on native solutions, and using a cross platform framework doesn't make economical sense. Native apps will always be the most performant, safest, and will require much less effort to maintain in the long term.</p>
+                        <h4 class="text-info">Native solutions</h4>
+                        <p class="text-justify text-slate" >When we don't want to make compromises, be it on performance, security or maintenance, we can build apps using native frameworks available on given platforms. Sometimes we may be constrained to a feature-set that mostly relies on native solutions, and using a cross platform framework doesn't make economical sense. Native apps will always be the most performant, safest, and will require much less effort to maintain in the long term.</p>
                     </div>
                 </div>
             </div>

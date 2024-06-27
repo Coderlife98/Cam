@@ -29,7 +29,7 @@
             <h2 class="text-white fw-bolder text-family ggg">Retails Software Solutions to make your business Awesome
             </h2>
             <p class="text-white animation-pos">One Software that works for all Retails Values chain</p>
-            <button class="btn-pos-hero"><a href="" class="text-white">Discover More</a></button>
+            <button class="btn-pos-hero"><a href="./contact.php" class="text-white">Discover More</a></button>
           </div>
         </div>
       </div>
@@ -99,30 +99,38 @@
   <div class="container-fluid " id="rmve1">
     <div class="container">
       <div class="row ">
-        <div class="col-12 col-lg-7 my-2 my-lg-5  ">
+        <div class="col-12 col-md-7 col-lg-7 my-2 my-lg-5  ">
           <div class="pos-sect-1-head">
             <h3>Point Of Sell</h3>
             <div class="sect-1-box">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Issue printed or electronic
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span> Issue printed or electronic
                   receipts</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Apply discounts and issue
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span>Apply discounts and issue
                   refunds</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Keep recording sales even
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span> Keep recording sales even
                   when offline</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Connect a receipt printer,
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span>Connect a receipt printer,
                   barcode scanner, and cash drawer</span>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-5  my-2 my-lg-5 sm-allll">
+        <div class="col-12 col-md-5 col-lg-5  my-2 my-lg-5 sm-allll">
           <div>
             <img src="./assets/point1.png" class="poin-eff" alt="@dued">
           </div>
@@ -145,13 +153,15 @@
             <h3 class="fw-bolder">Payments</h3>
             <p>Accept any method of payment your customers want</p>
             <div class="sect-1-box">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Select one of our integrated
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span>Select one of our integrated
                   payment providers available in 30+ countries. Integrated payments save time, ensure better accuracy
                   and minimize errors.</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Use your preferred merchant
+              <div class="d-flex">
+                <div><i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i></div><span>Use your preferred merchant
                   service provider for non-integrated payments.</span>
               </div>
             </div>
@@ -165,34 +175,43 @@
   <div class="container-fluid set-hide-pos" id="rmve3">
     <div class="container">
       <div class="row ">
-        <div class="col-12 col-lg-7 my-2 my-lg-5">
+        <div class="col-12 col-md-7 col-lg-7 my-2 my-lg-5">
           <div class="pos-sect-1-head">
             <h3 class="fw-bolder">Inventory Management</h3>
             <p>Never run out of stock</p>
             <div class="sect-1-box">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Track stock levels in real
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span>Track stock levels in real
                   time</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Receive automatic low stock
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span>Receive automatic low stock
                   alerts</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Send orders to suppliers and
+              <div class=" d-flex">
+               <div> <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i></div><span> Send orders to suppliers and
+                
                   track stock receipts</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Transfer stock between your
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span>Transfer stock between your
                   stores.</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Print barcode labels</span>
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span> Print barcode labels</span>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-5  my-2 my-lg-5 sm-allll">
+        <div class="col-12 col-md-5 col-lg-5  my-2 my-lg-5 sm-allll">
           <div>
             <img src="./assets/mana.png" alt="@dued">
           </div>
@@ -215,24 +234,34 @@
             <h3 class="fw-bolder">Sales Analytics</h3>
             <p>Access your reports from a smartphone, tablet or computer anytime, anywhere</p>
             <div class="sect-1-box">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>View revenue, average sale
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span>View revenue, average sale
                   and profit</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Track sales trends and react
+              <div class="d-flex">
+              <div>
+              <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+              </div><span> Track sales trends and react
                   to changes promptly</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Determine best-selling items
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span>Determine best-selling items
                   and categories</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>View complete sales
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span>View complete sales
                   history</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Export sales data to the
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span> Export sales data to the
                   spreadsheets</span>
               </div>
             </div>
@@ -251,16 +280,21 @@
             <h3 class="fw-bolder">Employee Management</h3>
             <p>Easily manage your staff and make balanced decisions</p>
             <div class="sect-1-box">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Track sales by employee and
+              <div class="d-flex">
+              <div>
+              <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+              </div><span>Track sales by employee and
                   determine best performers</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Employees clock in and out
+              <div class="d-flex">
+               <div> <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i></div><span>Employees clock in and out
+                
                   and their total work hours are calculated automatically</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Grant different levels of
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span>Grant different levels of
                   access to protect sensitive information</span>
               </div>
             </div>
@@ -289,20 +323,27 @@
             <h3 class="fw-bolder">CRM and Customer Loyalty</h3>
             <p>Turn once-in-a-while shoppers into regulars</p>
             <div class="sect-1-box">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Build your customer
+              <div class="d-flex">
+              <div>
+              <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+              </div><span> Build your customer
                   base</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>View customer purchase
+              <div class="d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span>View customer purchase
                   history to provide personalized service</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Run loyalty program to
+              <div class="d-flex">
+                <div><i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i></div><span> Run loyalty program to
+
                   reward customers for their recurring purchases</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Keep notes on valuable
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span> Keep notes on valuable
                   customer preferences</span>
               </div>
             </div>
@@ -322,12 +363,16 @@
             <h3 class="fw-bolder">Multi Store Management</h3>
             <p>Grow your business from one to hundreds of stores</p>
             <div class="sect-1-box">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Compare performance of your
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span>Compare performance of your
                   stores</span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Manage items, employees and
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span>Manage items, employees and
                   customers across multiple locations with a single account</span>
               </div>
             </div>
@@ -356,8 +401,10 @@
             <h3 class="fw-bolder">External Integration</h3>
             <p>Keep your business running smoothly</p>
             <div class="sect-1-box">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Sync with accounting,
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span>Sync with accounting,
                   ecommerce, inventory management, marketing and other apps</span>
               </div>
             </div>

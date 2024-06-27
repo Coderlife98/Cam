@@ -27,10 +27,10 @@
     <!-- hero section end -->
 
     <!-- section 1 start -->
-    <div class="container-fluid my-2 my-lg-5">
+    <div class="container-fluid py-2 py-lg-5 banking_core ">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6 my-2">
+          <div class="col-12 col-lg-6 py-2">
             <div class="core-imggg-set">
               <img
                 src="./assets/core_banking.png"
@@ -38,31 +38,25 @@
                 width="350px"
                 alt=""
               />
-              <!-- <div class="overlapppp">
-                    <div class="head-bann">
-                      <h4><b>8+</b>
-                        YEARS</h4>
-                        <p class="text-justify">Core banking Software is a compelete solution for a Core banking. It can manage all operations like Shares.</p>
-                    </div>
-                   </div> -->
+            
             </div>
           </div>
-          <div class="col-12 col-lg-6 my-2">
-            <div class="cbank-head">
-              <h4>Core banking Software</h4>
-              <p>
+          <div class="col-12 col-lg-6 py-2">
+            <div class="cbank-head fadeIn">
+              <h4 class="text-warning">Core banking Software</h4>
+              <p class="text-slate">
                 Camwel Banking Software is a comprehensive and tightly
                 integrated solution. It is highly parameterized and
                 user-configurable Banking Software.
               </p>
-              <p>
+              <p class="text-slate">
                 Camwel Banking Software combines an extremely user-friendly
                 front-end with robust back-end processes to help banks to manage
                 their end-to-end processes and deliver services efficiently and
                 at low total cost of ownership in a secure operating
                 environment.
               </p>
-              <p>
+              <p class="text-slate">
                 We Provide facility to maintain branch and each branch have
                 separate login. It is totally web base product. Data will be
                 stored in centralized data of all Branches.
@@ -75,7 +69,8 @@
     <!-- section 1 end -->
 
     <!-- section 2 button section start -->
-    <div class="container my-2 my-lg-4">
+  <div class="container-fluid set_button">
+  <div class="container my-2 my-lg-4">
       <div class="row">
         <div class="col-12 col-md-3 col-lg-3 my-2">
           <div class="box-1-click">
@@ -99,6 +94,7 @@
         </div>
       </div>
     </div>
+  </div>
     <!-- section 2 button section end -->
     <!-- box-1 section start -->
     <div class="container" id="shid1">

@@ -72,7 +72,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-7 my-2 my-lg-5" id="hos2" >
           <div class="hos-head">
-            <h3 class="text-family fw-bolder">
+            <h3 class="text-family smm-txt-center fw-bolder">
               Hospital Management Software
             </h3>
             <p class="text-justify">
@@ -137,7 +137,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p class="">
+          <p class="smm-txt-center">
             Make Communication easy between admin, Doctor, staff and Patients.
           </p>
         </div>
@@ -156,7 +156,7 @@
         </div>
         <div class="col-12 col-md-5 col-lg-5 my-2 d-flex justify-content-center ">
           <div>
-            <img src="./assets/ben-hos.png" alt="">
+            <img src="./assets/ben-hos.png" class="step-img" alt="">
           </div>
         </div>
       </div>
@@ -172,7 +172,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-lg-6 ">
+        <div class="col-12 col-lg-6 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="first">
@@ -186,7 +186,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6  ">
+        <div class="col-12 col-lg-6 faqgsap ">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="second">
@@ -201,7 +201,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="third">
@@ -220,7 +220,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="fourth">
@@ -233,7 +233,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="fifth">
@@ -246,7 +246,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="sixth">
@@ -258,7 +258,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="seventh">
@@ -272,7 +272,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="eight">
@@ -288,7 +288,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="ninth">
@@ -300,7 +300,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="tenth">
@@ -312,7 +312,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="eleven">
@@ -323,7 +323,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6 my-2 ">
+        <div class="col-12 col-lg-6 my-2 faqgsap">
           <ul class="accordian rmv-paddd">
             <li>
               <input type="radio" name="accordian" id="tweleve">
@@ -350,10 +350,10 @@
       <div class="row">
         <div class="col-12 col-lg-5 my-2 my-lg-5 md-imh">
           <div class="add-border-hos">
-            <img src="./assets/gir.png" class="hos-set-this" " alt="">
+            <img src="./assets/gir.png" class="hos-set-this"  alt="">
           </div>
         </div>
-        <div class="col-12 col-lg-7 my-2 my-lg-5">
+        <div class="col-12 col-lg-7 my-2 my-lg-5 ">
           <div class="why-hossp">
             <h3 class="fw-bolder">Why Choose our Software?</h3>
             <p class="text-justify">
@@ -365,27 +365,35 @@
               commands.
             </p>
             <div class="all-hosp-bullet">
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span><b>Instant Support :-</b>
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span><b>Instant Support :-</b>
                   Instant support lets manage daily
                   activity and reporting on time. Our support team is just a
                   call away to deliver personalized support.</span>
               </div>
-              <div class="my-2">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span><b>Reliable & Secure :-</b>
+              <div class="my-2 d-flex">
+                <div>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+                </div><span><b>Reliable & Secure :-</b>
                   Highly secure with SSL
                   encryption, trusted by thousands of clients.
                 </span>
               </div>
-              <div class="">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span><b>Years of Experience :-</b>
+              <div class="d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span><b>Years of Experience :-</b>
                   We have more than 8+ years of
                   experience in serving almost every areas of business
                   development, training and support.
                 </span>
               </div>
-              <div class="my-2">
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span><b>Feature Loaded :- </b>Full
+              <div class="my-2 d-flex">
+               <div>
+               <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i>
+               </div><span><b>Feature Loaded :- </b>Full
                   featured and customization to
                   manage everything, and keep eye of every transaction with
                   export, mail and sms facility.
@@ -406,14 +414,14 @@
     <div class="container">
       <div class="row">
         <div class="col-12 my-2">
-          <h3 class="fw-bolder">
+          <h3 class="fw-bolder smm-txt-center">
             We Dont Just Build Nidhi Solutions We Build Possibilities for You
           </h3>
           <p>A GLOBAL TECHNOLOGY PROVIDER OF OUTSTANDING IT SOLUTIONS</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="col-12 col-md-6 hosBoxgsap col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -425,7 +433,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-md-6 col-lg-4 my-2">
+        <div class="col-12 col-md-6 hosBoxgsap col-md-6 col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -437,7 +445,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="col-12 col-md-6 hosBoxgsap col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -449,7 +457,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-md-6  col-lg-4 my-2">
+        <div class="col-12 col-md-6 hosBoxgsap  col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -461,7 +469,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="col-12 col-md-6 hosBoxgsap col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">
@@ -473,7 +481,7 @@
             </h6>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="col-12 col-md-6 hosBoxgsap col-lg-4 my-2">
           <div class="global-1">
             <div class="d-flex justify-content-center">
               <div class="img-global d-flex justify-content-center align-items-center">

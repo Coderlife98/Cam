@@ -40,7 +40,7 @@
   <!-- hero section end -->
 
   <!-- section 1 start -->
-  <div class="container-fluid my-2 my-lg-5">
+  <div class="container-fluid set_nidhi_bg py-2 py-lg-5">
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-5 my-2">
@@ -74,26 +74,20 @@
     </div>
   </div>
   <!-- section 1 end -->
-  <!-- section 2 start -->
-  <div class="container-fluid">
-    <div class="container">
-      <div class="row">
+ 
+
+  <!-- section 3 start -->
+  <div class="container-fluid py-2 py-lg-3 set-bbb-bg">
+    <div class="container ">
+    <div class="row py-3 py-md-5">
         <div class="col-12">
-          <h2 class="fw-bolder">Top Integrated Software Modules</h2>
-          <p class="text-justify">
+          <h3 class="fw-bolder text-center text-warning gsapdown">Top Integrated Software Modules</h3>
+          <p class="text-justify text-center text-white">
             We customize every software as per client requirements with the
             right features and modules fit for your business.
           </p>
         </div>
       </div>
-    </div>
-  </div>
-
-  <!-- section 2 end -->
-
-  <!-- section 3 start -->
-  <div class="container-fluid my-2 my-lg-3 set-bbb-bg">
-    <div class="container py-3 py-md-5">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="design-soft">

@@ -26,7 +26,8 @@
     </div>
     <!-- Hero section End -->
     <!-- Content Section start -->
-    <div class="container my-2 my-lg-5 ">
+   <div class="container-fluid business-section">
+   <div class="container py-2 py-lg-5 ">
         <div class="row">
             <div class="col-12 col-md-5 d-flex justify-content-center my-2">
                 <img src="./assets/business_left.png" class="bus_img" height="300px" alt="@skull">
@@ -37,52 +38,54 @@
                     <h3>Business</h3>
                    </div>
                    <div>
-                    <p>From manufacturing line to meeting room, our software development solutions will help you elevate your Enterpris e Core and overcome the challenges of technological transformation both in daily and large-scale operations.</p>
+                    <p class="text-slate">From manufacturing line to meeting room, our software development solutions will help you elevate your Enterpris e Core and overcome the challenges of technological transformation both in daily and large-scale operations.</p>
                    </div>
                 </div>
             </div>
         </div>
     </div>
+   </div>
     <!-- Content Section end -->
-    <div class="container my-3 my-lg-5  ">
+   <div class="container-fluid py-4 links_bg">
+   <div class="container my-3 my-lg-5  ">
       <div class="row">
-        <div class="col-md-3 col-lg-3 my-2 my-lg-3 ">
+        <div class="col-md-4 col-lg-3 my-2 my-lg-3 brder">
             <a href="https://nidhisoftwarez.com/" target="_blank">
                 <img src="./assets/nidhi_website.png" height="120px" width="100%"  alt="@skull">
             </a>
             <h6 class="fw-bolder mt-3 text-center">Nidhi Software</h6>
         </div>
-        <div class="col-md-3 col-lg-3 my-2 my-lg-3 ">
+        <div class="col-md-4 col-lg-3 my-2 my-lg-3 brder">
             <a href="https://camwelindia.com/" target="_blank">
                 <img src="./assets/security_website.png" height="120px" width="100%"  alt="@skull">
             </a>
             <h6 class="fw-bolder mt-3 text-center">Camwel India</h6>
         </div>
-        <div class="col-md-3 col-lg-3 my-2 my-lg-3 ">
+        <div class="col-md-4 col-lg-3 my-2 my-lg-3 brder">
             <a href="https://hmsoftwarez.com/" target="_blank">
                 <img src="./assets/soft_website.png" height="120px" width="100%"  alt="@skull">
             </a>
             <h6 class="fw-bolder mt-3 text-center">Hospital Management Software</h6>
         </div>
-        <div class="col-md-3 col-lg-3 my-2 my-lg-3 ">
+        <div class="col-md-4 col-lg-3 my-2 my-lg-3 brder">
             <a href="https://ncsa.in/" target="_blank">
                 <img src="./assets/nidhi_c_website.png" height="120px" width="100%"  alt="@skull">
             </a>
             <h6 class="fw-bolder mt-3 text-center">Nidhi Company Summit & Award</h6>
         </div>
-        <div class="col-md-3 col-lg-3 my-2 my-lg-3 ">
+        <div class="col-md-4 col-lg-3 my-2 my-lg-3 brder">
             <a href="https://camwelbroadband.com/" target="_blank">
                 <img src="./assets/broad_website.png" height="120px" width="100%"  alt="@skull">
             </a>
             <h6 class="fw-bolder mt-3 text-center">Camwel Broadband</h6>
         </div>
-        <div class="col-md-3 col-lg-3 my-2 my-lg-3 ">
+        <div class="col-md-4 col-lg-3 my-2 my-lg-3 brder">
             <a href="https://mlmgig.com/" target="_blank">
                 <img src="./assets/mlm_website.png" height="120px" width="100%"  alt="@skull">
             </a>
             <h6 class="fw-bolder mt-3 text-center">MLMGIG</h6>
         </div>
-        <div class="col-md-3 col-lg-3 my-2 my-lg-3 ">
+        <div class="col-md-4 col-lg-3 my-2 my-lg-3 brder">
             <a href="https://caplus.in/" target="_blank">
                 <img src="./assets/caplus_website.png" height="120px" width="100%"  alt="@skull">
             </a>
@@ -90,6 +93,7 @@
         </div>
       </div>
     </div>
+   </div>
     <?php include("./includes/footer.php");?>
     <?php include("./includes/script.php");?>
 

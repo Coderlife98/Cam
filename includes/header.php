@@ -9,7 +9,7 @@
   <div class="row gx-0 align-items-center">
     <div class="col-lg-4 px-5 text-start">
       <div class="h-100 d-inline-flex align-items-center me-4">
-        <small class="fa fa-phone-alt me-2"></small>
+        <small class="fa fa-phone me-2"></small>
         <a href="tel:+91 9028388889,+91 9572852742 ">+91 9028388889 | +91 9572852742</a>
       </div>
     </div>

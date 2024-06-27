@@ -189,18 +189,21 @@
     <!-- What We Offers start -->
 
     <!-- -----------------------------------------sunny changed start -->
+    <div class="container-fluid py-2 py-lg-5 set_card_home">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h3 class="fw-bold">What We Offers</h3>
-          <h4>SERVICES</h4>
+          <h3 class="fw-bold text-center text-warning py-3">What We Offers</h3>
+          <h4 class="ser_border">SERVICES</h4>
         </div>
       </div>
     </div>
-    <div class="container">
+  
+  <div class="container">
       <div class="row set-in-bw">
-        <div class="col-12 col-md-5 col-lg-3 add-mar">
-          <div class="logo-section-home">
+        <div class="col-12 col-md-5 col-lg-3 add-mar ">
+         <div class="">
+         <div class="logo-section-home">
             <img
               src="assets/software-home.png"
               height="130px"
@@ -210,10 +213,10 @@
           </div>
           <div class="add-p-home">
             <div class="text-capitalize text-center fw-bold">
-              <h5>Software <span>Development</span></h5>
+              <h5 class="text-info">Software <span>Development</span></h5>
             </div>
             <div class="text-center">
-              <p>
+              <p class="text-slate">
                 Camwel offer custom software development and consulting services
                 to help you pull off your next project with less stress and less
                 cost. Create Complex Software, Ensure liable
@@ -223,12 +226,13 @@
             </div>
             <div class="button d-flex justify-content-center">
               <button class="set-hover">
-                <a href="" class="text-white"
+                <a href="./software_development_company.php" class="text-white"
                   >Read More <i class="fa-solid fa-arrow-right set-display"></i
                 ></a>
               </button>
             </div>
           </div>
+         </div>
         </div>
         <!-- 2 -->
         <div class="col-12 col-md-5 col-lg-3 add-mar">
@@ -242,9 +246,9 @@
           </div>
           <div class="add-p-home">
             <div class="text-capitalize text-center fw-bold">
-              <h5>Website Design and <span>Development</span></h5>
+              <h5 class="text-info" >Website Design and <span>Development</span></h5>
             </div>
-            <div class="text-center">
+            <div class="text-center text-slate">
               <p>
                 Built the Design you need on time with an experienced team that
                 uses a clear and effective sign process Working With a Loyal
@@ -253,7 +257,7 @@
             </div>
             <div class="button d-flex justify-content-center">
               <button class="set-hover">
-                <a href="" class="text-white"
+                <a href="./website_dev.php" class="text-white"
                   >Read More <i class="fa-solid fa-arrow-right set-display"></i
                 ></a>
               </button>
@@ -272,9 +276,9 @@
           </div>
           <div class="add-p-home">
             <div class="text-capitalize text-center fw-bold">
-              <h5>Portal Development</h5>
+              <h5 class="text-info" >Portal <br> Development</h5>
             </div>
-            <div class="text-center">
+            <div class="text-center text-slate">
               <p>
                 We help B2B and B2C businesses with custom web portal services
                 to win more conversions. Turn your ideas into a solid reality
@@ -283,7 +287,7 @@
             </div>
             <div class="button d-flex justify-content-center">
               <button class="set-hover">
-                <a href="" class="text-white"
+                <a href="./portal.php" class="text-white"
                   >Read More <i class="fa-solid fa-arrow-right set-display"></i
                 ></a>
               </button>
@@ -301,9 +305,9 @@
           </div>
           <div class="add-p-home">
             <div class="text-capitalize text-center fw-bold">
-              <h5>Digital Marketing</h5>
+              <h5 class="text-info">Digital Marketing</h5>
             </div>
-            <div class="text-center">
+            <div class="text-center text-slate">
               <p>
                 Ensuring your business is optimized to rank higher on Search
                 Engines (GOOGLE, Yahoo, Bing), get leads from your traffic, &
@@ -312,7 +316,7 @@
             </div>
             <div class="button d-flex justify-content-center">
               <button class="set-hover">
-                <a href="" class="text-white"
+                <a href="./digital_marketing.php" class="text-white"
                   >Read More <i class="fa-solid fa-arrow-right set-display"></i
                 ></a>
               </button>
@@ -330,9 +334,9 @@
           </div>
           <div class="add-p-home">
             <div class="text-capitalize text-center fw-bold">
-              <h5>Mobile App <span class="">Development</span></h5>
+              <h5 class="text-info">Mobile App <span class="">Development</span></h5>
             </div>
-            <div class="text-center">
+            <div class="text-center text-slate">
               <p>
                 Create an impact ful Mobile App that fits your brands and
                 industry within shorter time frame.We offers tailor-made,
@@ -342,7 +346,7 @@
             </div>
             <div class="button d-flex justify-content-center">
               <button class="set-hover">
-                <a href="" class="text-white"
+                <a href="./mobile_app.php" class="text-white"
                   >Read More <i class="fa-solid fa-arrow-right set-display"></i
                 ></a>
               </button>
@@ -360,9 +364,9 @@
           </div>
           <div class="add-p-home">
             <div class="text-capitalize text-center fw-bold">
-              <h5>IT Consulting</h5>
+              <h5 class="text-info">IT Consulting</h5>
             </div>
-            <div class="text-center">
+            <div class="text-center text-slate">
               <p>
                 Trust our Top Minds to eliminate work - flow pain point,
                 implement new technology. A managed IT services provider with IT
@@ -371,7 +375,7 @@
             </div>
             <div class="button d-flex justify-content-center">
               <button class="set-hover">
-                <a href="" class="text-white"
+                <a href="./contact.php" class="text-white"
                   >Read More <i class="fa-solid fa-arrow-right set-display"></i
                 ></a>
               </button>
@@ -380,14 +384,16 @@
         </div>
       </div>
     </div>
+  </div>
     <!-- -----------------------------------------sunny changed end -->
     <!-- What We Offers end -->
 
     <!-- Technologies we specialize in start -->
+    <div class="container-fluid py-2 py-lg-5 tech_container">
     <div class="container my-2 my-lg-5">
       <div class="row">
         <div class="col-12">
-          <h4 class="set-tech-head">Technologies we specialize in</h4>
+          <h4 class="set-tech-head text-warning">Technologies we specialize in</h4>
         </div>
         <div class="col-12">
           <p class="my-2">
@@ -467,12 +473,14 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- Technologies we specialize in end -->
     <!-- Industries start -->
-    <div class="container my-2 my-lg-5">
+   <div class="container-fluid industry_bg">
+   <div class="container ">
       <div class="row">
         <div class="col-12">
-          <h3 class="set-head-in">Industries</h3>
+          <h3 class="set-head-in text-warning text-center py-5">Industries</h3>
         </div>
       </div>
       <div class="row">
@@ -490,7 +498,7 @@
                 support services to Banking Sector.
               </p>
             </div>
-            <h5 class="text-center my-2">BANKING SECTOR</h5>
+            <h6 class="text-center py-3 text-white">BANKING SECTOR</h6>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 set-middel">
@@ -508,7 +516,7 @@
                 Banks, Micro Finance, NBFC, Finance Companies.
               </p>
             </div>
-            <h5 class="text-center my-2">FINANCE SECTOR</h5>
+            <h6 class="text-center py-3 text-white">FINANCE SECTOR</h6>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 set-middel">
@@ -525,7 +533,7 @@
                 industry from working with education institutes and publishers.
               </p>
             </div>
-            <h5 class="text-center my-2">EDUCATION SECTOR</h5>
+            <h6 class="text-center py-3 text-white">EDUCATION SECTOR</h6>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 set-middel">
@@ -539,14 +547,15 @@
             <div class="text-bank">
               <p>Engaging and exciting software solutions for modern retail.</p>
             </div>
-            <h5 class="text-center my-2">RETAIL & E-COMMERCE</h5>
+            <h6 class="text-center py-3 text-white">RETAIL & E-COMMERCE</h6>
           </div>
         </div>
       </div>
     </div>
+   </div>
     <!-- Industries end -->
     <!-- counter start -->
-    <div class="container-fluid set-counter my-2 my-lg-5">
+    <div class="container-fluid set-counter py-3 py-lg-5">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 set-re-home">

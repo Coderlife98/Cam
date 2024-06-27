@@ -1,4 +1,42 @@
+
+window.addEventListener("wheel", (dets) => {
+    console.log(dets);
+    if (dets.deltaY > 0) {
+        gsap.to(".marque", {
+            duration: 5,
+            transform: "translateX(-200%)",
+            repeat: -1,
+            ease: "none"
+        })
+        gsap.to(".marque i", {
+            rotate: 180
+
+        })
+    }
+    else {
+        gsap.to(".marque", {
+            transform: "translateX(0%)",
+            duration: 5,
+            repeat: -1,
+            ease: "none"
+        })
+        gsap.to(".marque i", {
+            rotate: 0
+
+        })
+
+    }
+
+
+});
+
+
+
+
+
 gsap.registerPlugin(ScrollTrigger);
+
+
 // hospital management start
 gsap.from(".hos-txt-hero", {
     opacity: 0,
@@ -63,11 +101,14 @@ let hospmedia = gsap.matchMedia();
 hospmedia.add("(min-width:1024px)", () => {
     var hosp = gsap.timeline();
     hosp.from("#hos1", {
-        x: -700,
+        x: -500,
         opacity: 0,
         scrollTrigger: {
             trigger: "#hos1",
             scroller: "body",
+            // markers:true,
+            start:"top 70%",
+            end:"bottom 80%",
             scrub: 3,
 
         }
@@ -79,15 +120,174 @@ hospmedia.add("(min-width:1024px)", () => {
         scrollTrigger: {
             trigger: "#hos2",
             scroller: "body",
+            // markers:true,
+            start:"top 40%",
+            end:"bottom 80%",
+            scrub: 5,
+
+        }
+    });
+
+    hosp.from("#sechosgsap",{
+        duration: 1,
+        scale: 0.1,
+        y: 40,
+        ease: "back.in",
+        stagger: 0.2,
+        scrollTrigger: {
+            trigger: "#sechosgsap",
+            scroller: "body",
+            // once: true,
+            // markers:true,
+            start:"top 70%",
+            end:"bottom 90%",
             scrub: 3,
 
         }
     });
 
+    hosp.from(".step-img",{
+        opacity: 0, 
+        x: -100, 
+        duration: 1,
+        scrollTrigger: {
+            trigger: ".step-img",
+            scroller: "body",
+            // once: true,
+            // markers:true,
+            start:"top 70%",
+            end:"bottom 90%",
+            scrub: 3,
+
+        }
+    });
+
+    hosp.from(".faqgsap",{
+        opacity:0,
+        duration: 1,
+        scale: 0.1,
+        y: 40,
+        ease: "back.in",
+        stagger: 0.2,
+        scrollTrigger: {
+            trigger: ".faqgsap",
+            scroller: "body",
+            // once: true,
+            // markers:true,
+            start:"top 60%",
+            end:"bottom 90%",
+            scrub: 5,
+
+        }
+    });
+
+    hosp.from(".hos-set-this",{
+        duration: 1,
+        scale: 0.1,
+        y: 40,
+        ease: "back.in",
+        stagger: 0.2,
+        scrollTrigger: {
+            trigger: ".hos-set-this",
+            scroller: "body",
+            // once: true,
+            // markers:true,
+            start:"top 60%",
+            end:"bottom 80%",
+            scrub: 5,
+
+        }
+    });
+    hosp.from(".why-hossp",{
+        opacity:0,
+        ease: "bounce.out",
+        scrollTrigger: {
+            trigger: ".why-hossp",
+            scroller: "body",
+            // once: true,
+            // markers:true,
+            start:"top 60%",
+            end:"bottom 80%",
+            scrub: 3,
+
+        }
+
+    });
+    hosp.from(".hosBoxgsap",{
+       opacity:0,
+       x:-50,
+       duration:2,
+       stagger:0.5,
+       scrollTrigger: {
+        trigger: ".hosBoxgsap",
+        scroller: "body",
+        // once: true,
+        // markers:true,
+        start:"top 40%",
+        end:"bottom 95%",
+        scrub: 3,
+
+    }
+    });
 
 })
 
+hospmedia.add("(max-width:1024px)", () => {
+    var hospmediasm = gsap.timeline();
+    hospmediasm.from("#sechosgsap",{
+        duration: 1,
+        scale: 0.1,
+        y: 40,
+        ease: "back.in",
+        stagger: 0.2,
+        scrollTrigger: {
+            trigger: "#sechosgsap",
+            scroller: "body",
+            // once: true,
+            // markers:true,
+            start:"top 30%",
+            end:"bottom 90%",
+            scrub: 3,
 
+        }
+    });
+    hospmediasm.from(".hosBoxgsap",{
+        opacity:0,
+        x:-50,
+        duration:2,
+        
+        stagger:0.5,
+        scrollTrigger: {
+         trigger: ".hosBoxgsap",
+         scroller: "body",
+        //  markers:true,
+         start:"top 60%",
+         end:"bottom 70%",
+         scrub: 3,
+ 
+     }
+     });
+
+     hospmediasm.from(".faqgsap",{
+        opacity:0,
+        duration: 1,
+        scale: 0.1,
+        y: 40,
+        ease: "back.in",
+        stagger: 0.2,
+        scrollTrigger: {
+            trigger: ".faqgsap",
+            scroller: "body",
+            // once: true,
+            // markers:true,
+            start:"top 30%",
+            end:"bottom 90%",
+            scrub: 5,
+
+        }
+    });
+
+});
 // hospital end
 // technology start
 let techcheck = gsap.matchMedia();
@@ -238,10 +438,12 @@ software.add("(min-width:1024px)", () => {
         duration: 2,
         scrollTrigger: {
             trigger: ".set-soft-bgg",
-            start: "top 25%",
+
+            start: "top 50%",
             end: "bottom 80%",
             scroller: "body",
             scrub: 3,
+
         }
     });
     t1.from(".ggg-aa", {
@@ -268,7 +470,7 @@ software.add("(min-width:1024px)", () => {
 // software dev end
 
 var maxSoftware = gsap.matchMedia();
-maxSoftware.add("(min-width:1024px)",()=>{
+maxSoftware.add("(min-width:1024px)", () => {
     var t1 = gsap.timeline();
     t1.from(".m1gsap", {
         x: -500,
@@ -278,7 +480,38 @@ maxSoftware.add("(min-width:1024px)",()=>{
         scrollTrigger: {
             trigger: ".m1gsap",
             scroller: "body",
+            // markers:true,
+            start: "top 70%",
+            end: "bottom 80%",
             scrub: 2
+        }
+    });
+    t1.from(".app-box", {
+        opacity:0,
+        y: -50,
+        duration: 1,
+        delay: 2,
+        stagger: true,
+        scrollTrigger: {
+            trigger: ".app-box",
+            scroller: "body",
+            // markers:true,
+            start: "top 70%",
+            end: "bottom 80%",
+            scrub: 3
+        }
+    });
+    t1.from(".movegsap",{
+        opacity:0,
+        x:-300,
+        duration:1,
+        scrollTrigger:{
+            trigger:".movegsap",
+            scroller:"body",
+            // markers:true,
+            start: "top 70%",
+            end: "bottom 80%",
+            scrub: 3
         }
     });
 })
@@ -289,7 +522,7 @@ var software = gsap.matchMedia();
 software.add("(max-width:1024px)", () => {
     var t1 = gsap.timeline();
     t1.from(".m1gsap", {
-      opacity:0,
+        opacity: 0,
         duration: 1,
         delay: 2,
         stagger: true,
@@ -299,8 +532,8 @@ software.add("(max-width:1024px)", () => {
             scrub: 2
         }
     });
-  
-   
+
+
 
 })
 
@@ -329,6 +562,26 @@ website.add("(min-width:1024px)", () => {
             scrub: 3,
         }
     })
+});
+
+
+var websiteSm = gsap.matchMedia();
+websiteSm.add("(max-width:1024px)", () => {
+    var t1 = gsap.timeline();
+    t1.from(".gpp", {
+        opacity: 0,
+        duration: 1,
+        delay: 2,
+        stagger: true,
+        scrollTrigger: {
+            trigger: ".gpp",
+            scroller: "body",
+            scrub: 2
+        }
+    });
+
+
+
 })
 // website dev end
 
@@ -354,105 +607,215 @@ digital.add("(min-width:1024px)", () => {
             trigger: ".gsap-ri,.point-software",
             scroller: "body",
             // markers: true,
-            start: "top 15%",
+            start: "top 65%",
             end: "bottom 90%",
             scrub: 3
         }
     });
-   
-    t1.from(".scc-gsap",{
-        opacity:0,
-        scale:0.5,
-        scrollTrigger:{
-            trigger:".scc-gsap",
-            scroller:"body",
+
+    t1.from(".scc-gsap", {
+        opacity: 0,
+        scale: 0.5,
+        scrollTrigger: {
+            trigger: ".scc-gsap",
+            scroller: "body",
             // markers: true,
-            start:"top 30%",
-            end:"bottom 50%",
-            scrub:3
+            start: "top 50%",
+            end: "bottom 90%",
+            scrub: 3
         }
     });
-    t1.from(".horn",{
-        opacity:0,
-        x:-200,
-        scrollTrigger:{
-            trigger:".horn",
-            scroller:"body",
-           
-            start:"top 20%",
-            end:"bottom 50%",
-            scrub:3
+    t1.from(".horn", {
+        opacity: 0,
+        x: -200,
+        scrollTrigger: {
+            trigger: ".horn",
+            scroller: "body",
+            // markers: true,
+            start: "top 50%",
+            end: "bottom 80%",
+            scrub: 3
 
         }
     });
-    t1.from(".sem",{
-        opacity:0,
-        x:200,
-        scrollTrigger:{
-            trigger:".sem",
-            scroller:"body",
-            start:"top 20%",
-            end:"bottom 50%",
-            scrub:3
-
-        }
-    });
-    t1.from(".emailgsap",{
-        opacity:0,
-        y:150,
-        scrollTrigger:{
-            trigger:".emailgsap",
-            scroller:"body",
+    t1.from(".sem", {
+        opacity: 0,
+        x: 200,
+        scrollTrigger: {
+            trigger: ".sem",
+            scroller: "body",
             // markers:true,
-            top:"top 30%",
-            end:"bottom 50%",
-            scrub:3
+            start: "top 50%",
+            end: "bottom 90%",
+            scrub: 3
+
+        }
+    });
+    t1.from(".emailgsap", {
+        opacity: 0,
+        y: 150,
+        scrollTrigger: {
+            trigger: ".emailgsap",
+            scroller: "body",
+            // markers:true,
+            top: "top 50%",
+            end: "bottom 90%",
+            scrub: 3
         }
     })
 
+});
+
+digital.add("(max-width:1024px)",()=>{
+    var t1 = gsap.timeline();
+    t1.from(".gap-right", {
+       y:-10,
+        duration: 2,
+        scrollTrigger: {
+            trigger: ".gap-right",
+            scroller: "body",
+            start: "top 30%",
+            end: "bottom 60%",
+            scrub: 3
+        }
+    });
+
+    t1.from(".gsap-ri,.point-software", {
+        opacity: 0,
+        scale: 0.5,
+        scrollTrigger: {
+            trigger: ".gsap-ri,.point-software",
+            scroller: "body",
+            // markers: true,
+            start: "top 65%",
+            end: "bottom 90%",
+            scrub: 3
+        }
+    });
+
+    t1.from(".emailgsap", {
+        opacity: 0,
+        y: 150,
+        scrollTrigger: {
+            trigger: ".emailgsap",
+            scroller: "body",
+            // markers:true,
+            top: "top 50%",
+            end: "bottom 90%",
+            scrub: 3
+        }
+    });
+
+    t1.from(".sem", {
+        opacity: 0,
+        y: 20,
+        scrollTrigger: {
+            trigger: ".sem",
+            scroller: "body",
+            // markers:true,
+            start: "top 50%",
+            end: "bottom 90%",
+            scrub: 3
+
+        }
+    });
+
+ 
+  
 })
+
 // digital marketing end
 // portal start
 var portal = gsap.matchMedia();
-    portal.add("(min-width:1024px)",()=>{
-        var t1 = gsap.timeline();
-        t1.from(".portal-gsap",{
-            y:80,
-            scrollTrigger:{
-                trigger:".portal-gsap",
-                scroller:"body",
-                // markers:true,
-                start:"top 20%",
-                end:"bottom 50%",
-                scrub:3
-            }
-        });
-        t1.from(".por-ii",{
-            opacity:0,
-            scrollTrigger:{
-                trigger:".por-ii",
-                scroller:"body",
-                scrub:3
-            }
-        })
+portal.add("(min-width:1024px)", () => {
+    var t1 = gsap.timeline();
+    t1.from(".portal-gsap", {
+        y: 80,
+        scrollTrigger: {
+            trigger: ".portal-gsap",
+            scroller: "body",
+            // markers:true,
+            end: "bottom 80%",
+            start: "top 70%",
+            scrub: 3
+        }
+    });
+    t1.from(".por-ii", {
+        opacity: 0,
+        scrollTrigger: {
+            trigger: ".por-ii",
+            scroller: "body",
+            scrub: 3
+        }
     })
+});
+
+gsap.from(".fadeInRight", {
+    scrollTrigger: {
+        trigger: ".fadeInRight",
+        top: "top 40%",
+        end: "bottom 20%",
+        once: true, // Only trigger once
+        // markers: true, // Show markers for debugging
+    },
+    duration: 2.5,
+    ease: "bounce.out",
+    x: -250,
+});
+
+gsap.to(".bob", {
+    keyframes: {
+        y: [0, 80, 30, 0],
+        ease: "none",
+        easeEach: "power2.inOut"
+    },
+    scrollTrigger: {
+        trigger: ".bob",
+        // top: "top 40%",
+        // end: "bottom 20%",
+        once: true,
+
+    },
+
+    ease: "elastic",
+    duration: 5,
+    stagger: 0.2
+});
+
+gsap.from(".main-portal-bullet", {
+    x: -1200,
+    duration: 3,
+    stagger: 0.3,
+    scrollTrigger: {
+        trigger: ".main-portal-bullet",
+        // top: "top 40%",
+        // end: "bottom 20%",
+        once: true,
+
+    },
+})
+
+
+
+
 // portal end
 // core banking software start
 var coreBanking = gsap.matchMedia();
-coreBanking.add("(min-width:1024px)",()=>{
+coreBanking.add("(min-width:1024px)", () => {
     var t1 = gsap.timeline();
-    t1.from(".core-imggg-set",{
-        opacity:0,
-       scale:0.5,
-        scrollTrigger:{
-            trigger:".core-imggg-set",
-            scroller:"body",
+    t1.from(".core-imggg-set", {
+        opacity: 0,
+        scale: 0.5,
+        scrollTrigger: {
+            trigger: ".core-imggg-set",
+            scroller: "body",
             // markers:true,
-            start:"top 25%",
-            end:"bottom 55%",
-            scrub:3
+            start: "top 25%",
+            end: "bottom 55%",
+            scrub: 3
         }
     });
+  
 });
 // core banking software end
 // nidhi company registration start
@@ -461,7 +824,7 @@ coreBanking.add("(min-width:1024px)",()=>{
 
 // nidhi software start
 var softnidhi = gsap.matchMedia();
-softnidhi.add("(min-width:1024px)",()=>{
+softnidhi.add("(min-width:1024px)", () => {
     var t1 = gsap.timeline();
     t1.from(".soft1", {
         x: 200,
@@ -482,7 +845,10 @@ softnidhi.add("(min-width:1024px)",()=>{
             scrub: 2
         }
     });
-})
+  
+});
+
+
 // nidhi software end
 
 gsap.from("#m1gsapright", {
@@ -495,11 +861,14 @@ gsap.from(".app-box", {
     x: -2000,
     duration: 2,
     delay: 2,
+    
     scrollTrigger: {
         trigger: ".app-box",
         scroller: "body",
         scrub: 2
-    }
+    },
+ 
+    
 });
 
 gsap.from(".mmm,.about-microfi", {

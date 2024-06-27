@@ -168,7 +168,7 @@
                 </div>
                 <div class="col-12 col-lg-5 d-flex justify-content-center ">
                   <div>
-                    <img src="./assets/paid.png" alt="@skull">
+                    <img src="./assets/paid.png" class="paidSearch" alt="@skull">
                   </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@
         <div class="row">
             <div class="col-12 col-lg-5 my-2 order-1 order-lg-0 d-flex justify-content-center ">
                 <div>
-                    <img src="./assets/reputation.png" class="horn" alt="@skull">
+                    <img src="./assets/reputation.png" class="horn_left" alt="@skull">
                 </div>
             </div>
             <div class="col-12 col-lg-7 my-2">
