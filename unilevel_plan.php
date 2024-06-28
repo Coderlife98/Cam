@@ -23,18 +23,18 @@
 </div>
 <!-- hero section end -->
 <!-- Binary Plan Software start -->
-<div class="container-fluid  mb-2 mb-lg-5 ">
+<div class="container-fluid set_unitop_bg py-2 py-lg-5 ">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-5 my-2">
           <img src="./assets/uni1.png" alt="@dued">
       </div>
-      <div class="col-12 col-lg-7 my-2">
+      <div class="col-12 col-lg-7 d-flex align-items-center my-2">
         <div class="binary-hed">
-          <h3 class="fw-bolder text-family">Unilevel plan software</h3>
+          <h3 class="fw-bolder text-family text-warning">Unilevel plan software</h3>
          <div class="">
-         <p class="text-justify ">Uni-Level Plan also known as Generation Plan or Sunflower Plan. This is usually works perfect with clients who are having wide range of consumer durable products. This plan can be an independent plan or an add-on career plan to any other gateway plan. Unilevel, as the name suggests, only enables you to sponsor one line of distributors, therefore everyone you sponsor is on your frontline. There are no width limitations to this plan (ie there is no limit to the amount of people you can sponsor in your frontline) and commissions are normally paid out on a limited depth (common plans that we have reviewed pay commissions between 5 and 7 levels deep).</p>
-          <p class="text-justify">Therefore, the common goal of this plan is to recruit a large number of frontline distributors and then encourage them to do the same. To earn a commission using this structure there is normally only a minimal amount of personal volume that is required, which essentially makes it easier for part-timers to earn an income. Although it tends to be easier to earn a commission using this compensation structure, when comparing it to other plans, the structure itself restricts the total amount of each commission you can earn (i.e. although it is easier to earn commissions you do not tend to earn as much).</p>
+         <p class="text-justify text-slate ">Uni-Level Plan also known as Generation Plan or Sunflower Plan. This is usually works perfect with clients who are having wide range of consumer durable products. This plan can be an independent plan or an add-on career plan to any other gateway plan. Unilevel, as the name suggests, only enables you to sponsor one line of distributors, therefore everyone you sponsor is on your frontline. There are no width limitations to this plan (ie there is no limit to the amount of people you can sponsor in your frontline) and commissions are normally paid out on a limited depth (common plans that we have reviewed pay commissions between 5 and 7 levels deep).</p>
+          <p class="text-justify text-slate">Therefore, the common goal of this plan is to recruit a large number of frontline distributors and then encourage them to do the same. To earn a commission using this structure there is normally only a minimal amount of personal volume that is required, which essentially makes it easier for part-timers to earn an income. Although it tends to be easier to earn a commission using this compensation structure, when comparing it to other plans, the structure itself restricts the total amount of each commission you can earn (i.e. although it is easier to earn commissions you do not tend to earn as much).</p>
          </div>
         </div>
       </div>
@@ -43,13 +43,13 @@
 </div>
 <!-- Binary Plan Software end -->
 <!-- Advantages of Unilevel plan start -->
-<div class="container-fluid">
+<div class="container-fluid set_bg__img">
     <div class="container">
         <div class="row">
         <div class="col-12 col-lg-7 my-3 d-flex align-items-center ">
                 <div class="uni-head">
-                    <h3 class="fw-bolder">Advantages of Unilevel plan</h3>
-                    <p class="text-justify">To start to earn commissions with the Unilevel Compensation plan usually only requires a minimal amount of personal volume. This is a very attractive feature to those that are starting their Network Marketing business on a part-time basis. They can start their business, and very quickly see an income starting to come in. In many cases faster than they would with either a Binary or Matrix Compensation plans. Another great advantage of the Unilevel Compensation plan is it's ease in explaining it to new prospects. This ease in the compensation plan is as simple as the more distributors / associates you sponsor, the more money you make! Experienced Network Marketers, especially those who are great at recruiting, thrive in a Unilevel Compensation plan as they are able to make an extremely wide organization.</p>
+                    <h3 class="fw-bolder text-warning">Advantages of Unilevel plan</h3>
+                    <p class="text-justify text-slate">To start to earn commissions with the Unilevel Compensation plan usually only requires a minimal amount of personal volume. This is a very attractive feature to those that are starting their Network Marketing business on a part-time basis. They can start their business, and very quickly see an income starting to come in. In many cases faster than they would with either a Binary or Matrix Compensation plans. Another great advantage of the Unilevel Compensation plan is it's ease in explaining it to new prospects. This ease in the compensation plan is as simple as the more distributors / associates you sponsor, the more money you make! Experienced Network Marketers, especially those who are great at recruiting, thrive in a Unilevel Compensation plan as they are able to make an extremely wide organization.</p>
                 </div>
             </div>
             <div class="col-12 col-lg-5 my-3 d-flex justify-content-center ">

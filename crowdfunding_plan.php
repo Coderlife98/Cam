@@ -25,21 +25,21 @@
     </div>
     <!-- hero section end -->
     <!--CrowdFunding Plan software  start -->
-    <div class="container-fluid  mb-2 mb-lg-5 ">
+    <div class="container-fluid crowdtopbg  py-2 py-lg-5 ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-5 my-2">
-                    <img src="./assets/" alt="@dued">
+                    <img src="./assets/crowdsection.png" width="320px" alt="@dued">
                 </div>
-                <div class="col-12 col-lg-7 my-2">
+                <div class="col-12 col-lg-7 d-flex align-items-center my-2">
                     <div class="binary-hed">
-                        <h3 class="fw-bolder text-family">CrowdFunding Plan software</h3>
+                        <h3 class="fw-bolder text-family text-warning">CrowdFunding Plan software</h3>
                         <div class="">
-                            <p class="text-justify ">Crowdfunding is an effective way for entrepreneurs to launch their companies without much capital investment. Instead of buying loads of inventory up front, crowdfunding enables entrepreneurs to judge the demand for their product while helping them fund their first production run.
+                            <p class="text-justify text-slate">Crowdfunding is an effective way for entrepreneurs to launch their companies without much capital investment. Instead of buying loads of inventory up front, crowdfunding enables entrepreneurs to judge the demand for their product while helping them fund their first production run.
                             </p>
-                            <p class="text-justify ">The business market of today revolves around financial support of others that help a business start and grow. People are there having a great business idea but no money, and people are there with money looking for an idea that stands apart. Apparently, crowdfunding is a win-win situation for both business owners and people that invest in the business.
+                            <p class="text-justify text-slate">The business market of today revolves around financial support of others that help a business start and grow. People are there having a great business idea but no money, and people are there with money looking for an idea that stands apart. Apparently, crowdfunding is a win-win situation for both business owners and people that invest in the business.
                             </p>
-                            <p class="text-justify ">You may start your business with a very small amount, and can make huge money in very short time period. You need very little number of resources to start the business.
+                            <p class="text-justify text-slate">You may start your business with a very small amount, and can make huge money in very short time period. You need very little number of resources to start the business.
                             </p>
                         </div>
                     </div>
@@ -53,12 +53,8 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-5 my-2 my-lg-5">
-                    <div>
-                        <img src="" alt="@dued">
-                    </div>
-                </div>
-                <div class="col-12 col-lg-7 my-2 my-lg-5">
+                
+                <div class="col-12  py-2 py-lg-5">
                     <div class="benefit-board text-justify">
                         <h3 class="fw-bolder text-family">Advantages of CrowdFunding plan:</h3>
                         <div class="binary-bullet">

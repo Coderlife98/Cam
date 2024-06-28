@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 ">
-                    <div class="binary-txtx-hero text-white col-12 col-lg-7">
+                    <div class="binary-txtx-hero text-white pe-4">
                         <h1 class="fw-bolder">Board Plan Software</h1>
                         <p class="">The Board plan MLM Software also known as Revolving Matrix Plan Software.Board
                             software is customized according to the concept and plan designed by the MLM Company</p>
@@ -26,17 +26,17 @@
     </div>
     <!-- hero section end -->
     <!-- Binary Plan Software start -->
-    <div class="container-fluid  mb-2 mb-lg-5 ">
+    <div class="container-fluid set_board_top py-2 py-lg-5 ">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-5 my-2">
-                    <img src="./assets/b1.png" height="300px" alt="@dued">
+                <div class="col-12 col-md-4 col-lg-5 sm_matrix_flex my-2">
+                    <img src="./assets/b1.png" class="board-pic" height="300px" alt="@dued">
                 </div>
-                <div class="col-12 col-lg-7 my-2">
+                <div class="col-12 col-md-8 col-lg-7 my-2 d-flex align-items-center">
                     <div class="binary-hed">
-                        <h3 class="fw-bolder text-family">Board Plan Software</h3>
+                        <h3 class="fw-bolder text-family text-warning">Board Plan Software</h3>
                         <div class="bin-br-lef">
-                            <p class="text-justify ">The Board plan MLM Software also known as Revolving Matrix Plan
+                            <p class="text-justify text-slate">The Board plan MLM Software also known as Revolving Matrix Plan
                                 Software. Board MLM software is customized according to the concept and plan designed by
                                 the MLM company. There are various kinds of Board MLM plans with different structures
                                 like board may be of 7 (seven) leaders, 15 (fifteen) leaders board plan or more. The
@@ -54,14 +54,14 @@
     <!-- Binary Plan Software end -->
     <!-- Board plan software features start -->
     <!-- Board plan software features end -->
-    <div class="container-fluid">
+    <div class="container-fluid py-4 features_board_bg">
         <div class="container">
             <div class="row">
                
                 <div class="col-12 col-lg-7 my-2 my-lg-5">
                     <div class="benefit-board text-justify">
-                        <h3 class="fw-bolder text-family">Board plan software features</h3>
-                        <div class="binary-bullet">
+                        <h3 class="fw-bolder text-family text-warning">Board plan software features</h3>
+                        <div class="binary-bullet ">
                             <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>We develops customized Board plans and Board shapes according to client needs and their requirements.</span>
                         </div>
                         <div class="binary-bullet">

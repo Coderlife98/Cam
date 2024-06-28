@@ -26,13 +26,13 @@
   </div>
   <!-- hero section end -->
   <!-- Binary Plan Software start -->
-  <div class="container-fluid  mb-2 mb-lg-5 ">
+  <div class="container-fluid matrix_top_bg py-3 py-lg-5 ">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-5 my-2">
+        <div class="col-12 col-md-5 col-lg-5 sm_matrix_flex my-2">
           <img src="./assets/matrix1.png" alt="@dued">
         </div>
-        <div class="col-12 col-lg-7 my-2">
+        <div class="col-12 col-md-7 col-lg-7 my-2">
           <div class="binary-hed">
             <h3 class="fw-bolder text-family">Matrix Plan Software</h3>
             <div class="bin-br-lef">
@@ -75,46 +75,46 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h3 class="fw-bolder">Advantages and features of Matrix plan</h3>
+          <h3 class="fw-bolder mb-0">Advantages and features of Matrix plan</h3>
         </div>
         <div class="col-12">
-          <div class="binary-bullet">
-            <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Matrix MLM Plan is the most
+          <div class="binary-bullet d-flex py-2">
+            <i class="fa-solid fa-arrow-right-from-bracket size-font pe-2 text-danger"></i><span>Matrix MLM Plan is the most
               exciting Plan among all types of MLM pay plans because of much more payouts.</span>
           </div>
-          <div class="binary-bullet my-2">
-            <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Matrix Plan is a MLM Plan which
+          <div class="binary-bullet d-flex">
+            <i class="fa-solid fa-arrow-right-from-bracket size-font pe-2 text-danger"></i><span>Matrix Plan is a MLM Plan which
               pays to infinite downline. That means that a member will be paid by downline, even if the downline are 15
               level deep in your structure.</span>
           </div>
-          <div class="binary-bullet ">
-            <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>With a Matrix model, your upline
+          <div class="binary-bullet d-flex">
+            <i class="fa-solid fa-arrow-right-from-bracket size-font pe-2 text-danger"></i><span>With a Matrix model, your upline
               will place their new members under you into what's called your power leg. This is referred to as
               spillover. Your power leg will usually grow quite quickly.</span>
           </div>
-          <div class="binary-bullet my-2">
-            <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> Matrix plan is great plan for
+          <div class="binary-bullet d-flex my-2">
+            <i class="fa-solid fa-arrow-right-from-bracket size-font pe-2 text-danger"></i><span> Matrix plan is great plan for
               nurture teamwork in a MLM organization. It plays an important role for you and your downline success. This
               build a team unity and cooperative energy.</span>
           </div>
-          <div class="binary-bullet ">
-            <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>Matrix Plan offer the greatest
+          <div class="binary-bullet d-flex">
+            <i class="fa-solid fa-arrow-right-from-bracket pe-2 size-font text-danger"></i><span>Matrix Plan offer the greatest
               potential generational earnings depth of any of the four basic compensation plans in network
               marketing.</span>
           </div>
-          <div class="binary-bullet my-2">
-            <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>You really only need to
+          <div class="binary-bullet my-2 d-flex">
+            <i class="fa-solid fa-arrow-right-from-bracket pe-2 size-font text-danger"></i><span>You really only need to
               concentrate on building one let of your business- your "Money Leg". The other leg of you downline matrix
               or "Power Leg" is usually being built by those in your organization that are above you, and more
               experienced that you.</span>
           </div>
-          <div class="binary-bullet ">
-            <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span>The initial Matrix Compensation
+          <div class="binary-bullet d-flex">
+            <i class="fa-solid fa-arrow-right-from-bracket pe-2 size-font text-danger"></i><span>The initial Matrix Compensation
               Plan is much easier to understand and maintain qualifications for than other plans created before its'
               inception.</span>
           </div>
-          <div class="binary-bullet my-2">
-            <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger "></i><span>Matrix MLM Compensation Plans
+          <div class="binary-bullet my-2 d-flex">
+            <i class="fa-solid fa-arrow-right-from-bracket pe-2 size-font text-danger "></i><span>Matrix MLM Compensation Plans
               help the average and even more than average network marketers to be able to achieve success, and realize
               the potential for financial freedom.</span>
           </div>

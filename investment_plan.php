@@ -27,20 +27,20 @@
   </div>
   <!-- hero section end -->
   <!-- Investment plan Software start -->
-  <div class="container-fluid  mb-2 mb-lg-5 ">
+  <div class="container-fluid invest_top_bg py-2 py-lg-5 ">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-5 my-2  ">
+        <div class="col-12 col-md-4 col-lg-5 my-2 sm_matrix_flex ">
           <img src="./assets/invest.png" width="220px" alt="@dued">
         </div>
-        <div class="col-12 col-lg-7 my-2">
+        <div class="col-12 col-md-8 col-lg-7 my-2">
           <div class="binary-hed">
-            <h3 class="fw-bolder text-family">Investment Plan software</h3>
+            <h3 class="fw-bolder text-family text-warning">Investment Plan software</h3>
             <div class="">
-              <p class="text-justify ">Investment plan in that a MLM Company offers the daily percentage (%) on the
+              <p class="text-justify text-slate">Investment plan in that a MLM Company offers the daily percentage (%) on the
                 investment of a member and sometimes double of the investment Schemes, All these type of plans are not
                 authorized in India and Be safe While investing.</p>
-              <p class="text-justify ">MLM investment plan is mostly used plan in the world by multi level marketing
+              <p class="text-justify text-slate">MLM investment plan is mostly used plan in the world by multi level marketing
                 companies. MLM investment plan is not so easier to understand for the new marketers even for the old
                 marketers. It is still challenging. Many people want to invest in market but they are not aware to
                 understand the criticality of the market. That's why we need to understand the MLM investment plan in
@@ -53,13 +53,13 @@
   </div>
   <!-- Investment plan Software end -->
   <!-- Advantages of Investment plan: start -->
-  <div class="container-fluid">
+  <div class="container-fluid adInv_bg py-4">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-7 my-3">
+        <div class="col-12 col-md-8 col-lg-7 my-3">
           <div class="uni-head">
-            <h3 class="fw-bolder">Advantages of Investment plan</h3>
-            <p class="text-justify">Investment plan mlm software just works same as we go to college to study for that
+            <h3 class="fw-bolder text-info">Advantages of Investment plan</h3>
+            <p class="text-justify text-slate">Investment plan mlm software just works same as we go to college to study for that
               we invest some money depends on the course. Same concept is here investment plan also says that first you
               invest and then you will be able to earn more and more money. By this plan we have understanding power of
               the criticality. A go of marketer needs to adopt this plan. This will help us to calculate the benefit of
@@ -67,7 +67,7 @@
               level marketing. Nowadays many of the companies have adopted this plan.</p>
           </div>
         </div>
-        <div class="col-12 col-lg-5 my-3 d-flex justify-content-center ">
+        <div class="col-12 col-md-4 col-lg-5 my-3 d-flex justify-content-center ">
           <div><img src="./assets/investm.png" alt="@dued"></div>
         </div>
 
@@ -128,59 +128,6 @@
     </div>
   </div>
   <!--Features of Investment plan: end -->
-
-  <div class="container-fluid p-3 p-lg-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2 class="text-center fw-bolder">MEET OUR TEAM</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Swiper -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
-        <p>Lorem 
-        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
-        <span class="name-swiper">Rashmikant Singh</span>
-      </div>
-      <div class="swiper-slide">
-        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
-        <p>Lorem 
-        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
-        <span class="name-swiper">Rashmikant Singh</span>
-      </div>
-      <div class="swiper-slide">
-        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
-        <p>Lorem 
-        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
-        <span class="name-swiper">Rashmikant Singh</span>
-      </div>
-      <div class="swiper-slide">
-        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
-        <p>Lorem 
-        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
-        <span class="name-swiper">Rashmikant Singh</span>
-      </div>
-      <div class="swiper-slide">
-        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
-        <p>Lorem 
-        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
-        <span class="name-swiper">Rashmikant Singh</span>
-      </div>
-      <div class="swiper-slide">
-        <img src="./assets/rashmikant.jpg" class="meet-team" alt="@dued">
-        <p>Lorem 
-        Ea tempora Mollitia temporibus velit quaerat, dicta eos illo blanditiis!</p>
-        <span class="name-swiper">Rashmikant Singh</span>
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
 
 
 

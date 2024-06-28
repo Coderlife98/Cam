@@ -1,4 +1,5 @@
-
+document.addEventListener("DOMContentLoaded", () => {
+gsap.registerPlugin(ScrollTrigger);
 window.addEventListener("wheel", (dets) => {
     console.log(dets);
     if (dets.deltaY > 0) {
@@ -31,10 +32,6 @@ window.addEventListener("wheel", (dets) => {
 });
 
 
-
-
-
-gsap.registerPlugin(ScrollTrigger);
 
 
 // hospital management start
@@ -585,6 +582,21 @@ websiteSm.add("(max-width:1024px)", () => {
 })
 // website dev end
 
+// Binary plan start
+gsap.from(".binary-bullet", {
+    x: -1200,
+    duration: 3,
+    stagger: 0.3,
+    scrollTrigger: {
+        trigger: ".binary-bullet",
+        // top: "top 40%",
+        // end: "bottom 20%",
+        once: true,
+
+    },
+})
+// Binary plan end
+
 // digital marketing start
 var digital = gsap.matchMedia();
 digital.add("(min-width:1024px)", () => {
@@ -787,7 +799,7 @@ gsap.from(".main-portal-bullet", {
     duration: 3,
     stagger: 0.3,
     scrollTrigger: {
-        trigger: ".main-portal-bullet",
+        trigger: ".main-portal-bulle",
         // top: "top 40%",
         // end: "bottom 20%",
         once: true,
@@ -850,6 +862,8 @@ softnidhi.add("(min-width:1024px)", () => {
 
 
 // nidhi software end
+
+
 
 gsap.from("#m1gsapright", {
     x: 800,
@@ -982,3 +996,5 @@ gsap.from("#gsaptech", {
 
 // hospital end
 
+
+});

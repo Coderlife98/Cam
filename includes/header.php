@@ -27,6 +27,10 @@
   </div>
 </div>
 <!-- Topbar End -->
+
+
+
+
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-transparent navbar-fixed-top navbar-light sticky-top px-4 px-lg-5">
   <a href="./home.php" class="navbar-brand d-flex align-items-center">
@@ -135,7 +139,7 @@
       </div>
     </div>
   </div>
-  <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+ 
 </nav>
 <!-- Navbar End -->
 
@@ -143,15 +147,16 @@
 
 
 <script>
-  var nav = document.querySelector('nav'); // Identify target
+  // var nav = document.querySelector('nav'); // Identify target
 
-  window.addEventListener('scroll', function (event) { // To listen for event
-    event.preventDefault();
+  // window.addEventListener('scroll', function (event) { // To listen for event
+  //   event.preventDefault();
 
-    if (window.scrollY <= 150) { // Just an example
-      nav.style.backgroundColor = '#000'; // or default color
-    } else {
-      nav.style.backgroundColor = 'transparent';
-    }
-  });
+  //   if (window.scrollY <= 150) { // Just an example
+  //     nav.style.backgroundColor = '#000'; // or default color
+  //   } else {
+  //     nav.style.backgroundColor = 'transparent';
+  //   }
+  // });
 </script>
+

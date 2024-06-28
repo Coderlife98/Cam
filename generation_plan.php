@@ -23,19 +23,19 @@
 </div>
 <!-- hero section end -->
 <!-- Binary Plan Software start -->
-<div class="container-fluid  mb-2 mb-lg-5 ">
+<div class="container-fluid generation_bg_top py-2 py-lg-5 ">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-5 my-2 d-flex justify-content-center ">
+      <div class="col-12 col-md-4 col-lg-5 my-2 d-flex justify-content-center ">
      <div>
      <img src="./assets/generation.png" alt="@dued">
      </div>
       </div>
-      <div class="col-12 col-lg-7 my-2">
+      <div class="col-12 col-md-8 col-lg-7 my-2">
         <div class="binary-hed">
-          <h3 class="fw-bolder text-family">Generation Plan Software</h3>
+          <h3 class="fw-bolder text-family text-warning">Generation Plan Software</h3>
          <div class="">
-         <p class="text-justify bin-br-lef">Generation Plan is seen as Compensation Plan. It is based on selling products hence it is beneficial for manufacturing companies. Bonuses and incentive plans are there in this plan and it is based on motivational product selling. MLM agents prefer this plan because it can go through unlimited depth, thus producing more money than any other plan. Generation Plan as said earlier is very beneficial for product selling companies, it saves them the capital they would be spending otherwise on media and marketing. Direct Marketing uses its agents as advertisers which is more convincing to people than TV commercials.</p>
+         <p class="text-justify bin-br-lef text-slate">Generation Plan is seen as Compensation Plan. It is based on selling products hence it is beneficial for manufacturing companies. Bonuses and incentive plans are there in this plan and it is based on motivational product selling. MLM agents prefer this plan because it can go through unlimited depth, thus producing more money than any other plan. Generation Plan as said earlier is very beneficial for product selling companies, it saves them the capital they would be spending otherwise on media and marketing. Direct Marketing uses its agents as advertisers which is more convincing to people than TV commercials.</p>
          </div>
         </div>
       </div>
@@ -44,13 +44,13 @@
 </div>
 <!-- Binary Plan Software end -->
 <!-- Overview of Generation plan start -->
-<div class="container-fluid">
+<div class="container-fluid py-3 py-lg-5 over_generation_bg">
     <div class="container">
         <div class="row">
-        <div class="col-12 col-lg-7 my-3">
+        <div class="col-12 col-lg-7 d-flex align-items-center my-3">
                 <div class="uni-head">
-                    <h3 class="fw-bolder">Overview of Generation plan </h3>
-                    <p class="text-justify">Every individual member or MLM companies can easily convey and explain this Generation Plan to new member and MLM Business affiliates. In Generation MLM Plan each affiliate can recruits new member in their level structure or front line. Each affiliate can introduce new member in any width and the commission distributed up to a fixed limited depth or fixed levels as per MLM compensation plan. The MLM Organization can make the Generation MLM Plan more attractive by introducing some rewards or bonuses or incentives for registered members when they achieve the company fixed or declared level targets. Simplicity of MLM Plan is Generation Plan which is easy to explain for new comers or new members. Compensation level is declared or customized as per company business requirements. Rewards and bonuses can be integrated easy at any level structure or frontline in Generation MLM Plan. In MLM Industry, One of the simplest concepts or simplest MLM Plan is Generation MLM Plan.</p>
+                    <h3 class="fw-bolder text-info">Overview of Generation plan </h3>
+                    <p class="text-justify text-slate">Every individual member or MLM companies can easily convey and explain this Generation Plan to new member and MLM Business affiliates. In Generation MLM Plan each affiliate can recruits new member in their level structure or front line. Each affiliate can introduce new member in any width and the commission distributed up to a fixed limited depth or fixed levels as per MLM compensation plan. The MLM Organization can make the Generation MLM Plan more attractive by introducing some rewards or bonuses or incentives for registered members when they achieve the company fixed or declared level targets. Simplicity of MLM Plan is Generation Plan which is easy to explain for new comers or new members. Compensation level is declared or customized as per company business requirements. Rewards and bonuses can be integrated easy at any level structure or frontline in Generation MLM Plan. In MLM Industry, One of the simplest concepts or simplest MLM Plan is Generation MLM Plan.</p>
                 </div>
             </div>
             <div class="col-12 col-lg-5 my-3 d-flex justify-content-center ">
