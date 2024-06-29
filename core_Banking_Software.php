@@ -30,18 +30,18 @@
     <div class="container-fluid py-2 py-lg-5 banking_core ">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6 py-2">
+          <div class="col-12 flex_core col-lg-6 py-2">
             <div class="core-imggg-set">
               <img
                 src="./assets/core_banking.png"
-                class="core-1"
+                class="core-1 xx"
                 width="350px"
                 alt=""
               />
             
             </div>
           </div>
-          <div class="col-12 col-lg-6 py-2">
+          <div class="col-12  col-lg-6 py-2 d-flex align-items-center">
             <div class="cbank-head fadeIn">
               <h4 class="text-warning">Core banking Software</h4>
               <p class="text-slate">
@@ -580,7 +580,8 @@
     </div>
     <!-- modules end -->
     <!-- last section start -->
-    <div class="container my-2 my-lg-5 ">
+   <div class="container-fluid bg__nidhi py-2 py-lg-5">
+   <div class="container  ">
         <div class="row p-2 p-lg-0 ">
             <div class="col-12">
                 <img src="./assets/correct.png" width="30px" alt="@dude" class="pe-2"><span class="text-justify">We have developed nidhi company software with continuous research. Camwel Solution LLP studies the exact and practical working of nidhi along with common problems faced by organization. Our developed nidhi company software with full data security. Your data remains 100% safe & secure with software. Thus, stay tension free for every kind of loss and misuse.</span>
@@ -599,6 +600,7 @@
             </div>
         </div>
     </div>
+   </div>
     <!-- last section end -->
     <script>
             $("#clid1").click(function () {

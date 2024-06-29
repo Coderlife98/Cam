@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-5 sm_matrix_flex my-2">
-                    <img src="./assets/b1.png" class="board-pic" height="300px" alt="@dued">
+                    <img src="./assets/b1.png" class="board-pic" id="board-gsap" height="300px" alt="@dued">
                 </div>
                 <div class="col-12 col-md-8 col-lg-7 my-2 d-flex align-items-center">
                     <div class="binary-hed">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-12 col-lg-5 my-2 my-lg-5 d-flex justify-content-center ">
                     <div>
-                        <img src="./assets/b2.png" alt="@dued">
+                        <img src="./assets/b2.png" id="board-gsap2" alt="@dued">
                     </div>
                 </div>
             </div>

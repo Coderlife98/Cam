@@ -29,10 +29,10 @@
   <div class="container-fluid matrix_top_bg py-3 py-lg-5 ">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-5 col-lg-5 sm_matrix_flex my-2">
+        <div class="col-12 col-md-5 col-lg-5 sm_matrix_flex my-2" id="gsapMatrix1">
           <img src="./assets/matrix1.png" alt="@dued">
         </div>
-        <div class="col-12 col-md-7 col-lg-7 my-2">
+        <div class="col-12 col-md-7 col-lg-7 my-2" id="gsapMatrix2">
           <div class="binary-hed">
             <h3 class="fw-bolder text-family">Matrix Plan Software</h3>
             <div class="bin-br-lef">

@@ -97,11 +97,11 @@ mmCollege.from("#collGsap1,#collGsap2", {
 let hospmedia = gsap.matchMedia();
 hospmedia.add("(min-width:1024px)", () => {
     var hosp = gsap.timeline();
-    hosp.from("#hos1", {
+    hosp.from("#hos1,#gsapbinary1,#gsapMatrix1", {
         x: -500,
         opacity: 0,
         scrollTrigger: {
-            trigger: "#hos1",
+            trigger: "#hos1,#gsapbinary1,#gsapMatrix1",
             scroller: "body",
             // markers:true,
             start:"top 70%",
@@ -111,11 +111,11 @@ hospmedia.add("(min-width:1024px)", () => {
         }
     });
 
-    hosp.from("#hos2", {
+    hosp.from("#hos2,#gsapbinary2,#gsapMatrix2,#helpgsap2", {
         x: 1200,
         opacity: 0,
         scrollTrigger: {
-            trigger: "#hos2",
+            trigger: "#hos2,#gsapbinary2,#gsapMatrix2,#helpgsap2",
             scroller: "body",
             // markers:true,
             start:"top 40%",
@@ -130,7 +130,7 @@ hospmedia.add("(min-width:1024px)", () => {
         scale: 0.1,
         y: 40,
         ease: "back.in",
-        stagger: 0.2,
+        stagger: 0.1,
         scrollTrigger: {
             trigger: "#sechosgsap",
             scroller: "body",
@@ -138,7 +138,7 @@ hospmedia.add("(min-width:1024px)", () => {
             // markers:true,
             start:"top 70%",
             end:"bottom 90%",
-            scrub: 3,
+            scrub: 5,
 
         }
     });
@@ -210,19 +210,19 @@ hospmedia.add("(min-width:1024px)", () => {
         }
 
     });
-    hosp.from(".hosBoxgsap",{
+    hosp.from(".hosBoxgsap,.rule-box",{
        opacity:0,
        x:-50,
        duration:2,
        stagger:0.5,
        scrollTrigger: {
-        trigger: ".hosBoxgsap",
+        trigger: ".hosBoxgsap,.rule-box",
         scroller: "body",
         // once: true,
         // markers:true,
         start:"top 40%",
         end:"bottom 95%",
-        scrub: 3,
+        scrub: 5,
 
     }
     });
@@ -248,14 +248,14 @@ hospmedia.add("(max-width:1024px)", () => {
 
         }
     });
-    hospmediasm.from(".hosBoxgsap",{
+    hospmediasm.from(".hosBoxgsap,.rule-box",{
         opacity:0,
         x:-50,
         duration:2,
-        
+        delay:1,
         stagger:0.5,
         scrollTrigger: {
-         trigger: ".hosBoxgsap",
+         trigger: ".hosBoxgsap,.rule-box",
          scroller: "body",
         //  markers:true,
          start:"top 60%",
@@ -741,10 +741,10 @@ digital.add("(max-width:1024px)",()=>{
 var portal = gsap.matchMedia();
 portal.add("(min-width:1024px)", () => {
     var t1 = gsap.timeline();
-    t1.from(".portal-gsap", {
+    t1.from(".portal-gsap,#board-gsap,#board-gsap2,#helpgsap", {
         y: 80,
         scrollTrigger: {
-            trigger: ".portal-gsap",
+            trigger: ".portal-gsap,#board-gsap,#board-gsap2,#helpgsap",
             scroller: "body",
             // markers:true,
             end: "bottom 80%",
@@ -845,6 +845,7 @@ softnidhi.add("(min-width:1024px)", () => {
         scrollTrigger: {
             trigger: ".soft1",
             scroller: "body",
+            // markers:true,
             scrub: 2
         }
     });
@@ -857,6 +858,8 @@ softnidhi.add("(min-width:1024px)", () => {
             scrub: 2
         }
     });
+
+
   
 });
 

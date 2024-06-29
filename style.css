@@ -742,11 +742,11 @@ button {
     font-size: 13px;
 }
 
-.moveHover{
-    transition:all 0.4s ease-in-out
+.moveHover {
+    transition: all 0.4s ease-in-out
 }
 
-.moveHover:hover{
+.moveHover:hover {
     margin-left: 5px;
     color: white;
 }
@@ -1153,6 +1153,83 @@ button {
     top: -77px;
 }
 
+.team_pic {
+    width: 220px;
+
+}
+
+.Teamcard {
+    background: #0F101E;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 50px 50px;
+
+}
+
+.namecard {
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.namecard:hover {
+    background-position: 0 100%;
+}
+
+.team_pic {
+    transition: 0.9s;
+}
+
+.Teamcard:hover img {
+    transform: scale(1.05);
+}
+
+.Teamcard .team-img img {
+    mask-image: url(./assets/team-mask.png);
+    mask-size: 100% 100%;
+    height: 235px;
+    width: 220px;
+    flex: none;
+}
+
+.social-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socialteam {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.7s;
+}
+
+.socialteam:hover {
+    background-color: transparent;
+
+}
+
+.socialteam i {
+    text-align: center;
+    font-size: 20px;
+}
+
+.set_ttteam_bg {
+    background-color: #010314;
+}
+
 .team-txt-hero {
     position: absolute;
     top: 65%;
@@ -1508,7 +1585,7 @@ button {
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    height: 216px;
+    height: 184px;
 }
 
 .text-box-ss {
@@ -1550,13 +1627,32 @@ button {
 }
 
 .set-fff-bgggggg {
-    background-color: #d7f4f6;
+    background: rgb(21, 28, 59);
+    background: radial-gradient(circle, rgba(21, 28, 59, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
 }
 
 .set-fe-so-bg {
-    background-color: #e7d9a1;
+    background: rgb(10, 20, 69);
+    background: radial-gradient(circle, rgba(10, 20, 69, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
 }
 
+.butnsection {
+    background-color: #010314;
+}
+
+#show1 {
+    background: rgb(10, 20, 69);
+    background: radial-gradient(circle, rgba(10, 20, 69, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+}
+
+
+.set-packed-bg {
+    background: #13274F;
+    color: white;
+}
 
 /* software dev end */
 
@@ -1694,6 +1790,39 @@ button {
     left: 14%;
 }
 
+.design {
+    width: 180px !important;
+    transform: rotate(259deg);
+    -webkit-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+}
+
+
+.design_img_rotate {
+    left: -50px;
+
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .container-main-4 {
     width: 450px;
     height: 380px;
@@ -1799,7 +1928,18 @@ button {
 }
 
 .mcr-set {
-    /* top: -50px; */
+    margin-top: -78px;
+    background-color: #000;
+}
+
+.process-bg {
+    background-color: #00160a;
+    color: white;
+}
+
+.features____bg {
+    background-color: #100e24;
+    color: white;
 }
 
 .add-dn-bu {
@@ -1827,6 +1967,9 @@ button {
 
 .road_map {
     background-color: #010204;
+    background-image: url("./assets/footer_bg.png");
+
+
 }
 
 .ll {
@@ -1885,6 +2028,7 @@ button {
 
 .gradient_bg:hover {
     box-shadow: none;
+    border: 1px solid #0d9488;
 }
 
 .gradient___bg {
@@ -1915,6 +2059,62 @@ button {
     -webkit-text-fill-color: transparent;
 }
 
+.xy {
+    animation-name: xymove;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.xx {
+    animation-name: xxmove;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* background: linear-gradient(0.41deg, var(--tg-primary-color) 7.48%, rgba(46, 32, 255, 0.27) 36.38%, var(--tg-secondary-color) 67.11%); */
+
+@keyframes xymove {
+    0% {
+        transform: rotateX(0deg) translateY(0px);
+    }
+
+    50% {
+        transform: rotateX(0deg) translateY(-30px);
+    }
+
+    100% {
+        transform: rotateX(0deg) translateY(0px);
+    }
+}
+
+@keyframes xxmove {
+    0% {
+        transform: rotateX(0deg) translateX(0px);
+    }
+
+    50% {
+        transform: rotateX(0deg) translateX(-30px);
+    }
+
+    100% {
+        transform: rotateX(0deg) translateX(0px);
+    }
+}
+
+.borderdottted1 {
+    border-top: 1px dashed white;
+    border-right: 1px dashed white;
+    border-bottom: 1px dashed white;
+    border-top-left-radius: 15px;
+}
+
+.borderdottted2 {
+    border-left: 1px dashed white;
+    border-bottom: 1px dashed white;
+    border-bottom-right-radius: 15px;
+}
 
 /* dsa loan management end */
 
@@ -2095,6 +2295,11 @@ button {
     background-size: cover;
 }
 
+.bg__nidhi {
+    background: #000;
+    color: white;
+}
+
 .banking_core {
     margin-top: -78px;
     background-color: #000;
@@ -2140,17 +2345,19 @@ button {
 /* core banking end */
 
 /* generation start */
-.generation_bg_top{
+.generation_bg_top {
     background-color: black;
     margin-top: -78px;
     color: white;
 }
-.over_generation_bg{
+
+.over_generation_bg {
     background-image: url("./assets/bg_home.png");
     color: white;
     background-color: black;
     border-top: 1px solid white;
 }
+
 /* generation end */
 
 /* nidhi company registration start */
@@ -2178,12 +2385,27 @@ button {
 }
 
 .set-bg-ncr1 {
-    background: #F4F9FD;
+    background: #05081a;
     margin-top: -77px;
+    color: white;
 }
 
 .docu-req {
-    background-color: #373cc71f;
+    background-color: #0a0d25;
+    color: white;
+
+}
+
+.hoverBorder {
+    transition: 0.9s;
+    width: fit-content;
+    padding: 5px 0px;
+}
+
+.hoverBorder:hover {
+    border-bottom: 1px solid #6366f1;
+    border-radius: 10px;
+
 }
 
 .regfa {
@@ -2750,7 +2972,7 @@ input[type="radio"] {
     position: relative;
 }
 
-.binary_top_bg{
+.binary_top_bg {
     background-color: black;
     margin-top: -78px;
     color: white;
@@ -2803,10 +3025,11 @@ input[type="radio"] {
     position: relative;
 }
 
-.size-font{
+.size-font {
     font-size: 22px;
 }
-.matrix_top_bg{
+
+.matrix_top_bg {
     background-color: black;
     margin-top: -78px;
     color: white;
@@ -2828,7 +3051,7 @@ input[type="radio"] {
 }
 
 
-.crowdtopbg{
+.crowdtopbg {
     margin-top: -78px;
     background-color: black;
     color: white;
@@ -2847,13 +3070,13 @@ input[type="radio"] {
     position: relative;
 }
 
-.invest_top_bg{
+.invest_top_bg {
     background-color: #000;
     color: white;
     margin-top: -78px;
 }
 
-.adInv_bg{
+.adInv_bg {
     background-color: #030012;
     color: white;
 }
@@ -2872,13 +3095,13 @@ input[type="radio"] {
     position: relative;
 }
 
-.set_board_top{
+.set_board_top {
     margin-top: -78px;
     background-color: black;
     color: white;
 }
 
-.features_board_bg{
+.features_board_bg {
     background-color: #0a081d;
     color: white;
 }
@@ -2896,13 +3119,13 @@ input[type="radio"] {
     position: relative;
 }
 
-.set_unitop_bg{
+.set_unitop_bg {
     margin-top: -78px;
     background-color: #000;
     color: white;
 }
 
-.set_bg__img{
+.set_bg__img {
     background-image: url("./assets/success_2.jpg");
     background-attachment: fixed;
     color: white;
@@ -2927,18 +3150,19 @@ input[type="radio"] {
     position: relative;
 }
 
-.help_bg_top{
+.help_bg_top {
     margin-top: -78px;
     background-color: #00000F;
     color: white;
 }
 
-.ad_bg_investment{
+.ad_bg_investment {
     background-color: #00093c;
     color: white;
     background-image: url("./assets/techno.png");
     background-repeat: no-repeat;
 }
+
 .ms-softwww {
     border-radius: 10px;
 }
@@ -2967,7 +3191,7 @@ input[type="radio"] {
         height: 250px;
     }
 
-    .address-footer{
+    .address-footer {
         padding-left: 50px;
     }
 
@@ -3048,6 +3272,11 @@ input[type="radio"] {
         justify-content: center;
     }
 
+    .flex_core {
+        display: flex;
+        justify-content: center;
+    }
+
     .life-cycle {
         width: 100%;
     }
@@ -3057,11 +3286,21 @@ input[type="radio"] {
         justify-content: center;
     }
 
+    .clickable-btn {
+        height: 62px;
+
+    }
+
 }
 
 @media (min-width:768px) and (max-width:992px) {
     .main-box {
         height: 210px;
+    }
+
+    .clickable-btn {
+        height: 62px;
+
     }
 
     .bus_img {
@@ -3113,6 +3352,11 @@ input[type="radio"] {
         height: 170px;
     }
 
+    .flex_core {
+        display: flex;
+        justify-content: center;
+    }
+
     .life-cycle {
         width: 100%;
     }
@@ -3121,7 +3365,8 @@ input[type="radio"] {
         display: flex;
         justify-content: center;
     }
-    .board-pic{
+
+    .board-pic {
         width: 100%;
     }
 
@@ -3137,6 +3382,8 @@ input[type="radio"] {
         display: flex;
         justify-content: center;
     }
+
+
 
     .above-back-border2 {
         width: 100px;
@@ -3172,7 +3419,7 @@ input[type="radio"] {
         position: relative;
     }
 
-    .address-footer{
+    .address-footer {
         padding-left: 50px;
     }
 
@@ -3257,7 +3504,8 @@ input[type="radio"] {
     .set_circle_move {
         display: none;
     }
-    .address-footer{
+
+    .address-footer {
         padding-left: 50px;
     }
 
@@ -3339,8 +3587,9 @@ input[type="radio"] {
         bottom: 0%;
         border-radius: 0px 0px 291px 252px;
     }
+
     .set-unilevel-plan-bg {
-       
+
         background-position: right;
     }
 
@@ -3375,6 +3624,7 @@ input[type="radio"] {
         position: relative;
         background-position: center;
     }
+
     .over_generation_bg {
         background-position: left;
     }
@@ -3580,7 +3830,8 @@ input[type="radio"] {
     .pos_bg-hero {
         background-position: center;
     }
-    .sm_matrix_flex{
+
+    .sm_matrix_flex {
         display: flex;
         justify-content: center;
     }
@@ -3632,7 +3883,7 @@ input[type="radio"] {
         height: 100% !important;
     }
 
-   
+
 
     .soft1 {
         width: 100%;

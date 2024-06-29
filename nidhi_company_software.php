@@ -10,6 +10,42 @@
     .hidd {
       display: none;
     }
+   
+    .testimonials-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .testimonial {
+      display: none;
+      background-color: cadetblue;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .testimonial.active {
+      display: block;
+    }
+
+    .testimonial img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+      float: left;
+    }
+
+    .quote {
+      font-style: italic;
+    }
+
+    .author {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
   </style>
 
 </head>
@@ -74,12 +110,12 @@
     </div>
   </div>
   <!-- section 1 end -->
- 
+
 
   <!-- section 3 start -->
   <div class="container-fluid py-2 py-lg-3 set-bbb-bg">
     <div class="container ">
-    <div class="row py-3 py-md-5">
+      <div class="row py-3 py-md-5">
         <div class="col-12">
           <h3 class="fw-bolder text-center text-warning gsapdown">Top Integrated Software Modules</h3>
           <p class="text-justify text-center text-white">
@@ -89,7 +125,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/api-soft.png" class="soft-api" alt="" />
@@ -101,7 +137,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/neft.png" class="soft-api" alt="" />
@@ -111,7 +147,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/ifsc.png" class="soft-api" alt="" />
@@ -121,7 +157,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/imps.png" class="soft-api" alt="" />
@@ -131,7 +167,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/rtgs.png" class="soft-api" alt="" />
@@ -141,7 +177,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/fund-t.png" class="soft-api" alt="" />
@@ -153,7 +189,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/nach.png" class="soft-api" alt="" />
@@ -163,7 +199,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/ecs.png" class="soft-api" alt="" />
@@ -173,7 +209,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/pre-card.png" class="soft-api" alt="" />
@@ -185,7 +221,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/debit.png" class="soft-api" alt="" />
@@ -195,7 +231,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/alert.png" class="soft-api" alt="" />
@@ -205,7 +241,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/ifsc_f.png" class="soft-api" alt="" />
@@ -215,7 +251,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/valid.png" class="soft-api" alt="" />
@@ -227,7 +263,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/voter.png" class="soft-api" alt="" />
@@ -239,7 +275,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/adhar.png" class="soft-api" alt="" />
@@ -251,7 +287,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2" id="sechosgsap">
           <div class="design-soft">
             <div class="img-soft">
               <img src="./assets/ver.png" class="soft-api" alt="" />
@@ -382,7 +418,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h3 class="text-center text-family fw-bolder">
+          <h3 class="text-center  text-family fw-bolder">
             As Per Nidhi Rules and Acts
           </h3>
           <p class="text-center">
@@ -678,7 +714,8 @@
   </div>
   <!-- We Don't Just Build Nidhi Solutions We Build Possibilities for You end -->
   <!-- carousel start -->
-  <div class="container">
+ <div class="container-fluid butnsection py-4">
+ <div class="container">
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4 my-2 d-flex justify-content-center">
         <div class="btn-accord">
@@ -711,15 +748,16 @@
       </div>
     </div>
   </div>
+ </div>
   <!-- carousel end -->
   <!-- Why? Camwel Solution LLP start -->
   <div class="container-fluid hidd" id="show1">
     <div class="container">
       <div class="row ">
-        <div class="col-12 col-lg-8 my-3">
+        <div class="col-12 col-lg-8 my-3 d-flex align-items-center">
           <div class="why-software">
-            <h3 class="fw-bolder">Why? Camwel Solution LLP</h3>
-            <p class="text-justify">
+            <h3 class="fw-bolder text-warning">Why? Camwel Solution LLP</h3>
+            <p class="text-justify text-slate">
               Our developed Nidhi company software has lots of excellent banking features such as share management,
               member management, saving account, fixed deposit account, recurring deposit, monthly income scheme (MIS),
               loan and all type of reports. And has extra features integrated to handle multi branch and multi user
@@ -747,7 +785,7 @@
         <div class="col-12 col-lg-6">
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -758,7 +796,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -769,7 +807,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -780,7 +818,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>Proper Accounting as per Rules.</p>
@@ -788,7 +826,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -800,7 +838,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>Online Customer panel like Net banking with Mobile Apps.</p>
@@ -808,7 +846,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>CSP (customer service points) Management Module Included.</p>
@@ -816,7 +854,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -830,7 +868,7 @@
         <div class="col-12 col-lg-6">
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -841,7 +879,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -852,7 +890,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -863,7 +901,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -874,7 +912,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>
@@ -885,7 +923,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>SB Account Balance inquiry from Missed Call System</p>
@@ -893,7 +931,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>SB, RD, Loan Account Balance inquiry With SMS (Long Code)</p>
@@ -901,7 +939,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-info"></i>
             </div>
             <div class="right">
               <p>Mobile app for agent and customer</p>
@@ -911,7 +949,7 @@
       </div>
     </div>
   </div>
-  
+
   <!-- why section end -->
   <!-- features start -->
   <div class="container-fluid set-fe-so-bg p-2 p-lg-4 hidd" id="show3">
@@ -920,7 +958,7 @@
         <div class="col-12 col-lg-6">
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -931,7 +969,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -942,7 +980,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Attractive and well said reports format.</p>
@@ -950,7 +988,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Proper Accounting as per Rules.</p>
@@ -958,7 +996,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -969,7 +1007,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -980,7 +1018,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -990,7 +1028,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1000,7 +1038,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1011,7 +1049,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>M.I.S, Initialization and configuration</p>
@@ -1019,7 +1057,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>System Administration, Enrollment Fee Report</p>
@@ -1027,7 +1065,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Application Fee Report, Late Fee Report</p>
@@ -1035,7 +1073,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>State of the art technology has been used.</p>
@@ -1043,7 +1081,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1057,7 +1095,7 @@
         <div class="col-12 col-lg-6">
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1068,7 +1106,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1079,7 +1117,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>User-friendliness which ensures hassle free usage.</p>
@@ -1087,7 +1125,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1099,7 +1137,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1110,7 +1148,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Elimination of scope for tampering of data.</p>
@@ -1118,7 +1156,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1130,7 +1168,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Attractive and well said reports format</p>
@@ -1149,7 +1187,7 @@
         <div class="col-12 col-lg-6">
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Membership Management</p>
@@ -1157,7 +1195,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Saving Account Management</p>
@@ -1165,7 +1203,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Term Deposit</p>
@@ -1173,7 +1211,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Loan and Advance Management</p>
@@ -1181,7 +1219,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Transaction Management</p>
@@ -1191,7 +1229,7 @@
         <div class="col-12 col-lg-6">
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Real Time Gross Settlement ( RTGS ) Management Module</p>
@@ -1199,7 +1237,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>Immediate Payment System (IMPS) Management Module</p>
@@ -1207,7 +1245,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1217,7 +1255,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>
@@ -1227,7 +1265,7 @@
           </div>
           <div class="why-nid-box d-flex">
             <div class="left">
-              <i class="fa-solid fa-arrows-to-dot pe-2 text-danger"></i>
+              <i class="fa-solid fa-arrows-to-dot pe-2 text-warning"></i>
             </div>
             <div class="right">
               <p>General Accounting and Financial Statements</p>
@@ -1238,6 +1276,284 @@
     </div>
   </div>
   <!-- packed end -->
+   <!-- Module faq  start -->
+  <div class="container-fluid set-bg-faqqqqq p-2 p-lg-5 hidd" id="show5">
+    <div class="container">
+    <div class="row">
+        <div class="col-12 my-2 my-lg-3 ">
+          <h2 class="text-white text-center text-family ">Hospital Management Software Module</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="first">
+              <label for="first">Admin Control Panel</label>
+              <div class="content">
+                <p class="text-justify">The Administrator application, also known as Admin Panel or Control Panel, is the interface where administrators and other site officials with appropriate privileges can manipulate the look of a Software. There are many tasks which can be done with the administrator interface.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 faqgsap ">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="second">
+              <label for="second">Branch Control Panel</label>
+              <div class="content">
+                <p class="text-justify">From here, Branch Staff Perform there specific Action . Like Accounts Opening, Transaction, Loan Apply and Many More</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="third">
+              <label for="third">Customer Panel </label>
+              <div class="content">
+                <p class="text-justify">A consumer panel is a group of individuals selected by a business or organization to provide input and opinion on products and services for research on consumer behavior. ... Individuals on consumer test panels may be chosen for a variety of reasons depending on the particular product.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="fourth">
+              <label for="fourth">Staff Panel</label>
+              <div class="content">
+                <p class="text-justify">Here You Can Manage Your Staff</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="fifth">
+              <label for="fifth">Membership Management </label>
+              <div class="content">
+                <p class="text-justify">ENABLES CUSTOMER TO ENROLL AS MEMBER, NON-MEMBER, ASSOCIATE MEMBER AND NOMINAL MEMBER AND IT CONSISTS OF ENROLLMENT, MEMBER ASSETS AND LIABILITY DETAILS:</p>
+                <p class="text-justify">Member Profiles Queries (Share, Deposits and Loans of the member).</p>
+                <p class="text-justify">Closing of Membership.</p>
+                <p class="text-justify">Member Address lists. </p>
+                <p class="text-justify">Reports.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="sixth">
+              <label for="sixth">Term Deposits</label>
+              <div class="content">
+                <p class="text-justify">CONSISTS OF FD, RD, RICC, CASH CERTIFICATE, PIGMY AND THRIFTS DEPOSITS:
+                  </p>
+                <p class="text-justify">Account opening.
+                  </p>
+                <p class="text-justify">Deposit Receipt printing.
+                  </p>
+                <p class="text-justify">Interest calculation and posting.
+                  </p>
+                <p class="text-justify">Closing before maturity (Pre Closure).
+                  </p>
+                <p class="text-justify">Closing on maturity.
+                  </p>
+                <p class="text-justify">Transfer of Term Deposit Interest to SB, RD.
+                  </p>
+                <p class="text-justify">Deposits Renewals.
+                  </p>
+                <p class="text-justify">Reports
+                  </p>
+                <p class="text-justify">Deposit Maturity Report.
+                  </p>
+                <p class="text-justify">Interest Provisions.
+                  </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="seventh">
+              <label for="seventh">Loans and Advances</label>
+              <div class="content">
+                <p class="text-justify">CONSISTS OF SURETY LOAN (UNSECURED), CROP LOAN, VEHICLE LOAN, GOLD LOAN, LOAN AGAINST DEPOSIT (LIKE, FD, RICC / CC) LOAN LEDGERS & VARIOUS TYPES OF REPORTS:</p>
+                <p class="text-justify">Loan sanctioning.</p>
+                <p class="text-justify">Loan disbursement.</p>
+                <p class="text-justify">Creation Loan Parameters by user.</p>
+                <p class="text-justify">Borrower and Surety Details.</p>
+                <p class="text-justify">Interest calculation and posting as per the loan schemes.</p>
+                <p class="text-justify">Interest Provisions for annual financial year.</p>
+                <p class="text-justify">Transfer entries from SB, Shares and Dividend are possible.</p>
+                <p class="text-justify">Loan repayment.</p>
+                <p class="text-justify">Loan Charges posting.</p>
+                <p class="text-justify">Loan closure.</p>
+                <p class="text-justify">Penalty Interest.</p>
+                <p class="text-justify">Loan Ledger view.</p>
+                <p class="text-justify">Loan Schedule for Different Amount, ROI, Periods.</p>
+                <p class="text-justify">Reports.</p>
+                <p class="text-justify">Loan Balance pass sheet.</p>
+                <p class="text-justify">Monthly Demand collection Balance report.</p>
+                <p class="text-justify">Overdue report.</p>
+                <p class="text-justify">NPA report.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="eight">
+              <label for="eight">Standing Instructions </label>
+              <div class="content">
+                <p class="text-justify">CARRYING OUT OF STANDING INSTRUCTION ON DAY-TO-DAY BASIS AND MONITORING OF STANDING INSTRUCTION, CANCELLATION, ETC:</p>
+                <p class="text-justify">Define Standing Instruction.</p>
+                <p class="text-justify">Processing and posting.</p>
+                <p class="text-justify">Status of Standing Instruction.</p>
+                <p class="text-justify">Reports.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="ninth">
+              <label for="ninth">Cash Transaction</label>
+              <div class="content">
+                <p class="text-justify">INTERNALLY UPDATING DAYBOOK ENTRIES LIKE RECEIPTS, PAYMENTS, AND TRANSFERS BETWEEN ACCOUNTS CAN BE UPDATED INTERNALLY THROUGH THE RESPECTIVE MODULES; DIRECT VOUCHER ENTRIES TO THE G/L ARE POSSIBLE:</p>
+                <p class="text-justify">Receipts and Payments.</p>
+                <p class="text-justify">"Cashier Scroll."</p>
+                <p class="text-justify">Cash Register.</p>
+                <p class="text-justify">Bank reconciliation</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="tenth">
+              <label for="tenth">Day book and Trial Balance</label>
+              <div class="content">
+                <p class="text-justify">IT INCLUDES SUBSIDIARY DAYBOOK; CASH TRANSFER IN RESPECT OF EACH ACCOUNT HEAD WITH ABSTRACT NO. OF VOUCHERS:</p>
+              </div>
+                <p class="text-justify">Day Book.</p>
+                <p class="text-justify">Trial Balance.</p>
+                <p class="text-justify">Subsidiary day book.</p>
+              
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="eleven">
+              <label for="eleven">General Ledger & Financial Statements</label>
+              <div class="content">
+                <p class="text-justify">CONTAINS SUMMARY OF TRANSACTION IN EACH HEAD OF ACCOUNT FOR A GIVEN PERIOD AND IT ALWAYS TALLIES WITH BALANCE SHEET FIGURES:</p>
+                <p class="text-justify">Pass sheet printing.</p>
+                <p class="text-justify">General Ledger.</p>
+                <p class="text-justify">Receipt and Payment account.</p>
+                <p class="text-justify">Profit and Loss account.</p>
+                <p class="text-justify">Balance Sheet.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="tweleve">
+              <label for="tweleve">M.I.S</label>
+              <div class="content">
+                <p class="text-justify">ENABLES MANAGEMENT TO TAKE QUICKER AND EFFECTIVE ONLINE DECISIONS:
+                </p>
+                <p class="text-justify">New Members enrolled.
+                </p>
+                <p class="text-justify">Memberships closed.
+                </p>
+                <p class="text-justify">New Shares issued.
+                </p>
+                <p class="text-justify">Shares surrendered.
+                </p>
+                <p class="text-justify">List of Members and Associate Members.
+                </p>
+                <p class="text-justify"> Member/Non-Member profile.
+                </p>
+                <p class="text-justify">Savings Bank Accounts opened.
+                </p>
+                <p class="text-justify">Savings Bank Accounts closed.
+                </p>
+                <p class="text-justify">Savings Bank Accounts list with details.
+                </p>
+                <p class="text-justify">Account-wise interest paid on Savings Bank Deposits.
+                </p>
+                <p class="text-justify">Term Deposits (FD,RD, Cash certificates) opened and closed.
+                </p>
+                <p class="text-justify">Interest paid on Term Deposits.
+                </p>
+                <p class="text-justify">Term Deposits due for maturity during any specified period.
+                </p>
+                <p class="text-justify">RD Accounts with installment overdue.
+                </p>
+                <p class="text-justify">Term Deposits renewed.
+                </p>
+                <p class="text-justify">Loan Accounts opened.
+                </p>
+                <p class="text-justify">Loan Accounts closed.
+                </p>
+                <p class="text-justify">Interest collected on Loan Accounts.
+                </p>
+                <p class="text-justify">Loan Installment overdue.
+                </p>
+                <p class="text-justify">Balance Sheet.
+                </p>
+                <p class="text-justify">Income and Expenditure.
+                </p>
+                <p class="text-justify">Cost of funds.
+                </p>
+                <p class="text-justify">Yield on advances.
+                </p>
+                <p class="text-justify">Customizable Reports.
+                </p>
+                <p class="text-justify">Assets and liability of a member.
+                </p>
+                <p class="text-justify">Drill down facility.
+                </p>
+               
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 my-2 faqgsap">
+          <ul class="accordian rmv-paddd">
+            <li>
+              <input type="radio" name="accordian" id="thirteen">
+              <label for="thirteen">System Administration</label>
+              <div class="content">
+                <p class="text-justify">ADMINISTRATION OF ENTIRE COMPUTERIZED ENVIRONMENT INCLUDES USER MANAGEMENT. PASSWORD MANAGEMENT, DAY-END, DAY-BEGIN AND BACK-UP ACTIVITIES:</p>
+                <p class="text-justify">User creation.</p>
+                <p class="text-justify">Roll creation.</p>
+                <p class="text-justify">Day-End.</p>
+                <p class="text-justify">Day - Begin.</p>
+                <p class="text-justify">Back- up & restore.</p>
+                <p class="text-justify">Change of Password.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Module faq end -->
   <!-- always fixed start -->
   <div class="container my-2 my-lg-5 ">
     <div class="row">
@@ -1293,7 +1609,11 @@
 
     $(document).ready(function () {
       $('#nidhi1').click(() => {
+        $("#show1").fadeIn();
+        $("#show1").fadeIn("slow");
+        $("#show1").fadeIn(3000);
         $("#show1").show();
+
         $('#show2').hide();
         $('#show3').hide();
         $('#show4').hide();
@@ -1301,6 +1621,9 @@
 
       });
       $('#nidhi2').click(() => {
+        $("#show2").fadeIn();
+        $("#show2").fadeIn("slow");
+        $("#show2").fadeIn(3000);
         $("#show2").show();
         $('#show1').hide();
         $('#show3').hide();
@@ -1309,6 +1632,9 @@
 
       });
       $('#nidhi4').click(() => {
+        $("#show3").fadeIn();
+        $("#show3").fadeIn("slow");
+        $("#show3").fadeIn(3000);
         $("#show3").show();
         $('#show1').hide();
         $('#show2').hide();
@@ -1317,11 +1643,25 @@
 
       });
       $('#nidhi5').click(() => {
+        $("#show4").fadeIn();
+        $("#show4").fadeIn("slow");
+        $("#show4").fadeIn(3000);
         $("#show4").show();
         $('#show1').hide();
         $('#show2').hide();
         $('#show3').hide();
         $('#show5').hide();
+
+      });
+      $('#nidhi3').click(() => {
+        $("#show5").fadeIn();
+        $("#show5").fadeIn("slow");
+        $("#show5").fadeIn(3000);
+        $("#show5").show();
+        $('#show1').hide();
+        $('#show2').hide();
+        $('#show3').hide();
+        $('#show4').hide();
 
       });
     });

@@ -29,10 +29,10 @@
   <div class="container-fluid help_bg_top  py-2 py-lg-5 ">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-3 col-md-4 sm_matrix_flex my-2">
+        <div class="col-12 col-lg-3 col-md-4 sm_matrix_flex my-2" >
           <img src="./assets/help.png" height="250px " alt="@dued">
         </div>
-        <div class="col-12 col-lg-9 col-md-8 my-2 d-flex align-items-center ">
+        <div class="col-12 col-lg-9 col-md-8 my-2 d-flex align-items-center " id="helpgsap2">
           <div class="binary-hed">
             <h3 class="fw-bolder text-family">Helping plan software</h3>
             <div class="">
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="col-12 col-md-5 col-lg-5 my-3 d-flex justify-content-center ">
-          <div><img src="./assets/ad_helping.png" alt="@dued"></div>
+          <div><img src="./assets/ad_helping.png" id="helpgsap" alt="@dued"></div>
         </div>
 
       </div>

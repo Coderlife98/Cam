@@ -143,24 +143,24 @@
         <div class="links-footer d-lg-flex justify-content-center">
           <ul>
             <li>
-              <a href=""><i class="fa-solid fa-arrow-right pe-3"></i> <span class="text-slate moveHover">Core-Banking
+              <a href="../core_Banking_Software.php"><i class="fa-solid fa-arrow-right pe-3"></i> <span class="text-slate moveHover">Core-Banking
                   Software</span> </a>
             </li>
             <li>
-              <a href=""><i class="fa-solid fa-arrow-right pe-3"></i> <span class="text-slate moveHover">Nidhi Company
+              <a href="../nidhi_company_software.php"><i class="fa-solid fa-arrow-right pe-3"></i> <span class="text-slate moveHover">Nidhi Company
                   Software</span> </a>
             </li>
             <li>
-              <a href="" class="d-flex"><i class="fa-solid fa-arrow-right pe-3"></i>
+              <a href="javascript:void(0);" class="d-flex"><i class="fa-solid fa-arrow-right pe-3"></i>
                 <div><span class="text-slate moveHover">Credit Co-operative Society Software</span> </div>
               </a>
             </li>
             <li>
-              <a href=""><i class="fa-solid fa-arrow-right pe-3"></i><span class="text-slate moveHover">Micro-finance
+              <a href="../microfinance_software.php"><i class="fa-solid fa-arrow-right pe-3"></i><span class="text-slate moveHover">Micro-finance
                   Software</span> </a>
             </li>
             <li>
-                  <a href=""
+                  <a href="../nbfc.php"
                     ><i class="fa-solid fa-arrow-right pe-3"></i>
                     <span class="text-slate moveHover">  NBFC
                     Software</span>
@@ -168,21 +168,21 @@
                   >
                 </li>
                 <li>
-                  <a href="" class="d-flex"
+                  <a href="../matrix_plan_software.php" class="d-flex"
                     ><i class="fa-solid fa-arrow-right pe-3"></i>
                     <span class="text-slate moveHover">MLM</span>
                   </a
                   >
                 </li>
                 <li>
-                  <a href="" class="d-flex"
+                  <a href="../hospital_management_software.php" class="d-flex"
                     ><i class="fa-solid fa-arrow-right pe-3"></i>
                     <span class="text-slate moveHover">Hospital Management Software</span>
                    </a
                   > 
             </li>
             <li>
-              <a href="" class="d-flex"><i class="fa-solid fa-arrow-right pe-3"></i>
+              <a href="../school_management_software.php" class="d-flex"><i class="fa-solid fa-arrow-right pe-3"></i>
                 <span class="text-slate moveHover">School Management Software</span>
               </a>
             </li>
@@ -197,25 +197,25 @@
         <div class="links-footer d-lg-flex justify-content-center">
           <ul>
             <li>
-              <a href=""><i class="fa-solid fa-arrow-right pe-3"></i><span class="text-slate moveHover">Software
+              <a href="../software_development_company.php"><i class="fa-solid fa-arrow-right pe-3"></i><span class="text-slate moveHover">Software
                   Development</span></a>
             </li>
             <li>
-              <a href=""><i class="fa-solid fa-arrow-right pe-3"></i><span class="text-slate moveHover">Website
+              <a href="../website_dev.php"><i class="fa-solid fa-arrow-right pe-3"></i><span class="text-slate moveHover">Website
                   Development</span></a>
             </li>
             <li>
-              <a href="" class="d-lg-flex"><i class="fa-solid fa-arrow-right pe-3"></i>
+              <a href="../digital_marketing.php" class="d-lg-flex"><i class="fa-solid fa-arrow-right pe-3"></i>
                 <span class="text-slate moveHover">Digital Marketing</span>
               </a>
             </li>
             <li>
-              <a href=""><i class="fa-solid fa-arrow-right pe-3"></i>
+              <a href="../mobile_app.php"><i class="fa-solid fa-arrow-right pe-3"></i>
                 <span class="text-slate moveHover">Mobile Apps
                   Development</span></a>
             </li>
             <li>
-              <a href=""><i class="fa-solid fa-arrow-right pe-3"></i>
+              <a href="../portal.php"><i class="fa-solid fa-arrow-right pe-3"></i>
                 <span class="text-slate moveHover">Portal
                   Development</span></a>
             </li>
@@ -256,7 +256,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 d-flex justify-content-between align-items-center ">
-          <p class="mb-0 py-2 text-white">Copyright &copy; 2020. <a href="" class="text-white ">Camwel Solution LLP</a>.
+          <p class="mb-0 py-2 text-white">Copyright &copy; 2020. <a href="../home.php" class="text-white ">Camwel Solution LLP</a>.
           </p>
           <div class="right-copyright">
             <a href="" class="text-white py-2">Disclaimer |</a>

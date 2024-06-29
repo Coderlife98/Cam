@@ -24,12 +24,12 @@
     </div>
     <!-- hero end -->
     <!-- Microfinance Company Registration start -->
-    <div class="container-fluid mcr-set">
+    <div class="container-fluid mcr-set py-3 py-lg-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="fw-bolder">Microfinance Company Registration</h3>
-                    <p class="text-justify">
+                    <h3 class="fw-bolder text-info">Microfinance Company Registration</h3>
+                    <p class="text-justify text-slate">
                         Microfinance Company is a small primary financial institution that provides small loans and
                         other credit facilities to stakeholders. Such financial institutions would provide loans to SMEs
                         and other form of institutions that easily don’t get credit facilities from banks. It is
@@ -37,31 +37,31 @@
                     </p>
                 </div>
                 <div>
-                    <h4 class="my-3 fw-bolder">Package inclusions:</h4>
+                    <h4 class="my-3 fw-bolder text-warning">Package inclusions:</h4>
                     <div class="bullet_point">
                         <div class="d-flex">
                             <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
                             <div>
-                                <p class="mb-0 ">Procedure for Microfinance Company Registration</p>
+                                <p class="mb-0 text-slate">Procedure for Microfinance Company Registration</p>
                             </div>
                         </div>
                         <div class="d-flex my-2">
                             <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
                             <div>
-                                <p class="mb-0 ">Liaising with the concerned regulatory authorities for microfinance
+                                <p class="mb-0 text-slate">Liaising with the concerned regulatory authorities for microfinance
                                     company registration</p>
                             </div>
                         </div>
                         <div class="d-flex ">
                             <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
                             <div>
-                                <p class="mb-0 ">Documentation Support</p>
+                                <p class="mb-0 text-slate">Documentation Support</p>
                             </div>
                         </div>
                         <div class="d-flex my-2">
                             <i class="fa-solid fa-arrow-right-from-bracket text-primary pe-3 add-dn-bu"></i>
                             <div>
-                                <p class="mb-0 ">Compliance Services</p>
+                                <p class="mb-0 text-slate">Compliance Services</p>
                             </div>
                         </div>
                     </div>
@@ -71,11 +71,11 @@
     </div>
     <!-- Microfinance Company Registration end -->
     <!-- Microfinance Company Registration Process start -->
-    <div class="container-fluid my-2 my-lg-3">
+    <div class="container-fluid py-2 py-lg-5 process-bg">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="fw-bolder">
+                    <h3 class="fw-bolder text-info">
                         Microfinance Company Registration Process
                     </h3>
                     <p class="my-2">
@@ -116,18 +116,18 @@
     </div>
     <!-- Microfinance Company Registration Process end -->
     <!-- Features of Microfinance Company start -->
-    <div class="container-fluid my-2 my-lg-4">
+    <div class="container-fluid py-2 py-lg-4 features____bg">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="fw-bolder text-center">
+                    <h3 class="fw-bolder text-center text-info">
                         Features of <b class="text-danger">Microfinance Company</b>
                     </h3>
                 </div>
             </div>
             <div class="row mt-2 mt-lg-4">
                 <div class="col-12">
-                    <h5 class="fw-bolder">The following features must be present in an entity acting as a Microfinance
+                    <h5 class="fw-bolder text-warning">The following features must be present in an entity acting as a Microfinance
                         company:</h5>
                     <div class="bullet-prevent my-2">
                         <div class="d-flex ">
@@ -186,7 +186,10 @@
     <!-- microfinance companty registration process start -->
     <div class="container-fluid set-rps-bg p-2 p-lg-5">
         <div class="container">
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center position-relative">
+                <div class="position-absolute design_img_rotate">
+                    <img src="./assets/Design.png" class="design" alt="">
+                </div>
                 <div class="col-12 col-md-6 col-lg-3 my-2 set-arrow-reg">
                     <div class="main-design-box d-flex flex-column align-items-center ">
                         <h5 class="text-white move-number">01</h5>
