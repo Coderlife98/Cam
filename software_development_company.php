@@ -469,8 +469,10 @@
             </div>
             <div class="col-12">
                 <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> One-stop shop for end-to-end software development.</span> <br>
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i> <span> One-stop shop for end-to-end software development.</span> <br>
-                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> One-stop shop for end-to-end software development.</span>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i> <span>Over 50+ IT Professionals on board, and the partner network of 5 companies with 700 employees.</span> <br>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> More than 50% of the developers are of senior level.</span>
+                <i class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"></i><span> 10+ business analysts with 5-9 years of experience in the relevant fields.
+                </span>
             </div>
         </div>
     </div>

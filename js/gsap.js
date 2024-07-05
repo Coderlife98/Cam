@@ -767,7 +767,7 @@ gsap.from(".fadeInRight", {
         trigger: ".fadeInRight",
         top: "top 40%",
         end: "bottom 20%",
-        once: true, // Only trigger once
+        once: true, 
         // markers: true, // Show markers for debugging
     },
     duration: 2.5,
@@ -888,11 +888,11 @@ gsap.from(".app-box", {
     
 });
 
-gsap.from(".mmm,.about-microfi", {
+gsap.from(".mmm,.about-microfi,", {
     duration: 1,
     opacity: 0,
     scrollTrigger: {
-        trigger: ".mmm,.about-microfi",
+        trigger: ".mmm,.about-microfi,",
         scroller: "body",
         scrub: 3
     }

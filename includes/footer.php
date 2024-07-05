@@ -256,7 +256,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 d-flex justify-content-between align-items-center ">
-          <p class="mb-0 py-2 text-white">Copyright &copy; 2020. <a href="../home.php" class="text-white ">Camwel Solution LLP</a>.
+          <p class="mb-0 py-2 text-white">Copyright &copy; 2020. <a href="../index.php" class="text-white ">Camwel Solution LLP</a>.
           </p>
           <div class="right-copyright">
             <a href="" class="text-white py-2">Disclaimer |</a>

@@ -27,7 +27,8 @@
     </div>
     <!-- hero section end -->
     <!-- section 1 start -->
-    <div class="container my-2 my-lg-5">
+    <div class="container-fluid chitfund__top_bg ">
+    <div class="container ">
       <div class="row">
         <div class="col-12 col-lg-5 my-2 d-flex justify-content-center  align-items-center ">
           <img src="./assets/chit1.png" class="chit1-sec" alt="@dued" />
@@ -62,48 +63,49 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- section 1 end -->
     <!-- Chitfund Software Features start -->
-    <div class="container-fluid my-2 my-lg-5">
+    <div class="container-fluid faetures__chitfund__bg py-2 py-lg-5">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-8 my-2">
             <div class="section-2head">
-              <h3 class="fw-bolder text-family">Chitfund Software Features</h3>
+              <h3 class="fw-bolder text-family text-warning">Chitfund Software Features</h3>
             </div>
             <div class="chit-point my-2">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span> Subscriber Ledger</span>
             </div>
             <div class="chit-point">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span> Group Wise Outstanding Statements.</span>
             </div>
             <div class="chit-point my-2">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span> Collection Wise Outstanding Statements.</span>
             </div>
             <div class="chit-point">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span> Branch Wise Outstanding Statements.</span>
             </div>
             <div class="chit-point my-2">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span> Company Wise Outstanding Statements.</span>
             </div>
             <div class="chit-point">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span
                 >This Allows The User Creation As Per The Permission Given By
@@ -112,13 +114,13 @@
             </div>
             <div class="chit-point my-2">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span> These Can Maintain Customer Details.</span>
             </div>
             <div class="chit-point">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span
                 >These Can Maintain The Chit Taken Details Of Every Individual
@@ -127,7 +129,7 @@
             </div>
             <div class="chit-point my-2">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span
                 >These Can Efficiently Handle Amount Collection Details.</span
@@ -135,7 +137,7 @@
             </div>
             <div class="chit-point">
               <i
-                class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
               ></i
               ><span> Prized Subscriber List.</span>
             </div>

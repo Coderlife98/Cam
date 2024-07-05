@@ -18,7 +18,7 @@
                             Investor
                         </h2>
                         <p class="text-white"> Our Investor Relations team will be pleased to assist you at any time.</p>
-                        <button><a href="" class="text-white">Know More</a></button>
+                        <button><a href="./about.php" class="text-white">Know More</a></button>
                     </div>
                 </div>
             </div>

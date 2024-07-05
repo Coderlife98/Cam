@@ -30,11 +30,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12 my-2 my-lg-5">
-            <h3 class="fw-bolder">
+            <h3 class="fw-bolder text-warning">
               To begin with, let's explore why do schools need management system
               at all?
             </h3>
-            <p class="text-justify">
+            <p class="text-justify text-slate">
               To begin with, let's explore why do schools need management system
               at all? With the advent of technology covering schools and other
               educational institutions, records are no more maintained in files,
@@ -127,7 +127,7 @@
     </div>
     <!-- facility of school software end -->
     <!-- Benefits of School Management Software start -->
-    <div class="container-fluid">
+    <div class="container-fluid setbenbg">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4 my-2 my-lg-5 d-flex justify-content-center align-items-center">
@@ -137,10 +137,10 @@
           </div>
           <div class="col-12 col-lg-8 my-2 my-lg-5 d-flex justify-content-center ">
             <div class="hed-ben">
-              <h3 class="text-family">
+              <h3 class="text-family text-warning">
                 Benefits of School Management Software
               </h3>
-              <p>
+              <p class="text-slate">
                 A well organized School Management system helps run a school
                 efficiently by way of:
               </p>
@@ -149,6 +149,7 @@
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
                 ><span
+                class="text-slate"
                   >Scheduling the yearly calendar and drafting holiday plans and
                   vacation programs</span
                 >
@@ -158,6 +159,7 @@
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
                 ><span
+                class="text-slate"
                   >Creating data likely to be shared across parents and
                   teachers</span
                 >
@@ -166,13 +168,14 @@
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span>Organizing annual events in a user-friendly format</span>
+                ><span class="text-slate">Organizing annual events in a user-friendly format</span>
               </div>
               <div class="">
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
                 ><span
+                class="text-slate"
                   >Federal management and translucency of multi-language and
                   multi-disciplinary schools</span
                 >
@@ -182,6 +185,7 @@
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
                 ><span
+                class="text-slate"
                   >Timetables, Attendance records and scheduling events</span
                 >
               </div>
@@ -192,15 +196,15 @@
     </div>
     <!-- Benefits of School Management Software end -->
     <!-- Why School Management software? start -->
-    <div class="container-fluid">
+    <div class="container-fluid whyschool">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-7 my-2 my-lg-5">
+          <div class="col-12 col-lg-7 my-2 my-lg-5 d-flex align-items-center">
             <div class="head-ben-schl">
-              <h3 class="text-family fw-bolder">
+              <h3 class="text-family fw-bolder text-warning">
                 Why School Management software?
               </h3>
-              <p class="text-justify mt-3">
+              <p class="text-justify mt-3 text-slate">
                 The sole purpose of Camwel Solution is to help all universities
                 and schools to maintain all data in a safe & secure manner as
                 they can focus more on students' growth and development. To
@@ -225,7 +229,7 @@
     </div>
     <!-- Why School Management software? end -->
     <!-- section 3 start -->
-    <div class="container-fluid">
+    <div class="container-fluid py-3">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -258,32 +262,32 @@
     </div>
     <!-- section 3 end -->
     <!-- For School Management start -->
-    <div class="container-fluid my-2 my-lg-5 set-manaa-bggg">
+    <div class="container-fluid py-2 py-lg-5 set-manaa-bggg">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-12 my-2">
-            <h3 class="text-family fw-bolder">For School Management</h3>
-            <p>&ldquo;Let Management Function Well &rdquo;</p>
-            <p class="text-justify mt-3">
+            <h3 class="text-family fw-bolder text-warning text-slate">For School Management</h3>
+            <p class="text-slate">&ldquo;Let Management Function Well &rdquo;</p>
+            <p class="text-justify mt-3 text-slate">
               Camwel Solution is not less than a personal assistant in any way.
               Like PA, it gives immediate response on your every command. In
               addition, it helps to interact with any student, teacher or staff
               member. Actually, it keeps you connected to every person who is
               directly or indirectly related to the school or administration.
             </p>
-            <p class="text-justify">
+            <p class="text-justify text-slate">
               &ldquo;Camwel Solution helps in an effective manner to make most
               of the available resources while keeping you away of all kinds of
               confusions.&rdquo;
             </p>
-            <p class="text-justify">
+            <p class="text-justify text-slate">
               Camwel Solution does only not make it easy to keep all the records
               related to the school or college but also proves extremely helpful
               to witness the huge transformation in administration. Indeed, it
               helps to keep eagle eye watch on every activity without
               maintaining the hoard of files & folders.
             </p>
-            <p class="text-justify">
+            <p class="text-justify text-slate">
               Camwel Solution helps to save on running cost for school or
               college. Furthermore, it provides all information and updates when
               needed. Camwel Solution is programmed to make all administration
@@ -300,15 +304,15 @@
     </div>
     <!-- For School Management end -->
     <!-- For Teacher start -->
-    <div class="container-fluid">
+    <div class="container-fluid py-2 py-lg-5 teacherschool">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="text-family fw-bolder">For Teacher</h3>
-            <h3 class="text-family">
+            <h3 class="text-family fw-bolder text-info">For Teacher</h3>
+            <h3 class="text-family text-warning">
               &ldquo;Makes Teacher Accountable &rdquo;
             </h3>
-            <p class="text-justify">
+            <p class="text-justify text-slate">
               Obviously, teachers are equally responsible for the good grades of
               students. So, it is quite clear they essentially have to be
               responsible about their duties. To check their activities and
@@ -324,16 +328,10 @@
             </p>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- For Teacher end -->
-    <!-- Camwel Solution boasts a wide range of advantages which are given below: start -->
-    <div class="container-fluid my-2 my-lg-4">
-      <div class="container">
         <div class="row">
           <div class="col-12 col-lg-7 my-2 my-lg-5">
             <div class="adv-schl">
-              <h5 class="fw-bolder smm-txt-center">
+              <h5 class="fw-bolder smm-txt-center text-warning">
                 Camwel Solution boasts a wide range of advantages which are
                 given below:
               </h5>
@@ -347,6 +345,7 @@
                 >
                 </div>
                <span
+               class="text-slate"
                   >Computerized attendance deverybody including students,
                   teachers and management</span
                 >
@@ -358,7 +357,7 @@
                 ></i
                 >
                 </div>
-               <span>Online marks and grades</span>
+               <span class="text-slate">Online marks and grades</span>
               </div>
 
               <div class="d-flex">
@@ -368,13 +367,13 @@
                 ></i
                 >
                 </div>
-               <span>Online timetable and schedule for extra classes</span>
+               <span class="text-slate">Online timetable and schedule for extra classes</span>
               </div>
               <div class="my-2">
                 <i
                   class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
                 ></i
-                ><span>Notification for homework</span>
+                ><span class="text-slate">Notification for homework</span>
               </div>
               <div class="d-flex">
                 <div>
@@ -383,7 +382,7 @@
                 ></i
                 >
                 </div>
-               <span>Access to own as well as students attendance</span>
+               <span class="text-slate">Access to own as well as students attendance</span>
               </div>
               <div class="my-2 d-flex">
                 <div>
@@ -392,7 +391,7 @@
                 ></i
                 >
                 </div>
-               <span>Let communicate effectively with everybody</span>
+               <span class="text-slate">Let communicate effectively with everybody</span>
               </div>
               <div class="d-flex">
                 <div>
@@ -401,7 +400,7 @@
                 ></i
                 >
                 </div>
-               <span>Access to forum for parents and teachers</span>
+               <span class="text-slate">Access to forum for parents and teachers</span>
               </div>
               <div class="my-2 d-flex">
                 <div>
@@ -411,6 +410,7 @@
                 >
                 </div>
                <span
+               class="text-slate"
                   >Better management for all school related operations</span
                 >
               </div>
@@ -420,10 +420,11 @@
         </div>
       </div>
     </div>
-    <!-- Camwel Solution boasts a wide range of advantages which are given below: end -->
+    <!-- For Teacher end -->
+  
 
     <!-- section only para start -->
-    <div class="container my-2 my-lg-4">
+    <div class="container py-2 py-lg-4">
       <div class="row">
         <div class="col-12">
           <p class="text-justify">
@@ -442,7 +443,7 @@
     <!-- section only para end -->
 
     <!-- For Parents start -->
-    <div class="container-fluid">
+    <div class="container-fluid py-3 py-lg-3">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -489,7 +490,7 @@
     </div>
     <!-- For Parents end -->
     <!--  Some excellent features of Camwel Solution are as follows start -->
-    <div class="container-fluid">
+    <div class="container-fluid py-3 someexcellent">
       <div class="container">
         <div class="row">
           <div class="col-12  col-lg-5 my-2 order-2 order-md-0 my-lg-5">
@@ -497,64 +498,66 @@
               <img src="./assets/rangeSchool.png" class="we-w-dth-rad" alt="@dued" />
             </div>
           </div>
-          <div class="col-12 col-lg-7 my-2 my-lg-5">
+          <div class="col-12 col-lg-7 my-2 my-lg-5 d-flex align-items-center">
             <div class="rig-exce">
-              <h5>Some excellent features of Camwel Solution are as follows</h5>
-              <p>
+              <h5 class="text-warning">Some excellent features of Camwel Solution are as follows</h5>
+              <p class="text-slate">
                 Camwel Solution boasts a wide range of advantages which are
                 given below:-
               </p>
               <div class="rig-bullet">
                 <div class="my-2">
                   <i
-                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
                   ></i
                   ><span
+                  class="text-slate"
                     >Computerized attendance for everybody including students,
                     teachers and management</span
                   >
                 </div>
                 <div class="">
                   <i
-                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
                   ></i
-                  ><span>Online marks and grades</span>
+                  ><span class="text-slate">Online marks and grades</span>
                 </div>
                 <div class="my-2">
                   <i
-                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
                   ></i
-                  ><span>Online timetable and schedule for extra classes</span>
+                  ><span class="text-slate">Online timetable and schedule for extra classes</span>
                 </div>
                 <div class="">
                   <i
-                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
                   ></i
-                  ><span>Notification for homework</span>
+                  ><span class="text-slate">Notification for homework</span>
                 </div>
                 <div class="my-2">
                   <i
-                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
                   ></i
-                  ><span>Access to own as well as students attendance</span>
+                  ><span class="text-slate">Access to own as well as students attendance</span>
                 </div>
                 <div class="">
                   <i
-                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
                   ></i
-                  ><span>Let communicate effectively with everybody</span>
+                  ><span class="text-slate">Let communicate effectively with everybody</span>
                 </div>
                 <div class="my-2">
                   <i
-                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
                   ></i
-                  ><span>Access to forum for parents and teachers</span>
+                  ><span class="text-slate">Access to forum for parents and teachers</span>
                 </div>
                 <div class="">
                   <i
-                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-danger"
+                    class="fa-solid fa-arrow-right-from-bracket pe-2 text-info"
                   ></i
                   ><span
+                  class="text-slate"
                     >Better management for all school related operations</span
                   >
                 </div>
@@ -566,9 +569,9 @@
     </div>
     <!--  Some excellent features of Camwel Solution are as follows end -->
     <!-- section para again start -->
-    <div class="container">
+    <div class="container py-4">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 ">
           <p class="text-justify">
             Camwel Solution proves of great use to get the details of children
             on immediate basis while they study in classroom. Additionally,

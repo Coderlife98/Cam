@@ -13,14 +13,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                 <h1 class="text-white ggg ">Instituate Management Software</h1>
+                 <h1 class="text-white ggg  ">Instituate Management Software</h1>
                 </div>
             </div>
         </div>
     </div>
     <!-- hero section end -->
     <!-- section 2 start -->
-    <div class="container-fluid">
+    <div class="container-fluid inti_bg">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-5 my-lg-5 ins-set-ss   my-2">
@@ -30,10 +30,10 @@
           </div>
           <div class="col-12 col-lg-7  my-lg-5  my-2">
             <div class="head-instituate">
-              <h3 class="text-family">Institute Management Software</h3>
+              <h3 class="text-family text-warning">Institute Management Software</h3>
             </div>
             <div class="instt-para">
-              <p class="text-justify">Institute management software in Patna is an innovative way to manage your institute hassle free which is a very powerful affordable system to manage everything at your institute/school/college/university very effectively. It is simple yet flexible and powerful institute management software.institute admission and registration application enables an Institute to drive the admission process across all the departments from a central administrative office which allows the admission officer to release online application forms that can be filled by applicant students’ post paying the form fee online, sorting the admission applications, admission interviews, admission invitation, and waiting list management etc.</p>
+              <p class="text-justify text-slate">Institute management software in Patna is an innovative way to manage your institute hassle free which is a very powerful affordable system to manage everything at your institute/school/college/university very effectively. It is simple yet flexible and powerful institute management software.institute admission and registration application enables an Institute to drive the admission process across all the departments from a central administrative office which allows the admission officer to release online application forms that can be filled by applicant students’ post paying the form fee online, sorting the admission applications, admission interviews, admission invitation, and waiting list management etc.</p>
             </div>
             <div class="col-12 my-3 d-flex ">
               <div class="col-6">
@@ -119,7 +119,7 @@
     </div>
     <!-- section 2 end -->
     <!-- Benefits of Institute management software start -->
-    <div class="container-fluid mb-2 mb-lg-5 ">
+    <div class="container-fluid py-2 py-lg-5 ">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-7 my-2">

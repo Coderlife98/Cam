@@ -81,7 +81,7 @@
                         <h2 class="text-white set-head-sot fw-bolder ">Blogs:</h2>
                         <div>
                             <p class="text-white set-para-sot-blog">Our thought and perspective </p>
-                            <button><a href="" class="text-white">Read More</a></button>
+                            <button><a href="./about.php" class="text-white">Read More</a></button>
                         </div>
                     </div>
                 </div>

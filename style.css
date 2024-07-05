@@ -17,7 +17,6 @@ p {
     font-size: 13px;
 }
 
-
 /* navbar start */
 
 
@@ -552,6 +551,16 @@ button {
     border-radius: 20px 20px 0px 0px;
 }
 
+.counter-div{
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
 .add-mar {
     margin: 20px;
     padding: 0px;
@@ -630,7 +639,7 @@ button {
 }
 
 .set-counter {
-    background-color: black;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.212)), url("./assets/counter.jpg");
 }
 
 .counter {
@@ -932,7 +941,7 @@ button {
     width: 100%;
     outline: none;
     border: 1px solid black;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .tech-heading h3 {
@@ -1100,6 +1109,19 @@ button {
 
 /* contact us section start */
 
+.set_contact_top{
+    margin-top: -90px;
+}
+
+.Contact-us{
+    background: linear-gradient(137deg, #80fcf0 0%, #efce85 52.6%, #ac5dfa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+
 .set-contact-hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.479)), url("./assets/contact_hero.png");
     height: 350px;
@@ -1139,6 +1161,54 @@ button {
     font-weight: 800;
 }
 
+
+.address_box{
+    border: 1px dashed white;
+    padding: 20px;
+    color: slategray;
+    border-radius: 0px 15px 0px 15px;
+    border-color: #38bdf8;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.bbbbb{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hovering{
+    background: red; /* default color */
+border-bottom: 0.3px dotted white;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, black 50%, #384bff 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+   
+}
+
+.hovering:hover {
+    background-color: turquoise;
+    background-position: left;
+    border-bottom: 1px solid white;
+   
+}
+
+.left-contact-main{
+    background-color: #00093c;
+}
+
+.address_box:hover{
+    /* background-position: right; */
+    scale: 1.1;
+}
 
 /* contact us section end */
 
@@ -1269,8 +1339,6 @@ button {
 
 }
 
-
-@keyframes try {}
 
 
 
@@ -1795,6 +1863,13 @@ button {
     transform: rotate(259deg);
     -webkit-animation: spin 6s linear infinite;
     animation: spin 6s linear infinite;
+}
+
+.mmm12{
+    animation-name: xymove;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 
@@ -2559,8 +2634,17 @@ button {
     background-image: linear-gradient(to right, #0000004a, #000000a1), url("./assets/chit_fund_hero.png");
     height: 350px;
     background-size: cover;
-    top: -77px;
+    top: -127px;
     position: relative;
+}
+
+.chitfund__top_bg{
+    margin-top: -77px;
+}
+
+.faetures__chitfund__bg{
+    background-color: #00242E;
+    color: white;
 }
 
 .chit-hero-txt {
@@ -2582,7 +2666,79 @@ button {
 
 
 /* chitfund end */
+/* mlm software start */
+.mlmlistedbg{
+    background-color: #00000F;
+    color: #bbb
+}
 
+.plandesign{
+    border-bottom: 1px solid red;
+    border-radius: 15px;
+    display: inline;
+    padding: 10px ;
+}
+
+
+.setbrder2{
+    border-top: 1px dashed white;
+    border-right: 1px dashed white;
+    border-bottom: 1px dashed white;
+}
+
+.setbrder3{
+    border-left: 1px dashed white;
+    border-bottom: 1px dashed white;
+}
+
+.setbrder4{
+    border-right: 1px dashed white;
+    border-bottom: 1px dashed white;
+}
+
+.addborder2{
+  border-left: 1px dashed white;
+  border-bottom: 1px dashed white;
+}
+
+.setbrder5{
+    border-bottom: 1px dashed white;
+    border-right: 1px dashed white;
+}
+
+.setbrder6{
+    border-left: 1px dashed white;
+    border-bottom: 1px dashed white;
+}
+
+.setbrder7{
+    border-right: 1px dashed white;
+}
+
+.advantagewidth{
+    width: 300px;
+}
+.moveeimages{
+     width: 300px;
+}
+
+.moveeimages23{
+    width: 270px;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.setbrder8{
+    border-top: 1px dashed white;
+    border-left: 1px dashed white;
+    border-bottom: 1px dashed white;
+    /* animation: spin 2s  infinite linear; */
+}
+
+.bbboard{
+    background-color: #000;
+    color: #bbb;
+}
+/* mlm software end */
 
 /* college management start */
 
@@ -2650,6 +2806,11 @@ button {
     left: 8%;
 }
 
+.inti_bg{
+    margin-top: -77px;
+    background-color: black;
+    color: white;
+}
 
 /* instituate management end */
 
@@ -2686,12 +2847,42 @@ button {
 
 .schl-margin {
     margin-top: -77px;
+    background-color: black;
 }
 
+.setbenbg{
+    background-color: #00000F;
+}
+
+.whyschool{
+    background-color: #1f2d56;
+    color: white;
+}
 .we-w-dth-rad {
     border-radius: 0px 0px 318px 169px;
 }
 
+.set-manaa-bggg{
+    background-image: url("./assets/footer_bg.png");
+    background-color: #000;
+
+}
+
+.teacherschool{
+    background-color: #000;
+    color: white;
+    background-image: url("./assets/footer_bg.png");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+  
+   
+ 
+}
+
+.someexcellent{
+    background-color: #00093c;
+}
 
 /* school management software end */
 
@@ -2873,6 +3064,11 @@ label::before {
     margin-right: 10px;
     font-size: 24px;
     font-weight: 600;
+}
+
+.labelcontact::before{
+    margin: 0px !important;
+
 }
 
 input {
@@ -3170,6 +3366,40 @@ input[type="radio"] {
 
 /* helping plam end */
 
+/* producer company start */
+.producerimg{
+    width: 350px;
+}
+
+.faqhead{
+     border: 1px dashed white;
+     padding: 10px;
+     border-radius: 0px 0px 10px 10px;
+}
+
+.faqdescription{
+    padding: 15px;
+    background-color: #05081a;
+    color: white;
+}
+
+.producertopbg{
+    margin-top: -77px;
+    background-color: #000;
+}
+
+.rotate_set {
+    rotate: 270deg;
+}
+
+.faq_font {
+    font-size: 109px;
+    color: rgba(213, 213, 223, 0.5019607843);
+}
+.produceradvantage{
+    background-color: #00093c;
+}
+/* producer company end */
 
 /* media query  */
 
@@ -3203,6 +3433,9 @@ input[type="radio"] {
         width: 450px !important;
 
     }
+    .wwidth{
+        width: 70%;
+    }
 }
 
 @media (min-width:992px) and (max-width:1200px) {
@@ -3225,6 +3458,9 @@ input[type="radio"] {
     .set-privacy-design {
         width: 225px;
         height: 75px;
+    }
+    .wwidth{
+        width: 50%;
     }
 
     .sch-box-1 {
@@ -3266,6 +3502,9 @@ input[type="radio"] {
         bottom: 0%;
         border-radius: 0px 0px 291px 252px;
     }
+    .wwidth{
+        width: 100%;
+    }
 
     .md-imh {
         display: flex;
@@ -3305,6 +3544,9 @@ input[type="radio"] {
 
     .bus_img {
         width: 295px;
+    }
+    .wwidth{
+        width: 50%;
     }
 
     .set-privacy-design {
@@ -3422,6 +3664,9 @@ input[type="radio"] {
     .address-footer {
         padding-left: 50px;
     }
+    .wwidth{
+        width: 60%;
+    }
 
     .head-bannnn {
         position: absolute;
@@ -3478,6 +3723,9 @@ input[type="radio"] {
         background-color: black;
         position: relative;
         font-size: 13px;
+    }
+    .wwidth{
+        width: 100%;
     }
 
     .team-soft-md {
@@ -3763,6 +4011,11 @@ input[type="radio"] {
 
     .set-chit-fund-bg {
         background-position: center;
+    }
+    .chittopbg{
+        background-color: #000;
+        color: white;
+        margin-top: -78px;
     }
 
     .set-college-hero {

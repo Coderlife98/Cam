@@ -16,7 +16,7 @@
           <div class="investor-hero-text">
             <h1 class="text-white">Investor</h1>
             <p class="text-white">Our Investor Relations team will be pleased to assist you at any time.</p>
-            <button class="mt-2"><a href="" class="text-white">Contact Us</a></button>
+            <button class="mt-2"><a href="./contact.php" class="text-white">Contact Us</a></button>
           </div>
          </div>
         </div>
@@ -51,8 +51,8 @@
             <div class="col-12">
                 <h3 class="text-center fw-bolder ">Ready to get started ?</h3>
                <div class="d-flex justify-content-center my-2  ">
-                <button><a href="" class="text-white">Quick Message</a></button>
-                <button class="mx-3"><a href="" class="text-white"><i class="fa-solid fa-phone pe-2"></i>Contact Us</a></button>
+                <button><a href="./contact.php" class="text-white">Quick Message</a></button>
+                <button class="mx-3"><a href="./contact.php" class="text-white"><i class="fa-solid fa-phone pe-2"></i>Contact Us</a></button>
                </div>
             </div>
         </div>
