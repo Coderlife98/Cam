@@ -25,21 +25,22 @@
 	display: block;
 	position: relative;
 	padding-top: 50px;
-	top: 45%;
+  /* transform: translate(-50%,+50%); */
+	/* top: 45%; */
 	
 }
 
-@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
-@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0)}};
+/* @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0)}}; */
 
 </style>
 
 
-<div class="loader">
+<!-- <div class="loader">
 <div class="loader-content">
     <img src="./assets/loader.gif" alt="Loader" class="loader-loader" />
 </div>
-</div>
+</div> -->
 
 <!-- Topbar Start -->
 <div class="container-fluid py-2 px-0 d-none d-lg-block">
@@ -106,7 +107,7 @@
           <a href="./core_banking_software.php" class="dropdown-item">Core Banking Software</a>
           <a href="./nidhi_company_registration.php" class="dropdown-item">Nidhi Company Registration</a>
           <a href="./nidhi_company_software.php" class="dropdown-item">Nidhi Company Software</a>
-          <a href="javascript:void(0);" class="dropdown-item">Credit Co-operative Society Software</a>
+          <a href="./credit_coperative.php" class="dropdown-item">Credit Co-operative Society Software</a>
           <a href="./dsa_loan.php" class="dropdown-item">DSA Loan Management Software
           </a>
           <a href="microfinance_registration.php" class="dropdown-item">MicroFinance Company Registration</a>
@@ -130,7 +131,7 @@
           <a href="./nbfc.php" class="dropdown-item">NBFC Software</a>
           <a href="./nidhi_company_software.php" class="dropdown-item">Nidhi Company Software</a>
           <a href="javascript:void(0);" class="dropdown-item">Credit Co-operative Society Software</a>
-          <a href="./producer" class="dropdown-item">Producer Company Software</a>
+          <a href="./producercompany.php" class="dropdown-item">Producer Company Software</a>
           <a href="./microfinance_software.php" class="dropdown-item">Micro-finance Software</a>
         </div>
       </div>
@@ -192,7 +193,7 @@
 	var loader = document.getElementsByClassName("loader")[0];
 	loader.className="loader fadeout" ;
 	setTimeout(function(){loader.style.display="none"},1000)
-	},1000)
+	},5000)
 }
   // var nav = document.querySelector('nav'); // Identify target
 

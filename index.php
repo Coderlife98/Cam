@@ -17,7 +17,7 @@
     <!-- list item -->
     <div class="list">
       <div class="item">
-        <img src="./assets/slider1.png">
+        <img src="./assets/slider1.jpg">
         <div class="content">
           <div class="author">Services</div>
           <div class="title">Software and WebApplication</div>
@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="./assets/slider2.png">
+        <img src="./assets/slider2.jpg">
         <div class="content">
           <div class="author">Services</div>
           <div class="title">Solution For Finance</div>
@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="./assets/slider3.png">
+        <img src="./assets/slider3.jpg">
         <div class="content">
           <div class="author">services</div>
           <div class="title">Solution For Education</div>
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="./assets/slider4.png">
+        <img src="./assets/slider4.jpg">
         <div class="content">
           <div class="author">services</div>
           <div class="title">Don't Just Think We Make</div>
@@ -84,7 +84,7 @@
     <!-- list thumnail -->
     <div class="thumbnail">
       <div class="item">
-        <img src="./assets/slider1.png">
+        <img src="./assets/slider1.jpg">
         <div class="content">
           <div class="title">
             Software
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="./assets/slider2.png">
+        <img src="./assets/slider2.jpg">
         <div class="content">
           <div class="title">
             Finance Sector
@@ -106,7 +106,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="./assets/slider3.png">
+        <img src="./assets/slider3.jpg">
         <div class="content">
           <div class="title">
             Education Sector
@@ -117,7 +117,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="./assets/slider4.png">
+        <img src="./assets/slider4.jpg">
         <div class="content">
           <div class="title">
             Services
@@ -140,25 +140,6 @@
     <!-- time running -->
     <div class="time"></div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <div class="container set-home-bg d-lg-flex my-2 my-lg-5">
     <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
       <img src="./assets/who.png" width="350px" alt="@skull" />
@@ -454,10 +435,10 @@
           <div class="img set-bank-bg">
             <img src="./assets/indu_bank.png" height="300px" class="img-bank" alt="@skull" />
             <div class="text-bank">
-              <p>
+              <!-- <p>
                 Camwel offers end-to-end software & customized Solutions and
                 support services to Banking Sector.
-              </p>
+              </p> -->
             </div>
             <h6 class="text-center py-3 text-white">BANKING SECTOR</h6>
           </div>
@@ -466,10 +447,10 @@
           <div class="img set-bank-bg">
             <img src="./assets/financial_sector.png" height="300px" width="262px" class="img-bank" alt="@skull" />
             <div class="text-bank">
-              <p>
+              <!-- <p>
                 Camwel providing complete and customized software Solutions to
                 Banks, Micro Finance, NBFC, Finance Companies.
-              </p>
+              </p> -->
             </div>
             <h6 class="text-center py-3 text-white">FINANCE SECTOR</h6>
           </div>
@@ -478,10 +459,10 @@
           <div class="img set-bank-bg">
             <img src="./assets/education_sector.png" height="300px" class="img-bank" alt="@skull" />
             <div class="text-bank">
-              <p>
+              <!-- <p>
                 We at Camwel have gained years of experience in Education
                 industry from working with education institutes and publishers.
-              </p>
+              </p> -->
             </div>
             <h6 class="text-center py-3 text-white">EDUCATION SECTOR</h6>
           </div>
@@ -490,7 +471,7 @@
           <div class="img set-bank-bg">
             <img src="./assets/indu_bank.png" height="300px" class="img-bank" alt="@skull" />
             <div class="text-bank">
-              <p>Engaging and exciting software solutions for modern retail.</p>
+              <!-- <p>Engaging and exciting software solutions for modern retail.</p> -->
             </div>
             <h6 class="text-center py-3 text-white">RETAIL & E-COMMERCE</h6>
           </div>

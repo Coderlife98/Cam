@@ -43,18 +43,21 @@
     <!-- hero section end -->
 
     <!-- Our Partners start -->
-    <div class="container   ">
-        <div class="row">
-            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center ">
-                <div class="heading-tech ">
-                    <h3 class="fw-bolder ">Our Partners</h3>
-                    <p class="pt-3 ">From manufacturing line to meeting room, our software development solutions will
-                        help you elevate your Enterprise Core and overcome the challenges of technological
-                        transformation both in daily and large-scale operations.</p>
+    <div class="container-fluid partner-padding-top py-3">
+        <div class="container   ">
+            <div class="row">
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center ">
+                    <div class="heading-tech ">
+                        <h3 class="fw-bolder ">Our Partners</h3>
+                        <p class="pt-3 ">From manufacturing line to meeting room, our software development solutions
+                            will
+                            help you elevate your Enterprise Core and overcome the challenges of technological
+                            transformation both in daily and large-scale operations.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 d-flex justify-content-center ">
-                <img src="./assets/tech-left.png" class="tec-partner" alt="@skull">
+                <div class="col-12 col-lg-6 d-flex justify-content-center ">
+                    <img src="./assets/tech-left.png" class="tec-partner" alt="@skull">
+                </div>
             </div>
         </div>
     </div>
@@ -101,24 +104,26 @@
                             specific business needs and expectations. Let's connect today.</p>
                     </div>
                     <div class="contact_form_section">
-                        <form action="" method="">
+                        <form action="./formhandler_tech.php" method="post">
                             <div class="section">
-                                <label for="" class="text-info">Name</label><br>
-                                <input type="text" placeholder="Enter Name Here" class="tech-input input-bg">
+                                <label for="" class="text-info labelcontact">Name</label><br>
+                                <input type="text" name="name" placeholder="Enter Name Here" class="tech-input input-bg">
                             </div>
                             <div class="section">
-                                <label for="" class="text-info">Contact</label><br>
-                                <input type="text" placeholder="Enter Contact Number" class="tech-input input-bg">
+                                <label for="" class="text-info labelcontact">Email</label><br>
+                                <input type="email" name="email" placeholder="Enter Email Here" class="tech-input input-bg">
                             </div>
                             <div class="section">
-                                <label for="" class="text-info">Email</label><br>
-                                <input type="email" placeholder="Enter Email Here" class="tech-input input-bg">
+                                <label for="" class="text-info labelcontact">Contact</label><br>
+                                <input type="text" oninput="this.value = this.value.toUpperCase().replace(/[^0-9]/g, '').replace(/(\  *?)\  */g, '$1')" maxlength="10" name="phone" placeholder="Enter Contact Number" class="tech-input input-bg">
                             </div>
+                          
                             <div class="section">
-                                <label for="" class="text-info">Message</label><br>
-                                <textarea name="" id="" cols="30" rows="4" placeholder="Enter Message Here"
+                                <label for="" class="text-info labelcontact">Message</label><br>
+                                <textarea name="message" id="" cols="30" rows="4" placeholder="Enter Message Here"
                                     class="tech-input input-bg"></textarea>
                             </div>
+                            <button class="btn btn-primary py-3  my-3 w-100" name="submit">Submit</button>
                         </form>
                     </div>
                 </div>

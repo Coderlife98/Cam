@@ -126,7 +126,7 @@
                 <i class="fa-brands fa-whatsapp text-white fs-3"></i>
               </div>
               <div class=" ps-3 w-85 d-flex flex-column justify-content-center">
-                <span class="text-white">What's app Me</span>
+                <span class="text-white">What's app</span>
                 <a href="https://wa.me/+919028388889" target="_blank" class="text-slate">+91-9028388889</a>
               </div>
             </div>
@@ -150,26 +150,26 @@
         </div>
         <div class="col-12 col-md-6 my-3 d-flex justify-content-center">
           <div class="w-75">
-            <form action="" class="text-white">
+            <form action="./formhandler_contact.php" method="post" class="text-white">
               <div class="d-flex flex-column">
                 <label for="" class="labelcontact">Name</label>
-                <input type="text" required class="py-1  tech-input input-bg px-2 " placeholder="Enter Name Here">
+                <input type="text" name="name" required class="py-1  tech-input input-bg px-2 " placeholder="Enter Name Here">
               </div>
               <div class="d-flex flex-column">
                 <label for="" class="labelcontact">Email</label>
-                <input type="email" required class="py-1 tech-input input-bg  px-2 " placeholder="Enter Email Here">
+                <input type="email" required name="email" class="py-1 tech-input input-bg  px-2 " placeholder="Enter Email Here">
               </div>
               <div class="d-flex flex-column">
                 <label for="" class="labelcontact">Number</label>
-                <input type="text" required class="py-1 tech-input input-bg  px-2 " placeholder="Enter Number Here"
+                <input type="text" required name="phone" class="py-1 tech-input input-bg  px-2 " placeholder="Enter Number Here"
                   maxlength="10">
               </div>
               <div class="d-flex flex-column">
                 <label for="" class="labelcontact">Message</label>
-                <input type="text" required class="py-1 tech-input input-bg px-2 " placeholder="Enter Message Here">
+                <input type="text" required name="message" class="py-1 tech-input input-bg px-2 " placeholder="Enter Message Here">
               </div>
               <div class="d-flex flex-column">
-                <label for="" class="labelcontact">Choose a car:</label>
+                <label for="" class="labelcontact">Select Industry</label>
 
                 <select id="select" class="py-1 tech-input input-bg  px-2 " name="option">
                   <div>
@@ -185,7 +185,7 @@
                 </select>
               </div>
               <div class="my-4">
-                <button class="btn btn-primary">Submit</button>
+                <button class="btn btn-primary" name="submit">Submit</button>
               </div>
             </form>
             </>

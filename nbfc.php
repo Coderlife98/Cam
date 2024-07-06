@@ -346,7 +346,7 @@
     </div>
     <!-- section 3 end -->
     <!-- overview section 1 start -->
-    <div class="container-fluid p-2 p-lg-4 set-text-bg">
+    <div class="container-fluid p-2 p-lg-4 ">
         <div class="container hide-bnfc" id="show_n1">
             <div class="row">
                 <div class="col-12">
@@ -540,29 +540,64 @@
     </div>
     <!-- software section 2 end  -->
     <!-- carousel section start -->
-    <div class="container-fluid">
+    <div class="container-fluid packed-bg">
         <div class="container hide-bnfc" id="show_n3">
             <div class="row">
-                <div class="col-12 my-3">
-                    <div class="car-head-bnfc d-flex justify-content-between align-items-center px-3">
-                        <h3>Personal Loan</h3>
-                        <i class="fa-solid fa-angle-up"></i>
-                    </div>
-                    <div class="show-nbfc">
-                        <p class="text-justify">Personal Loan Software is Helpful for managing all kinds of
-                            transactions, and this handy very useful tool will allow you to forecast your loan
-                            repayments and help you manage debt, punch in a few numbers and create a report that you can
-                            pin up and tick off each month until you are debt free. Personal Loan Software is an award
-                            winning software can help you create excellent loan schedules and loan output data
-                            Personal Loan Software is a loan payment and paying back schedule calculator. It is
-                            developed by Camwel Solution LLP . And Helpful For business management use and their
-                            financial function help you to create outstanding loan schedules. Personal Loan software
-                            multipurpose & low cost tool that will help you to calculate loan repayments and manage
-                            debt. You will be able to generate a report by using software. Its allow you to check the
-                            Prepayment amount and interest rates are charged on loans</p>
-                    </div>
+                <div class="col-12 my-2">
+                   <div class="box1 ">
+                     <h4 class="text-white">PERSONAL LOAN</h4>
+                     <p class="text-slate mb-0">Personal Loan Software is Helpful for managing all kinds of transactions, and this handy very useful tool will allow you to forecast your loan repayments and help you manage debt, punch in a few numbers and create a report that you can pin up and tick off each month until you are debt free. Personal Loan Software is an award winning software can help you create excellent loan schedules and loan output data</p>
+                     <p class="text-slate mb-0">Personal Loan Software is a loan payment and paying back schedule calculator. It is developed by Camwel Solution LLP . And Helpful For business management use and their financial function help you to create outstanding loan schedules. Personal Loan software multipurpose & low cost tool that will help you to calculate loan repayments and manage debt. You will be able to generate a report by using software. Its allow you to check the Prepayment amount and interest rates are charged on loans
+                     </p>
+                   </div>
                 </div>
-
+                <div class="col-12">
+                   <div class="box1 ">
+                     <h4 class="text-white">PROPERTY LOAN</h4>
+                     <p class="text-slate  mb-0">Looking for property loan software for the industry of real estate. The best real estate investment properties are ones that are well located and physically sound, but cosmetically challenged and poorly managed. Camwel Solution LLP provides all kinds of Property Loan Management Software like Online Property Loan Software, Hotel, Housing, real estate management Software and more.</p>
+                     <p class="text-slate mb-0">Residential property is an attractive investment and is easier to understand, purchase, and manage than most other types of property. If you're a property holder, you already have experience locating, purchasing, and maintaining residential property. Our Property Loan Software is a solution for residential property owners, by using our property loan software they will be able to manage all property dealings & capture the buyers full information. And managing all property deal in easy way.
+                     </p>
+                   </div>
+                </div>
+                <div class="col-12 my-2">
+                   <div class="box1 ">
+                     <h4 class="text-white">GOLD LOAN</h4>
+                     <p class="text-slate mb-0">The Gold Loan Software is specially designed & developed for Jewelers Helpful to automate Calculate the entire loan processing and tracking of premiums, it's powerful and easy to use software that allows you to calculate, analyze and optimize your gold loan schedules. Our Gold Loan Software has useful features with a very easy interface.</p>
+                     <p class="text-slate mb-0">Gold loan Software Keep the full information on every Loan registration, even buyer photos and more and also provide you easy access on all inquiries, Information includes buyer details, buyer financial details, Interest scheme
+                     Our Developed Gold Loan Software have a several features Loan Processing, Customer Records Maintenance, Installment Plan, Payment Tracking, Top Up Loans, Loan Settlement and more.
+                     </p>
+                   </div>
+                </div>
+                <div class="col-12">
+                   <div class="box1  ">
+                     <h4 class="text-white">EDUCATION LOAN</h4>
+                     <p class="text-slate mb-0">CAMWEL SOLUTION LLP is offering an education loan software for the education lending system, Our Educational loan management software is perfect for any educational organizations, large or small, public or private and tracking the information like degree, stop/start date, resident status, demographic information or any other special information that you may need to stay on top of for tracking and reporting purposes.</p>
+                     <p class="text-slate mb-0">Education loan software will allow you to importance and set up the documents and expose that you use as part of your daily operations, so you can make everything by using our education loan software.
+                     </p>
+                   </div>
+                </div>
+                <div class="col-12 my-2">
+                   <div class="box1 ">
+                     <h4 class="text-white">BUSINESS LOAN</h4>
+                     <p class="text-slate mb-0">Need a Business Loan Software for Business Use; it will help you to resolve your problems today. Business Loan Software" is an easy & a fast way to obtain secure, online cash advances, once a lender approved you for a cash advance, business loan software will automatically deposit the requested loan amount directly into your account. Our software service provides a flexible payment options. Getting you the cash loan you need right now. It's that easy, so why wait to get that cash advance? Get started now! Business Loan Software</p>
+                    
+                   </div>
+                </div>
+                <div class="col-12">
+                   <div class="box1  ">
+                     <h4 class="text-white">COMMERCIAL LOAN</h4>
+                     <p class="text-slate mb-0">NBFC Software, commercial loan software special Designed & offers for the companies with at very cost effective prices. Camwel Solution LLP offers a wide range of commercial loan software and security tips for all your Commercial Lending needs. Commercial loan software is solving problems and remains the leader within the commercial loan software industry. Our Developed commercial loan software system is designed specifically for loan originator and looking to do more business with short time and effort.</p>
+                    
+                   </div>
+                </div>
+                <div class="col-12 my-2">
+                   <div class="box1 ">
+                     <h4 class="text-white">CARRER LOAN</h4>
+                     <p class="text-slate mb-0">Camwel Solution LLP Developed cost effective career loan software with easy user interface. Career loan software is offered for finance companies for businesses need an end-to-end loan management that is easy to use with secure, scalable, flexible, features.</p>
+                     <p class="text-slate mb-0">Our cloud based end-to-end loan management platform enables you to manage career loans, lines of credit and other financing arrangements under one robust and secure platform. It efficiently manages portfolios, increases transaction volume and rapidly brings manage interest rate.</p>
+                    
+                   </div>
+                </div>
             </div>
         </div>
     </div>

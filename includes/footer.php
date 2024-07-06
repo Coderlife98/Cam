@@ -1,5 +1,5 @@
 <style>
-  .item {
+  .items {
     margin: 8px;
   }
 
@@ -112,22 +112,22 @@
             </div>
             <ul class="d-flex px-0">
 
-              <li class="item mx-0" id="item1">
+              <li class="items mx-0" id="item1">
                 <a href="https://twitter.com" target="_blank" class="social-link ">
                   <i class="fab fa-twitter text-white"></i>
                 </a>
               </li>
-              <li class="item" id="items2">
+              <li class="items" id="items2">
                 <a href="https://twitter.com" target="_blank" class="social-link ">
                   <i class="fab fa-facebook-f text-white"></i>
                 </a>
               </li>
-              <li class="item" id="items3">
+              <li class="items" id="items3">
                 <a href="https://twitter.com" target="_blank" class="social-link "><i
                     class="fab fa-instagram  text-white"></i>
                 </a>
               </li>
-              <li class="item" id="items4">
+              <li class="items" id="items4">
                 <a href="https://twitter.com" target="_blank" class="social-link ">
                   <i class="fab fa-twitter text-white "></i>
                 </a>
@@ -256,11 +256,11 @@
     <div class="container">
       <div class="row">
         <div class="col-12 d-flex justify-content-between align-items-center ">
-          <p class="mb-0 py-2 text-white">Copyright &copy; 2020. <a href="../index.php" class="text-white ">Camwel Solution LLP</a>.
+          <p class="mb-0 py-2 text-white">Copyright &copy; 2020. <a href="./index.php" class="text-white ">Camwel Solution LLP</a>.
           </p>
           <div class="right-copyright">
-            <a href="" class="text-white py-2">Disclaimer |</a>
-            <a href="" class="text-white py-2"> Privacy policy
+            <a href="./disclaimer.php" class="text-white py-2">Disclaimer |</a>
+            <a href="./privacy-policy.php" class="text-white py-2"> Privacy policy
             </a>
           </div>
         </div>
