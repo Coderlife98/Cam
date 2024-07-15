@@ -56,7 +56,7 @@
         <a class="" href="./business_vertices.php">Business Verticals</a>
         <a class="" href="./investor.php">Investor</a>
         <!-- <a class="" href="">Career</a> -->
-        <a class="" href="javascript:void(0);">Portfolio</a>
+        <a class="" href="./portfolio.php">Portfolio</a>
         <a class="" href="./blog.php">Blog</a>
         <a class="" href="javascript:void(0);">Gallery</a>
         <a class="" href="./contact.php">Contact us</a>
@@ -130,7 +130,7 @@
           <a href="./core_banking_software.php" class="dropdown-item">Core Banking Software</a>
           <a href="./nbfc.php" class="dropdown-item">NBFC Software</a>
           <a href="./nidhi_company_software.php" class="dropdown-item">Nidhi Company Software</a>
-          <a href="javascript:void(0);" class="dropdown-item">Credit Co-operative Society Software</a>
+          <a href="./credit_coperative.php" class="dropdown-item">Credit Co-operative Society Software</a>
           <a href="./producercompany.php" class="dropdown-item">Producer Company Software</a>
           <a href="./microfinance_software.php" class="dropdown-item">Micro-finance Software</a>
         </div>
